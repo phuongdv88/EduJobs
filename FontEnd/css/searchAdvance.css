@@ -1,0 +1,77 @@
+
+.form-control-feedback{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width:2rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.bankinh{
+    margin-top: 1em;
+    
+}
+.bankinh select{
+    height: 3em !important;
+    /* padding-left: 2em; */
+}
+/* tree view */
+
+  
+  
+  
+  .caret {
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+  }
+  
+  .caret::before {
+    content: "\25B6";
+    color: black;
+    display: inline-block;
+    margin-right: 6px !important;
+  }
+  
+  .caret-down::before {
+    -ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);  
+  }
+  
+  .nested {
+    display: none;
+  }
+  
+  .active1 {
+    display: block;
+    margin-left: 2em;
+  }
+
+.btnSearch{
+    height: 3em;
+    width: 100%;
+    text-align: center;
+    background: #14bdee;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    margin-top: 1em;
+}
+.menuLeft{
+    background: #eee;
+    padding: 0em 1em 1em 1em;
+    border-radius: 3px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background: #eee;
+    color: #384158 !important;
+}
+.nav-tabs {
+     border-bottom: 0px 
+}
