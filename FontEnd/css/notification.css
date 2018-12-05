@@ -1,0 +1,51 @@
+.formLeft{
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+.formLeft .form{
+    border: 1px #eee solid;
+    border-radius: 5px;
+    padding: 1em ;
+    background: #eee;
+}
+.formLeft .form label{
+margin-top: 1em;
+color: #4d4c4d;
+}
+.formLeft .form input[type=text],[type=password],select
+{
+width: 100%;
+height: 3em;
+border-radius: 3px;
+padding-left: 1em !important;
+border: 1px #ddd solid !important;
+/* margin-bottom: 1em; */
+}
+.formLeft .form .jobCategory{
+    border: 1px #ddd solid;
+    width: 100%;
+    height: 200px;
+    padding-top: 1em;
+    background: white;
+    overflow-y: scroll;
+    color: #4d4c4d;
+}
+.formLeft .form hr{
+    margin-bottom: 0;
+    border-top: 1px solid white;
+}
+.formLeft .form p{
+    color: #4d4c4d;
+}
+.btnDangKy{
+    height: 3em;
+    border: 0px;
+    border-radius: 5px;
+    background: red;
+    padding: 0 1em 0 1em;
+    font-size: 14px;
+    color: white;
+    right: 0px;
+    position: absolute;
+    bottom: 0;
+}
