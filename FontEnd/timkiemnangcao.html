@@ -19,38 +19,38 @@
 <div class="super_container">
     <!-- Header Content -->
     <div class="header_container">
-        <div class="container ">
+        <div>
             <div class="row">
                 <div class="col">
                     <div class="header_content d-flex flex-row align-items-center justify-content-start">
                         <div class="logo_container">
                             <a href="#">
-                                <div class="logo_text">Edu
-                                    <span>School</span>
-                                </div>
+                                <img src="img/logo2.png">
                             </a>
                         </div>
                         <nav class="main_nav_contaner ml-auto">
                             <ul class="main_nav">
                                 <li>
-                                    <a href="#">Trang Chủ</a>
+                                    <a href="index.html">Trang Chủ</a>
                                 </li>
                                 <li class="active">
-                                    <a href="#">Tìm Việc</a>
+                                    <a href="timkiemnangcao.html">Tìm Việc</a>
                                 </li>
                                 <li>
-                                    <a href="#">Thông Báo </a>
+                                    <a href="thongbaocongviec.html">Thông Báo </a>
                                 </li>
                                 <li>
-                                    <a href="#">Nhà Tuyển Dụng</a>
+                                    <a href="timnhatuyendung">Nhà Tuyển Dụng</a>
                                 </li>
                                 <li>
                                     <a href="#">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="#">Đăng Nhập</a>
+                                    <a href="dangnhap.html">Đăng Nhập</a>
                                 </li>
-                                <button class="btnRecruiter"><b>Tuyển Dụng</b></button>
+                                <button class="btnRecruiter">
+                                    <b>Tuyển Dụng</b>
+                                </button>
                             </ul>
 
                             <!-- Hamburger -->
@@ -86,24 +86,26 @@
         <nav class="menu_nav">
             <ul class="menu_mm">
                 <li class="menu_mm">
-                    <a href="#">Trang Chủ</a>
+                    <a href="index.html">Trang Chủ</a>
                 </li>
                 <li class="menu_mm">
-                    <a href="#">Tìm Việc</a>
+                    <a href="timkiemnangcao.html">Tìm Việc</a>
                 </li>
                 <li class="menu_mm">
-                    <a href="#">Thông Báo</a>
+                    <a href="thongbaocongviec.html">Thông Báo</a>
                 </li>
                 <li class="menu_mm">
-                    <a href="#">Nhà Tuyển Dụng</a>
+                    <a href="timnhatuyendung">Nhà Tuyển Dụng</a>
                 </li>
                 <li class="menu_mm">
                     <a href="#">Blog</a>
                 </li>
                 <li class="menu_mm">
-                    <a href="#">Đăng Nhập</a>
+                    <a href="dangnhap.html">Đăng Nhập</a>
                 </li>
-                <button class="btnRecruiter"><b>Tuyển Dụng</b></button>
+                <button class="btnRecruiter">
+                    <b>Tuyển Dụng</b>
+                </button>
 
             </ul>
         </nav>
@@ -125,20 +127,202 @@
                 <div class="col-md-3 col-sm-3 col-lg-3 col-12 ">
                     <ul class="nav nav-tabs" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link  " data-toggle="tab" href="#duyet">Duyệt</a>
+                            <a class="nav-link active " data-toggle="tab" href="#duyet">Duyệt</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active " data-toggle="tab" href="#search">Tìm kiếm</a>
+                            <a class="nav-link  " data-toggle="tab" href="#search">Tìm kiếm</a>
                         </li>
 
                     </ul>
 
                     <!-- Tab panes -->
                     <div class="tab-content menuLeft" style="color: #384158">
-                        <div id="duyet" class="container tab-pane ">
+                        <div id="duyet" class="container tab-pane active clearPadding">
+                            <div>
+                                <p>Từ khóa</p>
+                                <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding">
+                                    <span class="fa fa-search form-control-feedback"></span>
+                                    <input id="textsearch" class="form-control" type="text" placeholder="Từ khóa tìm kiếm">
+                                </div>
+                                <!-- button search -->
+                                <div>
+                                    <input class="btnSearch" type="submit" value="Tìm kiếm">
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="formtuychinh">
+                                <h5>Tùy chỉnh tìm kiếm</h5>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
+                                    <hr>
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                <label>Ngành nghề</label>
+                                                <span class="caret"></span>
+                                                <ul class="nested">
+                                                    <li>
+                                                        <a href="#">Quản trị viên </a>
+                                                        <i>9</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Giảng dạy </a>
+                                                        <i>8</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Nhân viên hỗ trợ </a>
+                                                        <i>11</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Dịch vụ khác</a>
+                                                        <i>99</i>
+                                                    </li>
+                                                </ul>
 
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
+                                    <hr>
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                <label>Vị trí</label>
+                                                <span class="caret"></span>
+                                                <ul class="nested">
+                                                    <li>
+                                                        <a href="#">Hà Nội</a>
+                                                        <i>9</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Huế </a>
+                                                        <i>8</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Đà Nẵng</a>
+                                                        <i>11</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Nha Trang</a>
+                                                        <i>99</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Đà Lạt</a>
+                                                        <i>11</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Hồ Chí Minh</a>
+                                                        <i>99</i>
+                                                    </li>
+                                                </ul>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
+                                    <hr>
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                <label>Khối</label>
+                                                <span class="caret"></span>
+                                                <ul class="nested">
+                                                    <li>
+                                                        <a href="#">Mầm non</a>
+                                                        <i>9</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Tiểu học </a>
+                                                        <i>8</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Trung học cơ sở</a>
+                                                        <i>11</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Trung học phổ thông</a>
+                                                        <i>99</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Cao đẳng/Đại học</a>
+                                                        <i>11</i>
+                                                    </li>
+
+                                                </ul>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
+                                    <hr>
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                <label>Loại công việc</label>
+                                                <span class="caret"></span>
+                                                <ul class="nested">
+                                                    <li>
+                                                        <a href="#">Toàn thời gian </a>
+                                                        <i>9</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Bán thời gian </a>
+                                                        <i>8</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Tạm thời </a>
+                                                        <i>11</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Mùa hè </a>
+                                                        <i>99</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Sau giờ học </a>
+                                                        <i>88</i>
+                                                    </li>
+                                                </ul>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
+                                    <hr>
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                <label>Loại hình tổ chức</label>
+                                                <span class="caret"></span>
+                                                <ul class="nested">
+                                                    <li>
+                                                        <a href="#">Trường quốc tế</a>
+                                                        <i>9</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Trường dân lập </a>
+                                                        <i>8</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Trường công lập</a>
+                                                        <i>11</i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Trường liên kết</a>
+                                                        <i>99</i>
+                                                    </li>
+
+                                                </ul>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div id="search" class="container tab-pane active clearPadding ">
+                        <div id="search" class="container tab-pane clearPadding ">
                             <div>
                                 <p>Từ khóa</p>
                                 <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding">
@@ -176,164 +360,140 @@
                                 </div>
                                 <div class="form-check">
                                     <label class="form-check-label" for="check2">
-                                        <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc
+                                        <input type="checkbox" class="form-check-input" value="something">Toàn quốc
                                     </label>
                                 </div>
                             </div>
-                            <!-- treeview -->
+                            <!-- job nganh nghe -->
                             <div>
                                 <ul id="nganhnghe">
                                     <li>
-                                        <span class="caret">Ngành nghề</span>
+                                        <label>Ngành nghề</label>
+                                        <span class="caret"></span>
+
                                         <ul class="nested">
                                             <li>
-                                                <span class="caret">Quản lý</span>
+                                                <input type="checkbox" class="form-check-input">
+                                                <label>Người quản lý</label>
+                                                <span class="caret"></span>
                                                 <ul class="nested">
                                                     <li>
-                                                        <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Phó Hiệu trưởng</li>
                                                     <li>
-                                                        <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Trợ lý giám đốc</li>
                                                     <li>
-                                                        <span class="caret">Green Tea</span>
+                                                        <input type="checkbox" class="form-check-input">
+                                                        <label>Chương trình giảng dạy</label>
+                                                        <span class="caret"></span>
                                                         <ul class="nested">
                                                             <li>
-                                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Giám đốc học thuật</li>
                                                             <li>
-                                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Giám đốc chương trình dạy</li>
                                                             <li>
-                                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Chuyên gia</li>
                                                             <li>
-                                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Huấn luyện viên</li>
                                                         </ul>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Trợ giảng</li>
+                                                <input type="checkbox" class="form-check-input" value="something">Công nghệ thông tin</li>
                                             <li>
-                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Nhân viên</li>
+                                                <input type="checkbox" class="form-check-input" value="something">Nhân viên hỗ trợ</li>
                                             <li>
-                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Bảo vệ</li>
+                                                <!-- <input type="checkbox" class="form-check-input"  value="something">Dịch vụ khác -->
+                                                <input type="checkbox" class="form-check-input">
+                                                <label>Dịch vụ khác</label>
+                                                <span class="caret"></span>
+                                                <ul class="nested">
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Chương trình giảng dạy</li>
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Dịch vụ khách hàng</li>
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Tiếp thị</li>
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Tài trợ</li>
+                                                </ul>
+
+                                            </li>
 
                                         </ul>
 
                                     </li>
                                 </ul>
                             </div>
+
                             <!-- job theo khoi -->
                             <div>
                                 <ul id="khoi">
                                     <li>
-                                        <span class="caret">Khối</span>
+                                        <label>Khối</label>
+                                        <span class="caret"></span>
                                         <ul class="nested">
+
                                             <li>
-                                                <span class="caret">Quản lý</span>
-                                                <ul class="nested">
-                                                    <li>
-                                                        <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                    <li>
-                                                        <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                    <li>
-                                                        <span class="caret">Green Tea</span>
-                                                        <ul class="nested">
-                                                            <li>
-                                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                            <li>
-                                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                            <li>
-                                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                            <li>
-                                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
+                                                <input type="checkbox" class="form-check-input" value="something">Mầm non</li>
                                             <li>
-                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Trợ giảng</li>
+                                                <input type="checkbox" class="form-check-input" value="something">Tiểu học</li>
                                             <li>
-                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Nhân viên</li>
+                                                <input type="checkbox" class="form-check-input" value="something">Trung học cơ sở</li>
                                             <li>
-                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Bảo vệ</li>
+                                                <input type="checkbox" class="form-check-input" value="something">Trung học phổ thông</li>
+
+                                            <li>
+                                                <input type="checkbox" class="form-check-input" value="something">Cao đẳng/Đại học</li>
 
                                         </ul>
 
                                     </li>
                                 </ul>
                             </div>
+
                             <!-- job theo loaij cong viec -->
                             <div>
                                 <ul id="loaicongviec">
                                     <li>
-                                        <span class="caret">Loại công việc</span>
+                                        <label>Loại công việc</label>
+                                        <span class="caret"></span>
                                         <ul class="nested">
                                             <li>
-                                                <span class="caret">Toàn thời gian</span>
-                                                <ul class="nested">
-                                                    <li>
-                                                        <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                    <li>
-                                                        <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                    <li>
-                                                        <span class="caret">Green Tea</span>
-                                                        <ul class="nested">
-                                                            <li>
-                                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                            <li>
-                                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                            <li>
-                                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                            <li>
-                                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
+                                                <input type="checkbox" class="form-check-input" value="something">Toàn thời gian</li>
                                             <li>
-                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Bán thời gian</li>
-                                            <li>
-                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Tạm thời</li>
-                                            <li>
-                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Mùa hè</li>
+                                                <li>
+                                                    <input type="checkbox" class="form-check-input" value="something">Bán thời gian</li>
+                                                <li>
+                                                    <input type="checkbox" class="form-check-input" value="something">Tạm thời</li>
+                                                <li>
+                                                    <input type="checkbox" class="form-check-input" value="something">Mùa hè</li>
+                                                <li>
+                                                    <input type="checkbox" class="form-check-input" value="something">Sau giờ học</li>
+                                                <li>
 
                                         </ul>
 
-                                    </li>
+                                        </li>
                                 </ul>
                             </div>
                             <!-- job theo loại hình tổ chức -->
                             <div>
                                 <ul id="loaihinhtochuc">
                                     <li>
-                                        <span class="caret">Loại hình tổ chức</span>
+
+                                        <label>Loại hình tổ chức</label>
+                                        <span class="caret"></span>
                                         <ul class="nested">
+
                                             <li>
-                                                <span class="caret">Quản lý</span>
-                                                <ul class="nested">
-                                                    <li>
-                                                        <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                    <li>
-                                                        <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                    <li>
-                                                        <span class="caret">Green Tea</span>
-                                                        <ul class="nested">
-                                                            <li>
-                                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                            <li>
-                                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                            <li>
-                                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                            <li>
-                                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
+                                                <input type="checkbox" class="form-check-input" value="something">Trường quốc tế</li>
                                             <li>
-                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Trợ giảng</li>
+                                                <input type="checkbox" class="form-check-input" value="something">Trường dân lập</li>
                                             <li>
-                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Nhân viên</li>
+                                                <input type="checkbox" class="form-check-input" value="something">Trường liên kết</li>
                                             <li>
-                                                <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Bảo vệ</li>
+                                                <input type="checkbox" class="form-check-input" value="something">Trường công lập</li>
 
                                         </ul>
 
@@ -365,10 +525,12 @@
                             <h4>
                                 <a href="#">Trường Mầm Non Song Ngữ Việt Mỹ - Xuân Thủy - Hàm Nghi</a>
                             </h4>
+                            <label>Xuân Thủy, Cầu Giấy</label>
                         </div>
                         <div class="row col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 ">
                             <div class="col-md-7 col-sm-7 col-lg-7 col-12 ">
-                                <li>Xuân Thủy, Cầu Giấy</li>
+
+
                                 <li>Cần tuyển 5 giáo viên</li>
                                 <li>Trình độ tốt nghiệp đại học</li>
                                 <li>Mức lương: 4 triệu đến 8 triệu</li>
@@ -378,7 +540,10 @@
                             </div>
                             <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12   col-12 ">
                                 <p class="text"> Hiệu Trưởng cung cấp khả năng lãnh đạo và quản lý một địa điểm trường học, bao gồm việc thực
-                                    hiện hiệu quả các sáng kiến ​​của học khu ...</p>
+                                    hiện hiệu quả các sáng kiến ​​của học khu Hiệu Trưởng cung cấp khả năng lãnh đạo và quản
+                                    lý một địa điểm trường học, bao gồm việc thực hiện hiệu quả các sáng kiến ​​của học khu
+                                    ...
+                                </p>
                             </div>
                             <div class="row col-md-12 col-sm-12 col-lg-12  col-xl-12   col-12 ">
                                 <div class="col-md-6 col-sm-6 col-lg-6 col-12  ">
@@ -397,10 +562,12 @@
                             <h4>
                                 <a href="#">Trường Mầm Non Song Ngữ Việt Mỹ - Xuân Thủy - Hàm Nghi</a>
                             </h4>
+                            <label>Xuân Thủy, Cầu Giấy</label>
                         </div>
                         <div class="row col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 ">
                             <div class="col-md-7 col-sm-7 col-lg-7 col-12 ">
-                                <li>Xuân Thủy, Cầu Giấy</li>
+
+
                                 <li>Cần tuyển 5 giáo viên</li>
                                 <li>Trình độ tốt nghiệp đại học</li>
                                 <li>Mức lương: 4 triệu đến 8 triệu</li>
@@ -410,7 +577,10 @@
                             </div>
                             <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12   col-12 ">
                                 <p class="text"> Hiệu Trưởng cung cấp khả năng lãnh đạo và quản lý một địa điểm trường học, bao gồm việc thực
-                                    hiện hiệu quả các sáng kiến ​​của học khu ...</p>
+                                    hiện hiệu quả các sáng kiến ​​của học khu Hiệu Trưởng cung cấp khả năng lãnh đạo và quản
+                                    lý một địa điểm trường học, bao gồm việc thực hiện hiệu quả các sáng kiến ​​của học khu
+                                    ...
+                                </p>
                             </div>
                             <div class="row col-md-12 col-sm-12 col-lg-12  col-xl-12   col-12 ">
                                 <div class="col-md-6 col-sm-6 col-lg-6 col-12  ">
@@ -429,10 +599,12 @@
                             <h4>
                                 <a href="#">Trường Mầm Non Song Ngữ Việt Mỹ - Xuân Thủy - Hàm Nghi</a>
                             </h4>
+                            <label>Xuân Thủy, Cầu Giấy</label>
                         </div>
                         <div class="row col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 ">
                             <div class="col-md-7 col-sm-7 col-lg-7 col-12 ">
-                                <li>Xuân Thủy, Cầu Giấy</li>
+
+
                                 <li>Cần tuyển 5 giáo viên</li>
                                 <li>Trình độ tốt nghiệp đại học</li>
                                 <li>Mức lương: 4 triệu đến 8 triệu</li>
@@ -442,7 +614,10 @@
                             </div>
                             <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12   col-12 ">
                                 <p class="text"> Hiệu Trưởng cung cấp khả năng lãnh đạo và quản lý một địa điểm trường học, bao gồm việc thực
-                                    hiện hiệu quả các sáng kiến ​​của học khu ...</p>
+                                    hiện hiệu quả các sáng kiến ​​của học khu Hiệu Trưởng cung cấp khả năng lãnh đạo và quản
+                                    lý một địa điểm trường học, bao gồm việc thực hiện hiệu quả các sáng kiến ​​của học khu
+                                    ...
+                                </p>
                             </div>
                             <div class="row col-md-12 col-sm-12 col-lg-12  col-xl-12   col-12 ">
                                 <div class="col-md-6 col-sm-6 col-lg-6 col-12  ">
@@ -461,10 +636,12 @@
                             <h4>
                                 <a href="#">Trường Mầm Non Song Ngữ Việt Mỹ - Xuân Thủy - Hàm Nghi</a>
                             </h4>
+                            <label>Xuân Thủy, Cầu Giấy</label>
                         </div>
                         <div class="row col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 ">
                             <div class="col-md-7 col-sm-7 col-lg-7 col-12 ">
-                                <li>Xuân Thủy, Cầu Giấy</li>
+
+
                                 <li>Cần tuyển 5 giáo viên</li>
                                 <li>Trình độ tốt nghiệp đại học</li>
                                 <li>Mức lương: 4 triệu đến 8 triệu</li>
@@ -474,9 +651,12 @@
                             </div>
                             <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12   col-12 ">
                                 <p class="text"> Hiệu Trưởng cung cấp khả năng lãnh đạo và quản lý một địa điểm trường học, bao gồm việc thực
-                                    hiện hiệu quả các sáng kiến ​​của học khu ...</p>
+                                    hiện hiệu quả các sáng kiến ​​của học khu Hiệu Trưởng cung cấp khả năng lãnh đạo và quản
+                                    lý một địa điểm trường học, bao gồm việc thực hiện hiệu quả các sáng kiến ​​của học khu
+                                    ...
+                                </p>
                             </div>
-                            <div class="row col-md-12 col-sm-12 col-lg-12  col-xl-12 ">
+                            <div class="row col-md-12 col-sm-12 col-lg-12  col-xl-12   col-12 ">
                                 <div class="col-md-6 col-sm-6 col-lg-6 col-12  ">
                                     <button class="btnChiTiet">Xem chi tiết</button>
                                 </div>
@@ -493,10 +673,12 @@
                             <h4>
                                 <a href="#">Trường Mầm Non Song Ngữ Việt Mỹ - Xuân Thủy - Hàm Nghi</a>
                             </h4>
+                            <label>Xuân Thủy, Cầu Giấy</label>
                         </div>
                         <div class="row col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 ">
                             <div class="col-md-7 col-sm-7 col-lg-7 col-12 ">
-                                <li>Xuân Thủy, Cầu Giấy</li>
+
+
                                 <li>Cần tuyển 5 giáo viên</li>
                                 <li>Trình độ tốt nghiệp đại học</li>
                                 <li>Mức lương: 4 triệu đến 8 triệu</li>
@@ -506,7 +688,10 @@
                             </div>
                             <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12   col-12 ">
                                 <p class="text"> Hiệu Trưởng cung cấp khả năng lãnh đạo và quản lý một địa điểm trường học, bao gồm việc thực
-                                    hiện hiệu quả các sáng kiến ​​của học khu ...</p>
+                                    hiện hiệu quả các sáng kiến ​​của học khu Hiệu Trưởng cung cấp khả năng lãnh đạo và quản
+                                    lý một địa điểm trường học, bao gồm việc thực hiện hiệu quả các sáng kiến ​​của học khu
+                                    ...
+                                </p>
                             </div>
                             <div class="row col-md-12 col-sm-12 col-lg-12  col-xl-12   col-12 ">
                                 <div class="col-md-6 col-sm-6 col-lg-6 col-12  ">
@@ -535,7 +720,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                             <p>1-10 trong tổng số 100 kết quả</p>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-12" >
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                             <ul class="pagination" style="position: absolute;right: 0px;">
                                 <li class="page-item">
                                     <a class="page-link" href="#">Previous</a>
@@ -563,145 +748,158 @@
                             <b>Top 5 công việc mới nhất</b>
                         </p>
                     </div>
-                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding">
+                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding topJob">
                         <a href="#">
-                            <img src="img/school1.jpg" style="width: 100%;">
-                            <p>Công việc 1</p>
+                            <p>Tuyển giáo viên mầm non</p>
+                            <li>Lương:4tr-7tr</li>
+                            <li>Trường mầm non quốc tế Việt - Hàn</li>
+                            <li>Địa chỉ:Xuân thủy-Cầu giấy</li>
                         </a>
                     </div>
-                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding">
+                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding topJob">
                         <a href="#">
-                            <img src="img/school1.jpg" style="width: 100%;">
-                            <p>Công việc 2</p>
+                            <p>Tuyển giáo viên mầm non</p>
+                            <li>Lương:4tr-7tr</li>
+                            <li>Trường mầm non quốc tế Việt - Hàn</li>
+                            <li>Địa chỉ:Xuân thủy-Cầu giấy</li>
                         </a>
                     </div>
-                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding">
+                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding topJob">
                         <a href="#">
-                            <img src="img/school1.jpg" style="width: 100%;">
-                            <p>Công việc 3</p>
+                            <p>Tuyển giáo viên mầm non</p>
+                            <li>Lương:4tr-7tr</li>
+                            <li>Trường mầm non quốc tế Việt - Hàn</li>
+                            <li>Địa chỉ:Xuân thủy-Cầu giấy</li>
                         </a>
                     </div>
-                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding">
+                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding topJob">
                         <a href="#">
-                            <img src="img/school1.jpg" style="width: 100%;">
-                            <p>Công việc 4</p>
+                            <p>Tuyển giáo viên mầm non</p>
+                            <li>Lương:4tr-7tr</li>
+                            <li>Trường mầm non quốc tế Việt - Hàn</li>
+                            <li>Địa chỉ:Xuân thủy-Cầu giấy</li>
                         </a>
                     </div>
-                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding">
+
+                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding topJob">
                         <a href="#">
-                            <img src="img/school1.jpg" style="width: 100%;">
-                            <p>Công việc 5</p>
+                            <p>Tuyển giáo viên mầm non</p>
+                            <li>Lương:4tr-7tr</li>
+                            <li>Trường mầm non quốc tế Việt - Hàn</li>
+                            <li>Địa chỉ:Xuân thủy-Cầu giấy</li>
                         </a>
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
     <!-- footer -->
     <div class="row">
-            <footer class="footer">
-                <div class="footer_background" ></div>
-                <div class="container">
-                    <div class="row footer_row">
-                        <div class="col">
-                            <div class="footer_content">
-                                <div class="row">
-    
-                                    <div class="col-lg-4 col-md-4 col-sm-4 footer_col">
-    
-                                        <!-- Footer About -->
-                                        <div class="footer_section footer_about">
-                                            <div class="footer_logo_container">
-                                                <a href="#">
-                                                    <div class="footer_logo_text">Edu
-                                                        <span>School</span>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="footer_about_text">
-                                                <p>Tìm việc không khó</p>
-                                            </div>
-                                            <div class="footer_social">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#">
-                                                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <i class="fa fa-google-plus" aria-hidden="true"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">
-                                                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+        <footer class="footer">
+            <div class="footer_background"></div>
+            <div class="container">
+                <div class="row footer_row">
+                    <div class="col">
+                        <div class="footer_content">
+                            <div class="row">
+
+                                <div class="col-lg-4 col-md-4 col-sm-4 footer_col">
+
+                                    <!-- Footer About -->
+                                    <div class="footer_section footer_about">
+                                        <div class="footer_logo_container">
+                                            <a href="#">
+                                                <!-- <div class="footer_logo_text">Edu
+                                                    <span>School</span>
+                                                </div> -->
+                                                <img src="img/logo2.png" style="width: 100%;"> 
+                                            </a>
                                         </div>
-    
-                                    </div>
-    
-                                    <div class="col-lg-4 col-md-4 col-sm-4 footer_col">
-    
-                                        <!-- Footer Contact -->
-                                        <div class="footer_section footer_contact">
-                                            <div class="footer_title">Liên Hệ</div>
-                                            <div class="footer_contact_info">
-                                                <ul>
-                                                    <li>Email: tuyendunggiaoduc@gmail.com</li>
-                                                    <li>Phone: 0987654321</li>
-                                                    <li>Số 12, Ngõ 641, Đường Phạm Văn Đồng</li>
-                                                </ul>
-                                            </div>
+                                        <div class="footer_about_text">
+                                            <p>Tìm việc không khó</p>
                                         </div>
-    
-                                    </div>
-    
-                                    <div class="col-lg-4 col-md-4 col-sm-4 footer_col">
-    
-                                        <!-- Footer links -->
-                                        <div class="footer_section footer_links">
-                                            <div class="footer_title">Thông Tin</div>
-                                            <div class="footer_links_container">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#">Giới thiệu</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Điều khoản sử dụng</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Chính sách</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Ý tưởng tuyendunggiaoduc.com</a>
-                                                    </li>
-                                                    
-                                                </ul>
-                                            </div>
+                                        <div class="footer_social">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
                                         </div>
-    
                                     </div>
-    
-                                    
-    
+
                                 </div>
+
+                                <div class="col-lg-4 col-md-4 col-sm-4 footer_col">
+
+                                    <!-- Footer Contact -->
+                                    <div class="footer_section footer_contact">
+                                        <div class="footer_title">Liên Hệ</div>
+                                        <div class="footer_contact_info">
+                                            <ul>
+                                                <li>Email: tuyendunggiaoduc@gmail.com</li>
+                                                <li>Phone: 0987654321</li>
+                                                <li>Số 12, Ngõ 641, Đường Phạm Văn Đồng</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-sm-4 footer_col">
+
+                                    <!-- Footer links -->
+                                    <div class="footer_section footer_links">
+                                        <div class="footer_title">Thông Tin</div>
+                                        <div class="footer_links_container">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Giới thiệu</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Điều khoản sử dụng</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Chính sách</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ý tưởng tuyendunggiaoduc.com</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
                             </div>
                         </div>
                     </div>
-    
-                   
                 </div>
-            </footer>
-        </div>
+
+
+            </div>
+        </footer>
+    </div>
 </div>
 
 

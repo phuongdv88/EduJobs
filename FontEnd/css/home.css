@@ -2,7 +2,8 @@
     padding: 0px;
 }
 .search{
-    background-image: url(../img/home_slider_1.jpg) ;
+    /* <img src="img/classroom-2093744_1920.jpg"> */
+    background-image: url(../img/school3.jpg) ;
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
@@ -205,7 +206,31 @@ background: #f4f4f4;
     padding: 0 1em 0 1em;
 }
 
-
+@media only screen and(max-width:1200px){
+    .main_nav li:not(:last-child) {
+        margin-right: 16px !important;
+    }
+    .main_nav li:not(:last-child) {
+         margin-right: 16px !important;
+    }
+}
+.blog_post_body{
+    text-align: center;
+}
+.blog_post_body .blog_post_text a{
+    font-size: 16px;
+    color: red;
+}
+.blog_post_body .blog_post_text a i{
+    font-size: 16px;
+    color:#384158;
+}
+.logo_container img{
+    width: 100%;
+}
+.logo_container{
+    width: 200px;
+}
 
 
 

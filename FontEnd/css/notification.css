@@ -8,10 +8,14 @@
     padding: 1em ;
     background: #eee;
 }
-.formLeft .form label{
+.formLeft .form .textSearch label{
 margin-top: 1em;
 color: #4d4c4d;
 }
+.formLeft .form  label{
+   
+    color: #4d4c4d;
+    }
 .formLeft .form input[type=text],[type=password],select
 {
 width: 100%;

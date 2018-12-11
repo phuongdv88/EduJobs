@@ -17,36 +17,34 @@
 <div>
     <!-- Header Content -->
     <div class="header_container">
-        <div class="container ">
+        <div>
             <div class="row">
                 <div class="col">
                     <div class="header_content d-flex flex-row align-items-center justify-content-start">
                         <div class="logo_container">
                             <a href="#">
-                                <div class="logo_text">Edu
-                                    <span>School</span>
-                                </div>
+                                <img src="img/logo2.png">
                             </a>
                         </div>
                         <nav class="main_nav_contaner ml-auto">
                             <ul class="main_nav">
                                 <li>
-                                    <a href="#">Trang Chủ</a>
+                                    <a href="index.html">Trang Chủ</a>
+                                </li>
+                                <li>
+                                    <a href="timkiemnangcao.html">Tìm Việc</a>
                                 </li>
                                 <li class="active">
-                                    <a href="#">Tìm Việc</a>
+                                    <a href="thongbaocongviec.html">Thông Báo </a>
                                 </li>
                                 <li>
-                                    <a href="#">Thông Báo </a>
-                                </li>
-                                <li>
-                                    <a href="#">Nhà Tuyển Dụng</a>
+                                    <a href="timnhatuyendung.html">Nhà Tuyển Dụng</a>
                                 </li>
                                 <li>
                                     <a href="#">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="#">Đăng Nhập</a>
+                                    <a href="dangnhap.html">Đăng Nhập</a>
                                 </li>
                                 <button class="btnRecruiter">
                                     <b>Tuyển Dụng</b>
@@ -79,22 +77,22 @@
         <nav class="menu_nav">
             <ul class="menu_mm">
                 <li class="menu_mm">
-                    <a href="#">Trang Chủ</a>
+                    <a href="index.html">Trang Chủ</a>
                 </li>
                 <li class="menu_mm">
-                    <a href="#">Tìm Việc</a>
+                    <a href="timkiemnangcao.html">Tìm Việc</a>
                 </li>
                 <li class="menu_mm">
-                    <a href="#">Thông Báo</a>
+                    <a href="thongbaocongviec.html">Thông Báo</a>
                 </li>
                 <li class="menu_mm">
-                    <a href="#">Nhà Tuyển Dụng</a>
+                    <a href="timnhatuyendung.html">Nhà Tuyển Dụng</a>
                 </li>
                 <li class="menu_mm">
                     <a href="#">Blog</a>
                 </li>
                 <li class="menu_mm">
-                    <a href="#">Đăng Nhập</a>
+                    <a href="dangnhap.html">Đăng Nhập</a>
                 </li>
                 <button class="btnRecruiter">
                     <b>Tuyển Dụng</b>
@@ -118,7 +116,7 @@
                         <div class="col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
                             <h6>Bạn đang tìm loại công việc gì? </h6>
                         </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 textSearch clearPadding">
                             <label>Email của bạn</label>
                             <input type="text" placeholder="Email..">
                             <label>Từ khóa</label>
@@ -129,7 +127,7 @@
                         <div class="col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
                             <div class="form-check">
                                 <label class="form-check-label" for="check1">
-                                    <input type="checkbox" class="form-check-input" name="lamviectainha" value="something" checked>Làm việc tại nhà
+                                    <input type="checkbox" class="form-check-input" value="something" checked>Làm việc tại nhà
                                 </label>
                             </div>
                             <div class="form-check">
@@ -144,98 +142,170 @@
                                 <hr>
                                 <label>Ngành nghề</label>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-12 jobCategory">
-                                    <ul id="nganhnghe">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <ul id="nganhnghe">
+                                            <li>
+                                                <input type="checkbox" class="form-check-input">
+                                                <label>Người quản lý</label>
+                                                <span class="caret"></span>
+
+                                                <ul class="nested">
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Phó hiệu trưởng</li>
+
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Trợ lý giám đốc</li>
+
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input">
+                                                        <label>Chương trình giảng dạy</label>
+                                                        <span class="caret"></span>
+                                                        <ul class="nested">
+                                                            <li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Giám đốc học thuật
+                                                            </li>
+                                                            <li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Giám đốc chương trình dạy
+                                                            </li>
+                                                            <li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Chuyên gia
+                                                            </li>
+                                                            <li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Huấn luyện viên
+                                                            </li>
+
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Công nghệ thông tin
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Nhân viên hỗ trợ
+                                                    </li>
+                                                    <li>
+                                                        <!-- <input type="checkbox" class="form-check-input"  value="something">Dịch vụ khác -->
+                                                        <input type="checkbox" class="form-check-input">
+                                                        <label>Dịch vụ khác</label>
+                                                        <span class="caret"></span>
+                                                        <ul class="nested">
+                                                            <li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Chương trình giảng dạy</li>
+                                                            <li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Dịch vụ khách hàng</li>
+                                                            <li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Tiếp thị</li>
+                                                            <li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Tài trợ</li>
+                                                        </ul>
+
+                                                    </li>
+
+                                                </ul>
+
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" class="form-check-input">
+                                                <label>Giảng bài</label>
+                                                <span class="caret"></span>
+
+                                                <ul class="nested">
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Giáo viên người lớn</li>
+
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Giáo viên sau giờ học</li>
+
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input">
+                                                        <label>Giáo viên kinh doanh</label>
+                                                        <span class="caret"></span>
+                                                        <ul class="nested">
+                                                            <li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Giáo viên kế toán
+                                                            </li>
+                                                            <li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Giáo viên quản trị kinh doanh
+                                                            </li>
+                                                            <li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Giáo viên quản lý
+                                                            </li>
+                                                            <li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Giáo viên tiếp thị
+                                                            </li>
+
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Giáo viên dạy hè
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Giáo viên công nghệ
+                                                    </li>
+                                                    <li>
+                                                        <!-- <input type="checkbox" class="form-check-input"  value="something">Dịch vụ khác -->
+                                                        <input type="checkbox" class="form-check-input">
+                                                        <label>Giáo viên ngôn ngữ</label>
+                                                        <span class="caret"></span>
+                                                        <ul class="nested">
+                                                            <li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Giáo viên tiếng Anh</li>
+                                                            <li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Giáo viên tiếng Pháp</li>
+                                                            <li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Giáo viên tiếng Đức</li>
+                                                            <li>
+                                                                <input type="checkbox" class="form-check-input" value="something">Giáo viên tiếng Trung Quốc</li>
+                                                        </ul>
+
+                                                    </li>
+
+                                                </ul>
 
 
-                                        <li>
-                                            <span class="caret">Quản lý</span>
-                                            <ul class="nested">
-                                                <li>
-                                                    <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Hiệu trưởng</li>
-                                                <li>
-                                                    <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Giám đốc</li>
-                                                <li>
-                                                    <span class="caret">Green Tea</span>
-                                                    <ul class="nested">
-                                                        <li>
-                                                            <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                        <li>
-                                                            <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                        <li>
-                                                            <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                        <li>
-                                                            <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <span class="caret">Khối</span>
-                                            <ul class="nested">
-                                                <li>
-                                                    <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                <li>
-                                                    <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                <li>
-                                                    <span class="caret">Green Tea</span>
-                                                    <ul class="nested">
-                                                        <li>
-                                                            <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                        <li>
-                                                            <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                        <li>
-                                                            <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                        <li>
-                                                            <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <span class="caret">Loại công việc</span>
-                                            <ul class="nested">
-                                                <li>
-                                                    <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                <li>
-                                                    <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                <li>
-                                                    <span class="caret">Green Tea</span>
-                                                    <ul class="nested">
-                                                        <li>
-                                                            <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                        <li>
-                                                            <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                        <li>
-                                                            <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                        <li>
-                                                            <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <span class="caret">Loại hình tổ chức</span>
-                                            <ul class="nested">
-                                                <li>
-                                                    <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                <li>
-                                                    <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                <li>
-                                                    <span class="caret">Green Tea</span>
-                                                    <ul class="nested">
-                                                        <li>
-                                                            <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                        <li>
-                                                            <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                        <li>
-                                                            <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                        <li>
-                                                            <input type="checkbox" class="form-check-input" name="toanquoc" value="something">Toàn quốc</li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" class="form-check-input">
+                                                <label>Nhân viên hỗ trợ</label>
+                                                <span class="caret"></span>
+
+                                                <ul class="nested">
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Chuyên gia</li>
+
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Máy tính/CNTT</li>
+
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Dinh dưỡng
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Y tá
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Thư ký
+                                                    </li>
+                                                </ul>
+
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" class="form-check-input">
+                                                <label>Dịch vụ khác</label>
+                                                <span class="caret"></span>
+                                                <ul class="nested">
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Chương trình giảng dạy</li>
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Dịch vụ khách hàng</li>
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Tiếp thị</li>
+                                                    <li>
+                                                        <input type="checkbox" class="form-check-input" value="something">Tài trợ</li>
+                                                </ul>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+
                                 </div>
                             </div>
                             <!-- Khối -->
@@ -244,19 +314,19 @@
                                 <label>Khối</label>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
                                     <p class="form-check-label" for="check1">
-                                        <input type="checkbox" class="form-check-input" name="lamviectainha" value="something" checked>Lớp 2 tuổi
+                                        <input type="checkbox" class="form-check-input" value="something">Mầm non
                                     </p>
                                     <p class="form-check-label" for="check1">
-                                        <input type="checkbox" class="form-check-input" name="lamviectainha" value="something" checked>Lớp 3 tuổi
+                                        <input type="checkbox" class="form-check-input" value="something">Tiểu học
                                     </p>
                                     <p class="form-check-label" for="check1">
-                                        <input type="checkbox" class="form-check-input" name="lamviectainha" value="something" checked>Lớp 4 tuổi
+                                        <input type="checkbox" class="form-check-input" value="something">Trung học cơ sở
                                     </p>
                                     <p class="form-check-label" for="check1">
-                                        <input type="checkbox" class="form-check-input" name="lamviectainha" value="something" checked>Lớp 5 tuổi
+                                        <input type="checkbox" class="form-check-input" value="something">Trung học phổ thông
                                     </p>
                                     <p class="form-check-label" for="check1">
-                                        <input type="checkbox" class="form-check-input" name="lamviectainha" value="something" checked>Lớp 6 tuổi
+                                        <input type="checkbox" class="form-check-input" value="something">Cao đẳng/Đại học
                                     </p>
 
 
@@ -269,19 +339,19 @@
                                 <label>Loại công việc</label>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
                                     <p class="form-check-label" for="check1">
-                                        <input type="checkbox" class="form-check-input" name="lamviectainha" value="something" checked>Toàn thời gian
+                                        <input type="checkbox" class="form-check-input" value="something">Toàn thời gian
                                     </p>
                                     <p class="form-check-label" for="check1">
-                                        <input type="checkbox" class="form-check-input" name="lamviectainha" value="something" checked>Bán thời gian
+                                        <input type="checkbox" class="form-check-input" value="something">Bán thời gian
                                     </p>
                                     <p class="form-check-label" for="check1">
-                                        <input type="checkbox" class="form-check-input" name="lamviectainha" value="something" checked>Mùa hè
+                                        <input type="checkbox" class="form-check-input" value="something">Mùa hè
                                     </p>
                                     <p class="form-check-label" for="check1">
-                                        <input type="checkbox" class="form-check-input" name="lamviectainha" value="something" checked>Tạm thời
+                                        <input type="checkbox" class="form-check-input" value="something">Tạm thời
                                     </p>
                                     <p class="form-check-label" for="check1">
-                                        <input type="checkbox" class="form-check-input" name="lamviectainha" value="something" checked>Sau giờ học
+                                        <input type="checkbox" class="form-check-input" value="something">Sau giờ học
                                     </p>
 
 
@@ -294,16 +364,16 @@
                                 <label>Loại hình tổ chức</label>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-12 jobCategory">
                                     <p class="form-check-label" for="check1">
-                                        <input type="checkbox" class="form-check-input" name="lamviectainha" value="something" checked>Trường quốc tế
+                                        <input type="checkbox" class="form-check-input" value="something">Trường quốc tế
                                     </p>
                                     <p class="form-check-label" for="check1">
-                                        <input type="checkbox" class="form-check-input" name="lamviectainha" value="something" checked>Trường dân lập
+                                        <input type="checkbox" class="form-check-input" value="something">Trường dân lập
                                     </p>
                                     <p class="form-check-label" for="check1">
-                                        <input type="checkbox" class="form-check-input" name="lamviectainha" value="something" checked>Trường công lập
+                                        <input type="checkbox" class="form-check-input" value="something">Trường công lập
                                     </p>
                                     <p class="form-check-label" for="check1">
-                                        <input type="checkbox" class="form-check-input" name="lamviectainha" value="something" checked>Trường tư thục
+                                        <input type="checkbox" class="form-check-input" value="something">Trường tư thục
                                     </p>
 
                                 </div>
@@ -339,41 +409,52 @@
                 </div>
                 <!-- right -->
                 <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-                        <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding">
-                                <p style="text-align: center">
-                                    <b>Top 5 công việc mới nhất</b>
-                                </p>
-                            </div>
-                            <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding">
-                                <a href="#">
-                                    <img src="img/school1.jpg" style="width: 100%;">
-                                    <p>Công việc 1</p>
-                                </a>
-                            </div>
-                            <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding">
-                                <a href="#">
-                                    <img src="img/school1.jpg" style="width: 100%;">
-                                    <p>Công việc 2</p>
-                                </a>
-                            </div>
-                            <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding">
-                                <a href="#">
-                                    <img src="img/school1.jpg" style="width: 100%;">
-                                    <p>Công việc 3</p>
-                                </a>
-                            </div>
-                            <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding">
-                                <a href="#">
-                                    <img src="img/school1.jpg" style="width: 100%;">
-                                    <p>Công việc 4</p>
-                                </a>
-                            </div>
-                            <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding">
-                                <a href="#">
-                                    <img src="img/school1.jpg" style="width: 100%;">
-                                    <p>Công việc 5</p>
-                                </a>
-                            </div>
+                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding">
+                        <p style="text-align: center">
+                            <b>Top 5 công việc mới nhất</b>
+                        </p>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding topJob">
+                        <a href="#">
+                            <p>Tuyển giáo viên mầm non</p>
+                            <li>Lương:4tr-7tr</li>
+                            <li>Trường mầm non quốc tế Việt - Hàn</li>
+                            <li>Địa chỉ:Xuân thủy-Cầu giấy</li>
+                        </a>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding topJob">
+                        <a href="#">
+                            <p>Tuyển giáo viên mầm non</p>
+                            <li>Lương:4tr-7tr</li>
+                            <li>Trường mầm non quốc tế Việt - Hàn</li>
+                            <li>Địa chỉ:Xuân thủy-Cầu giấy</li>
+                        </a>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding topJob">
+                        <a href="#">
+                            <p>Tuyển giáo viên mầm non</p>
+                            <li>Lương:4tr-7tr</li>
+                            <li>Trường mầm non quốc tế Việt - Hàn</li>
+                            <li>Địa chỉ:Xuân thủy-Cầu giấy</li>
+                        </a>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding topJob">
+                        <a href="#">
+                            <p>Tuyển giáo viên mầm non</p>
+                            <li>Lương:4tr-7tr</li>
+                            <li>Trường mầm non quốc tế Việt - Hàn</li>
+                            <li>Địa chỉ:Xuân thủy-Cầu giấy</li>
+                        </a>
+                    </div>
+
+                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 clearPadding topJob">
+                        <a href="#">
+                            <p>Tuyển giáo viên mầm non</p>
+                            <li>Lương:4tr-7tr</li>
+                            <li>Trường mầm non quốc tế Việt - Hàn</li>
+                            <li>Địa chỉ:Xuân thủy-Cầu giấy</li>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -395,9 +476,10 @@
                                     <div class="footer_section footer_about">
                                         <div class="footer_logo_container">
                                             <a href="#">
-                                                <div class="footer_logo_text">Edu
+                                                <!-- <div class="footer_logo_text">Edu
                                                     <span>School</span>
-                                                </div>
+                                                </div> -->
+                                                <img src="img/logo2.png" style="width: 100%;"> 
                                             </a>
                                         </div>
                                         <div class="footer_about_text">

@@ -40,6 +40,7 @@
     color: black;
     display: inline-block;
     margin-right: 6px !important;
+    float: right;
   }
   
   .caret-down::before {
@@ -157,4 +158,36 @@ margin-bottom: 1em;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+.topJob{
+  margin-top: 1em;
+  
+}
+.topJob p{
+  color: #384158;
+  font-weight: bolder;
+
+}
+.topJob li{
+  padding-left: 1em;
+  color: #a5a5a5;
+  font-size: 12px;
+}
+.formtuychinh{
+  margin-top: 1em;
+}
+.formtuychinh h5{
+  font-family: 'Roboto', sans-serif;
+
+}
+.formtuychinh li i{
+  font-style: normal;
+  color: #aaa
+  
+}
+.formtuychinh li a{
+  color: #384158;
+}
+.formtuychinh li a:hover{
+  color: #14bdee;
 }
