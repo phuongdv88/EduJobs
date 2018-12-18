@@ -10,11 +10,124 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/home.css">
 <link rel="stylesheet" type="text/css" href="css/searchEmployers.css">
-
+<link rel="stylesheet" type="text/css" href="css/login.css">
 
 
 
 <div class="super_container">
+     <!-- modal dang nhập -->
+     <div class="modal fade" id="dangnhap">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+    
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Đăng Nhập</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+    
+                    <!-- Modal body -->
+                    <div class="modal-body clearPadding">
+                        <div class=" col-lg-12 col-md-12 col-sm-126 col-12 login clearPadding">
+    
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12 formLogin ">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
+                                    <label>Email:</label>
+                                    <input type="text" placeholder="Email..">
+                                    <label>Mật khẩu:</label>
+                                    <input type="password" placeholder="Mật khẩu..">
+                                    <label>
+                                        <input type="checkbox"> Lưu mật khẩu
+                                    </label>
+                                </div>
+                                <div class="row col-lg-12 col-md-12 col-sm-12 col-12 clearPadding" >
+                                    <div class=" col-lg-12 col-md-12 col-sm-12 col-12 ">
+                                        <a href="#"> Quên mật khẩu? </a>
+                                    </div>
+                                    <div class=" col-lg-12 col-md-12 col-sm-12 col-12 "style="display: flex;margin-top:1em">
+                                        <!-- <input type="submit" class="btnDangNhap" value="Đăng nhập"> -->
+                                        <button class="btnDangNhap">Đăng nhập</button> 
+                                        <button class="btnDangNhap" data-toggle="modal" data-target="#dangky" >Đăng ký</button>
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+    
+    
+                </div>
+            </div>
+        </div>   
+        <!-- modal dang ky -->
+        <div class="modal fade" id="dangky">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+        
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Đăng Ký</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+        
+                        <!-- Modal body -->
+                        <div class="modal-body clearPadding">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-12 login clearPadding">
+                                      
+                                        <div class=" row col-lg-12 col-md-12 col-sm-12 col-12 formLogin clearPadding">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-12 clearPaddingRight" style="padding-left: 0px">
+                                                    <label>Chức vụ:</label>
+                                                    <input type="text" placeholder="Chức vụ..">
+                                                </div>
+                                                <div class=" col-lg-4 col-md-4 col-sm-4 col-12 clearPaddingRight">
+                                                    <label>Họ & Đệm:</label>
+                                                    <input type="text" placeholder="Họ đệm..">
+                                                </div>
+                                                <div class=" col-lg-4 col-md-4 col-sm-4 col-12 clearPaddingRight">
+                                                    <label>Tên:</label>
+                                                    <input type="text" placeholder="Tên..">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
+                                                <label>Email:</label>
+                                                <input type="text" placeholder="Email..">
+                                                <label>Mật khẩu:</label>
+                                                <input type="password" placeholder="Mật khẩu..">
+                                                <label>Nhập lại mật khẩu:</label>
+                                                <input type="password" placeholder="Mật khẩu..">
+                                                <label>
+                                                    <input type="checkbox"> Lưu đăng nhập
+                                                </label>
+                                                <br>
+                                                <label>
+                                                    <input type="checkbox"> Nhận email về các công việc của tuyendunggiaoduc.com
+                                                </label>
+                                                <label>
+                                                    <input type="checkbox"> Đồng ý với các Điều Khoản & Chính Sách Bảo Mật
+                                                </label>
+                                            </div>
+                                            <div class="row col-lg-12 col-md-12 col-sm-12 col-12 clearPadding" style="height: 4em;">
+                    
+                                                <div style="position: absolute;right: 0;bottom: 0">
+                                                    <!-- <input type="submit" class="btnDangNhap" value="Đăng nhập"> -->
+                                                    <button class="btnDangNhap">Đăng Ký</button>
+                                                </div>
+                    
+                                            </div>
+                    
+                                        </div>
+                                    </div>
+                        </div>
+        
+        
+        
+                    </div>
+                </div>
+            </div> 
+        <!-- end modal -->
     <!-- Header Content -->
     <div class="header_container">
         <div>
@@ -49,7 +162,8 @@
                                     <a href="#">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="dangnhap.html">Đăng Nhập</a>
+                                    <a href="#" data-toggle="modal" data-target="#dangnhap">Đăng Nhập</a>
+
                                 </li>
                                 <button class="btnRecruiter">
                                     <b>Tuyển Dụng</b>
@@ -96,7 +210,8 @@
                     <a href="#">Blog</a>
                 </li>
                 <li class="menu_mm">
-                    <a href="dangnhap.html">Đăng Nhập</a>
+                    <a href="#" data-toggle="modal" data-target="#dangnhap">Đăng Nhập</a>
+
                 </li>
                 <button class="btnRecruiter">
                     <b>Tuyển Dụng</b>
@@ -286,7 +401,7 @@
                                                 <!-- <div class="footer_logo_text">Edu
                                                     <span>School</span>
                                                 </div> -->
-                                                <img src="img/logo2.png" style="width: 100%;"> 
+                                                <img src="img/logo2.png" style="width: 100%;">
                                             </a>
                                         </div>
                                         <div class="footer_about_text">

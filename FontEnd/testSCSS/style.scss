@@ -1,0 +1,268 @@
+$mauchu:#212529;
+$mauchunhat:#d6c5c5;
+$mauchuhover:#14bdee;
+$mauborder:#d2d6de;
+$maubutton:#14bdee;
+$maubackground:#eee;
+$maubtnUngTuyen:red;
+.left{
+    margin-top: 1em;
+    div{
+        padding:0.3em 0 0.3em 0;
+
+        a{
+            color: $mauchu;
+            margin-top: 1em;
+            
+        }
+        a:hover{
+            color: $mauchuhover
+          
+        }
+       
+       
+    }
+    
+}
+@mixin clearPadding{
+    padding: 0px;
+}
+@mixin btnUngTuyen{
+    margin-top: 1em;
+    height: 3em;
+    width: 100%;
+    background: $maubtnUngTuyen;
+    text-align: center;
+    border: 0px;
+    border-radius: 5px;
+    b{
+        color: white;
+        font-size: 18px;
+    }
+}
+.center{
+
+    @include clearPadding;
+    margin-bottom: 1em;
+    
+    .divImg{
+        @include clearPadding;
+    }
+    
+    img{
+        width: 100%;
+    }
+    h4{
+        padding-bottom: 1em;
+    }
+}
+.topJob{
+    @include clearPadding;
+    margin-top: 1em;
+    p{
+        font-weight: bolder;
+        color: $mauchu;
+    }
+    li{
+        color: $mauchunhat;
+        padding-left: 1em;
+        font-size: 12px;
+    }
+}
+a{
+    color: $mauchu;
+}
+a:hover{
+    color: $mauchuhover;
+}
+// dang bài
+.post{
+   padding-right: 0px;
+    label{
+        min-width: 120px;
+        color: $mauchu;
+
+    }
+    input,select{
+        height: 2.5em;
+         width: 100%;
+         margin-bottom: 1em;
+        border-radius: 3px;
+        border: 1px $mauborder solid;
+        padding-left: 1em;
+       
+    }
+    .paddingRight{
+        padding-right: 0px;
+    }
+}
+.posts{
+    @include clearPadding();
+    
+}
+.btn{
+    @include clearPadding();
+    margin-bottom: 1em;
+    .btnDangBai{
+        height: 2.5em;   
+      min-width: 120px;
+        text-align: center;    
+        border: none;
+        color: white;
+        border-radius: 3px;
+        background: $maubutton;
+        float: right;
+    }
+}
+table{
+    a{
+       padding-right: 1em;
+    }
+    .iconActive{
+        color: red;
+        padding-right: 1em;
+    }
+    .btnGiahan{
+       
+        float: right;
+        
+    }
+    .iconExried{
+        color: black;
+        padding-right: 1em;
+    }
+}
+.centerCTCV{
+   margin-bottom: 2em;
+    .leftCtcv{
+        margin-top: 3em;
+        .imgSchool{
+            width: 100%;
+            // height: 100%;
+        
+        }
+        
+        .background{
+            background: $maubackground;
+            padding-bottom: 2em;
+            h4{
+                padding-top: 1em;
+                text-align: center;
+            }
+            label{
+                margin-top: 1em;
+            }
+            p{
+                color: $mauchu;
+                margin-bottom: 0px;
+                i{
+                    padding-right: 2em;
+                
+                }
+            }
+            a{
+                color: red;
+            }
+           
+            
+        }
+    }
+    .rightCTCV{
+        margin-top: 3em;
+        
+        p{
+            margin-bottom: 0;
+            i{
+                padding-right: 2em;
+            
+            }
+        }
+        .btnUngTuyen{
+           @include btnUngTuyen();
+        }
+        .btnUngTuyen:hover{
+            background: #cc0000; 
+        }
+        
+        .contentCTCV{
+            h3{
+                margin-bottom: 1em;
+                
+            }
+            li{
+                color: $mauchu;
+                font-size: 14px;
+            }
+        }
+    }
+    .bottomCTCV{
+        margin-top: 1em;
+        padding: 1em 0 1em 0;
+        
+          .boder{
+            border: 1px #aaa solid;
+            padding: 1em 0 1em 0;
+            border-radius: 5px;
+            margin-bottom: 1em;
+            margin-top: 1em;
+            .btnChiTiet{
+                border: 1px #aaa solid;
+                border-radius: 5px;
+                height: 2.5em;
+                padding: 0 1em 0 1em;
+                margin-top: 1em;
+              }
+              .btnLike{
+                border: 0px;
+                background: white;
+                
+                text-align: center;
+                position: absolute;
+                right: 3em;
+                bottom: 8px;
+                
+              }
+              .btnLike i{
+                color: red;
+                font-size: 18px;
+              }
+              .imgSchool{
+                  width: 100%;
+                  height: 200px;
+              }
+          }
+    }
+    
+}
+.scrollTop {
+    position: fixed;
+    top: 0;
+   height: 5em;
+    background-color:white;      
+    opacity: 0;
+    z-index: 100;
+    border-bottom: 1px $mauborder solid;
+
+    transition: all 0.4s ease-in-out 0s;
+    
+    .container{
+        height: 100%;
+        img{
+            height: 3em;
+            width: 3em;
+            margin-top: 1em;
+            float: left;
+        }
+        h4{
+            float: left;
+            margin-top: 23px;
+            margin-left: 1em;
+        }
+        .btnUngTuyen{
+            @include btnUngTuyen();
+            width: 200px;
+            float: right;
+        }
+    }
+}
+

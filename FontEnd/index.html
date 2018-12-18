@@ -1,5 +1,4 @@
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/animate.css">
 <link rel="stylesheet" type="text/css" href="css/main_styles.css">
@@ -7,17 +6,173 @@
 <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
 <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
 <link rel="stylesheet" type="text/css" href="css/responsive.css">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"crossorigin="anonymous"> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/home.css">
+<link rel="stylesheet" type="text/css" href="css/login.css">
 
 <div class="super_container">
+    <!-- modal dang nhập -->
+    <div class="modal fade" id="dangnhap">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Đăng Nhập</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body clearPadding">
+                    <div class=" col-lg-12 col-md-12 col-sm-126 col-12 login clearPadding">
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 formLogin ">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
+                                <label>Email:</label>
+                                <input type="text" placeholder="Email..">
+                                <label>Mật khẩu:</label>
+                                <input type="password" placeholder="Mật khẩu..">
+                                <label>
+                                    <input type="checkbox"> Lưu mật khẩu
+                                </label>
+                            </div>
+                            <div class="row col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
+                                <div class=" col-lg-12 col-md-12 col-sm-12 col-12 ">
+                                    <a href="#"> Quên mật khẩu? </a>
+                                </div>
+                                <div class=" col-lg-12 col-md-12 col-sm-12 col-12 " style="display: flex;margin-top:1em">
+                                    <!-- <input type="submit" class="btnDangNhap" value="Đăng nhập"> -->
+                                    <button class="btnDangNhap">Đăng nhập</button>
+                                    <button class="btnDangNhap" data-toggle="modal" data-target="#dangky">Đăng ký</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- modal dang ky -->
+    <div class="modal fade" id="dangky">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Đăng Ký</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body clearPadding">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 login clearPadding">
+
+                        <div class=" row col-lg-12 col-md-12 col-sm-12 col-12 formLogin clearPadding">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12 clearPaddingRight" style="padding-left: 0px">
+                                    <label>Chức vụ:</label>
+                                    <input type="text" placeholder="Chức vụ..">
+                                </div>
+                                <div class=" col-lg-4 col-md-4 col-sm-4 col-12 clearPaddingRight">
+                                    <label>Họ & Đệm:</label>
+                                    <input type="text" placeholder="Họ đệm..">
+                                </div>
+                                <div class=" col-lg-4 col-md-4 col-sm-4 col-12 clearPaddingRight">
+                                    <label>Tên:</label>
+                                    <input type="text" placeholder="Tên..">
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
+                                <label>Email:</label>
+                                <input type="text" placeholder="Email..">
+                                <label>Mật khẩu:</label>
+                                <input type="password" placeholder="Mật khẩu..">
+                                <label>Nhập lại mật khẩu:</label>
+                                <input type="password" placeholder="Mật khẩu..">
+                                <label>
+                                    <input type="checkbox"> Lưu đăng nhập
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="checkbox"> Nhận email về các công việc của tuyendunggiaoduc.com
+                                </label>
+                                <label>
+                                    <input type="checkbox"> Đồng ý với các Điều Khoản & Chính Sách Bảo Mật
+                                </label>
+                            </div>
+                            <div class="row col-lg-12 col-md-12 col-sm-12 col-12 clearPadding" style="height: 4em;">
+
+                                <div style="position: absolute;right: 0;bottom: 0">
+                                    <!-- <input type="submit" class="btnDangNhap" value="Đăng nhập"> -->
+                                    <button class="btnDangNhap">Đăng Ký</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!--form alert  -->
+    <div>
+        <div class="notification success">
+            <div class="icon">
+                <i class="fa fa-check fa-2x "></i>
+            </div>
+            <div class="content">
+                Thanh cong
+            </div>
+        </div>
+
+
+
+        <div class="notification error">
+            <div class="icon">
+                <i class="fa fa-times fa-2x"></i>
+            </div>
+            <div class="content">
+                loi
+            </div>
+        </div>
+
+
+        <div class="notification info">
+            <div class="icon">
+                <i class="fa fa-info fa-2x"></i>
+            </div>
+            <div class="content">
+                information
+            </div>
+        </div>
+
+
+    </div>
+    <!-- <script>
+    function test() {
+            $(".notification.success").addClass("animation");
+            setTimeout(function(){   $(".notification.success").removeClass("animation"); }, 10000);
+        }
+</script> -->
+
+    <!-- end modal -->
     <!-- Header Content -->
     <div class="header_container">
-        <div  >
+        <div>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="header_content d-flex flex-row align-items-center justify-content-start">
-                        <div class="logo_container" >
+                        <div class="logo_container">
                             <!-- <a href="#">
                                 <div class="logo_text">Edu
                                     <span>School</span>
@@ -25,7 +180,7 @@
                             </a> -->
                             <a href="#">
                                 <!-- <img src="img/classroom-2093744_1920.jpg"> -->
-                                <img src="img/logo2.png" >
+                                <img src="img/logo2.png">
                             </a>
                         </div>
                         <nav class="main_nav_contaner ml-auto">
@@ -46,7 +201,7 @@
                                     <a href="#">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="dangnhap.html">Đăng Nhập</a>
+                                    <a href="#" data-toggle="modal" data-target="#dangnhap">Đăng Nhập</a>
                                 </li>
                                 <button class="btnRecruiter">
                                     <b>Tuyển Dụng</b>
@@ -101,7 +256,7 @@
                     <a href="#">Blog</a>
                 </li>
                 <li class="menu_mm">
-                    <a href="dangnhap.html">Đăng Nhập</a>
+                    <a href="#" data-toggle="modal" data-target="#dangnhap">Đăng Nhập</a>
                 </li>
                 <button class="btnRecruiter">
                     <b>Tuyển Dụng</b>
@@ -203,7 +358,7 @@
                                 <div class="blog_post_title">
                                     <a href="#">Trường Mầm Non Song Ngữ Việt-Mỹ</a>
                                 </div>
-                                
+
                                 <div class="blog_post_text">
                                     <a href="#">10 Việc làm
                                         <i>- Hà Nội</i>
@@ -222,7 +377,7 @@
                                 <div class="blog_post_title">
                                     <a href="#">Trường Mầm Non Song Ngữ Việt-Mỹ</a>
                                 </div>
-                                
+
                                 <div class="blog_post_text">
                                     <a href="#">10 Việc làm
                                         <i>- Hà Nội</i>
@@ -241,7 +396,7 @@
                                 <div class="blog_post_title">
                                     <a href="#">Trường Mầm Non Song Ngữ Việt-Mỹ</a>
                                 </div>
-                               
+
                                 <div class="blog_post_text">
                                     <a href="#">10 Việc làm
                                         <i>- Hà Nội</i>
@@ -260,7 +415,7 @@
                                 <div class="blog_post_title">
                                     <a href="#">Trường Mầm Non Song Ngữ Việt-Mỹ</a>
                                 </div>
-                               
+
                                 <div class="blog_post_text">
                                     <a href="#">10 Việc làm
                                         <i>- Hà Nội</i>
@@ -307,7 +462,7 @@
                                 <div class="blog_post_title">
                                     <a href="#">Trường Mầm Non Song Ngữ Việt-Mỹ</a>
                                 </div>
-                                
+
                                 <div class="blog_post_text">
                                     <a href="#">10 Việc làm
                                         <i>- Hà Nội</i>
@@ -326,7 +481,7 @@
                                 <div class="blog_post_title">
                                     <a href="#">Trường Mầm Non Song Ngữ Việt-Mỹ</a>
                                 </div>
-                                
+
                                 <div class="blog_post_text">
                                     <a href="#">10 Việc làm
                                         <i>- Hà Nội</i>
@@ -345,7 +500,7 @@
                                 <div class="blog_post_title">
                                     <a href="#">Trường Mầm Non Song Ngữ Việt-Mỹ</a>
                                 </div>
-                                
+
                                 <div class="blog_post_text">
                                     <a href="#">10 Việc làm
                                         <i>- Hà Nội</i>
@@ -364,7 +519,7 @@
                                 <div class="blog_post_title">
                                     <a href="#">Trường Mầm Non Song Ngữ Việt-Mỹ</a>
                                 </div>
-                              
+
                                 <div class="blog_post_text">
                                     <a href="#">10 Việc làm
                                         <i>- Hà Nội</i>
@@ -398,7 +553,7 @@
                                                 <!-- <div class="footer_logo_text">Edu
                                                     <span>School</span>
                                                 </div> -->
-                                                <img src="img/logo2.png" style="width: 100%;"> 
+                                                <img src="img/logo2.png" style="width: 100%;">
                                             </a>
                                         </div>
                                         <div class="footer_about_text">
@@ -486,7 +641,7 @@
         </footer>
     </div>
 </div>
-</div>
+
 
 
 
@@ -522,30 +677,4 @@
 <script src="js/owl.carousel.js"></script>
 <script src="js/easing.js"></script>
 <script src="js/custom.js"></script>
-<script>
-    $(function () {
-        var currencies = [
-            { value: 'Afghan afghani, ha noi' },
-            { value: 'Albanian lek da nang' },
-            { value: 'Algerian dinar' },
-            { value: 'European euro' },
-            { value: 'Angolan kwanza' },
-            { value: 'East Caribbean dollar' },
-            { value: 'Vietnamese dong' },
-            { value: 'Yemeni rial' },
-            { value: 'Zambian kwacha' },
-            { value: 'Zimbabwean dollar' },
-        ];
-
-
-        $('#textsearch').autocomplete({
-            lookup: currencies,
-        });
-        
-        $('#diadiem').autocomplete({
-            lookup: currencies,
-        });
-        
-    });
-
-</script>
+<script src="js/post.js"></script>

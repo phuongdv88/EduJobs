@@ -1,0 +1,188 @@
+.left {
+  margin-top: 1em; }
+  .left div {
+    padding: 0.3em 0 0.3em 0; }
+    .left div a {
+      color: #212529;
+      margin-top: 1em; }
+    .left div a:hover {
+      color: #14bdee; }
+
+.center {
+  padding: 0px;
+  margin-bottom: 1em; }
+  .center .divImg {
+    padding: 0px; }
+  .center img {
+    width: 100%; }
+  .center h4 {
+    padding-bottom: 1em; }
+
+.topJob {
+  padding: 0px;
+  margin-top: 1em; }
+  .topJob p {
+    font-weight: bolder;
+    color: #212529; }
+  .topJob li {
+    color: #d6c5c5;
+    padding-left: 1em;
+    font-size: 12px; }
+
+a {
+  color: #212529; }
+
+a:hover {
+  color: #14bdee; }
+
+.post {
+  padding-right: 0px; }
+  .post label {
+    min-width: 120px;
+    color: #212529; }
+  .post input, .post select {
+    height: 2.5em;
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 3px;
+    border: 1px #d2d6de solid;
+    padding-left: 1em; }
+  .post .paddingRight {
+    padding-right: 0px; }
+
+.posts {
+  padding: 0px; }
+
+.btn {
+  padding: 0px;
+  margin-bottom: 1em; }
+  .btn .btnDangBai {
+    height: 2.5em;
+    min-width: 120px;
+    text-align: center;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    background: #14bdee;
+    float: right; }
+
+table a {
+  padding-right: 1em; }
+table .iconActive {
+  color: red;
+  padding-right: 1em; }
+table .btnGiahan {
+  float: right; }
+table .iconExried {
+  color: black;
+  padding-right: 1em; }
+
+.centerCTCV {
+  margin-bottom: 2em; }
+  .centerCTCV .leftCtcv {
+    margin-top: 3em; }
+    .centerCTCV .leftCtcv .imgSchool {
+      width: 100%; }
+    .centerCTCV .leftCtcv .background {
+      background: #eee;
+      padding-bottom: 2em; }
+      .centerCTCV .leftCtcv .background h4 {
+        padding-top: 1em;
+        text-align: center; }
+      .centerCTCV .leftCtcv .background label {
+        margin-top: 1em; }
+      .centerCTCV .leftCtcv .background p {
+        color: #212529;
+        margin-bottom: 0px; }
+        .centerCTCV .leftCtcv .background p i {
+          padding-right: 2em; }
+      .centerCTCV .leftCtcv .background a {
+        color: red; }
+  .centerCTCV .rightCTCV {
+    margin-top: 3em; }
+    .centerCTCV .rightCTCV p {
+      margin-bottom: 0; }
+      .centerCTCV .rightCTCV p i {
+        padding-right: 2em; }
+    .centerCTCV .rightCTCV .btnUngTuyen {
+      margin-top: 1em;
+      height: 3em;
+      width: 100%;
+      background: red;
+      text-align: center;
+      border: 0px;
+      border-radius: 5px; }
+      .centerCTCV .rightCTCV .btnUngTuyen b {
+        color: white;
+        font-size: 18px; }
+    .centerCTCV .rightCTCV .btnUngTuyen:hover {
+      background: #cc0000; }
+    .centerCTCV .rightCTCV .contentCTCV h3 {
+      margin-bottom: 1em; }
+    .centerCTCV .rightCTCV .contentCTCV li {
+      color: #212529;
+      font-size: 14px; }
+  .centerCTCV .bottomCTCV {
+    margin-top: 1em;
+    padding: 1em 0 1em 0; }
+    .centerCTCV .bottomCTCV .boder {
+      border: 1px #aaa solid;
+      padding: 1em 0 1em 0;
+      border-radius: 5px;
+      margin-bottom: 1em;
+      margin-top: 1em; }
+      .centerCTCV .bottomCTCV .boder .btnChiTiet {
+        border: 1px #aaa solid;
+        border-radius: 5px;
+        height: 2.5em;
+        padding: 0 1em 0 1em;
+        margin-top: 1em; }
+      .centerCTCV .bottomCTCV .boder .btnLike {
+        border: 0px;
+        background: white;
+        text-align: center;
+        position: absolute;
+        right: 3em;
+        bottom: 8px; }
+      .centerCTCV .bottomCTCV .boder .btnLike i {
+        color: red;
+        font-size: 18px; }
+      .centerCTCV .bottomCTCV .boder .imgSchool {
+        width: 100%;
+        height: 200px; }
+
+.scrollTop {
+  position: fixed;
+  top: 0;
+  height: 5em;
+  background-color: white;
+  opacity: 0;
+  z-index: 100;
+  border-bottom: 1px #d2d6de solid;
+  transition: all 0.4s ease-in-out 0s; }
+  .scrollTop .container {
+    height: 100%; }
+    .scrollTop .container img {
+      height: 3em;
+      width: 3em;
+      margin-top: 1em;
+      float: left; }
+    .scrollTop .container h4 {
+      float: left;
+      margin-top: 23px;
+      margin-left: 1em; }
+    .scrollTop .container .btnUngTuyen {
+      margin-top: 1em;
+      height: 3em;
+      width: 100%;
+      background: red;
+      text-align: center;
+      border: 0px;
+      border-radius: 5px;
+      width: 200px;
+      float: right; }
+      .scrollTop .container .btnUngTuyen b {
+        color: white;
+        font-size: 18px; }
+
+/*# sourceMappingURL=style.css.map */

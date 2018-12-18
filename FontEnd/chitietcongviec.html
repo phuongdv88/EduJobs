@@ -1,0 +1,600 @@
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" type="text/css" href="css/main_styles.css">
+<link rel="stylesheet" type="text/css" href="css/blog.css">
+<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/home.css">
+<link rel="stylesheet" type="text/css" href="css/login.css">
+<link rel="stylesheet" type="text/css" href="testSCSS/style.css">
+
+
+
+
+<div class="super_container">
+    <!-- top  -->
+    <div id="top" class="col-lg-12 col-md-12 col-sm-12 col-12 scrollTop">
+        <div class="container">
+            <img class="rounded-circle" src="img/logo.JPG">
+            <h4>Tuyển Dụng 4 Giáo Viên Mầm Non</h4>
+            <button class="btnUngTuyen">
+                <b>Ứng Tuyển</b>
+            </button>
+        </div>
+    </div>
+    <!-- modal dang nhập -->
+    <div class="modal fade" id="dangnhap">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Đăng Nhập</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body clearPadding">
+                    <div class=" col-lg-12 col-md-12 col-sm-126 col-12 login clearPadding">
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 formLogin ">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
+                                <label>Email:</label>
+                                <input type="text" placeholder="Email..">
+                                <label>Mật khẩu:</label>
+                                <input type="password" placeholder="Mật khẩu..">
+                                <label>
+                                    <input type="checkbox"> Lưu mật khẩu
+                                </label>
+                            </div>
+                            <div class="row col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
+                                <div class=" col-lg-12 col-md-12 col-sm-12 col-12 ">
+                                    <a href="#"> Quên mật khẩu? </a>
+                                </div>
+                                <div class=" col-lg-12 col-md-12 col-sm-12 col-12 " style="display: flex;margin-top:1em">
+                                    <!-- <input type="submit" class="btnDangNhap" value="Đăng nhập"> -->
+                                    <button class="btnDangNhap">Đăng nhập</button>
+                                    <button class="btnDangNhap" data-toggle="modal" data-target="#dangky">Đăng ký</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- modal dang ky -->
+    <div class="modal fade" id="dangky">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Đăng Ký</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body clearPadding">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 login clearPadding">
+
+                        <div class=" row col-lg-12 col-md-12 col-sm-12 col-12 formLogin clearPadding">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-12 clearPaddingRight" style="padding-left: 0px">
+                                    <label>Chức vụ:</label>
+                                    <input type="text" placeholder="Chức vụ..">
+                                </div>
+                                <div class=" col-lg-4 col-md-4 col-sm-4 col-12 clearPaddingRight">
+                                    <label>Họ & Đệm:</label>
+                                    <input type="text" placeholder="Họ đệm..">
+                                </div>
+                                <div class=" col-lg-4 col-md-4 col-sm-4 col-12 clearPaddingRight">
+                                    <label>Tên:</label>
+                                    <input type="text" placeholder="Tên..">
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
+                                <label>Email:</label>
+                                <input type="text" placeholder="Email..">
+                                <label>Mật khẩu:</label>
+                                <input type="password" placeholder="Mật khẩu..">
+                                <label>Nhập lại mật khẩu:</label>
+                                <input type="password" placeholder="Mật khẩu..">
+                                <label>
+                                    <input type="checkbox"> Lưu đăng nhập
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="checkbox"> Nhận email về các công việc của tuyendunggiaoduc.com
+                                </label>
+                                <label>
+                                    <input type="checkbox"> Đồng ý với các Điều Khoản & Chính Sách Bảo Mật
+                                </label>
+                            </div>
+                            <div class="row col-lg-12 col-md-12 col-sm-12 col-12 clearPadding" style="height: 4em;">
+
+                                <div style="position: absolute;right: 0;bottom: 0">
+                                    <!-- <input type="submit" class="btnDangNhap" value="Đăng nhập"> -->
+                                    <button class="btnDangNhap">Đăng Ký</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!--form alert  -->
+    <div>
+        <div class="notification success">
+            <div class="icon">
+                <i class="fa fa-check fa-2x "></i>
+            </div>
+            <div class="content">
+                Thanh cong
+            </div>
+        </div>
+
+
+
+        <div class="notification error">
+            <div class="icon">
+                <i class="fa fa-times fa-2x"></i>
+            </div>
+            <div class="content">
+                loi
+            </div>
+        </div>
+
+
+        <div class="notification info">
+            <div class="icon">
+                <i class="fa fa-info fa-2x"></i>
+            </div>
+            <div class="content">
+                information
+            </div>
+        </div>
+
+
+    </div>
+    <!-- <script>
+    function test() {
+            $(".notification.success").addClass("animation");
+            setTimeout(function(){   $(".notification.success").removeClass("animation"); }, 10000);
+        }
+</script> -->
+    <!-- end modal -->
+    <!-- Header Content -->
+    <div class="header_container">
+        <div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header_content d-flex flex-row align-items-center justify-content-start">
+                        <div class="logo_container">
+                            <!-- <a href="#">
+                                <div class="logo_text">Edu
+                                    <span>School</span>
+                                </div>
+                            </a> -->
+                            <a href="#">
+                                <!-- <img src="img/classroom-2093744_1920.jpg"> -->
+                                <img src="img/logo2.png">
+                            </a>
+                        </div>
+                        <nav class="main_nav_contaner ml-auto">
+                            <ul class="main_nav">
+                                <li class="active">
+                                    <a href="index.html">Trang Chủ</a>
+                                </li>
+                                <li>
+                                    <a href="timkiemnangcao.html">Tìm Việc</a>
+                                </li>
+                                <li>
+                                    <a href="thongbaocongviec.html">Thông Báo </a>
+                                </li>
+                                <li>
+                                    <a href="timnhatuyendung.html">Nhà Tuyển Dụng</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#" data-toggle="modal" data-target="#dangnhap">Đăng Nhập</a>
+                                </li>
+                                <button class="btnRecruiter">
+                                    <b>Tuyển Dụng</b>
+                                </button>
+                            </ul>
+
+                            <!-- Hamburger -->
+
+
+                            <div class="hamburger menu_mm">
+                                <i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+                            </div>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Menu -->
+    <div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+        <div class="menu_close_container">
+            <div class="menu_close">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <!-- <div class="search">
+            <form action="#" class="header_search_form menu_mm">
+                <input type="search" class="search_input menu_mm" placeholder="Search" required="required">
+                <button class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
+                    <i class="fa fa-search menu_mm" aria-hidden="true"></i>
+                </button>
+            </form>
+        </div> -->
+        <nav class="menu_nav">
+            <ul class="menu_mm">
+                <li class="menu_mm">
+                    <a href="index.html">Trang Chủ</a>
+                </li>
+                <li class="menu_mm">
+                    <a href="timkiemnangcao.html">Tìm Việc</a>
+                </li>
+                <li class="menu_mm">
+                    <a href="thongbaocongviec.html">Thông Báo</a>
+                </li>
+                <li class="menu_mm">
+                    <a href="timnhatuyendung.html">Nhà Tuyển Dụng</a>
+                </li>
+                <li class="menu_mm">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="menu_mm">
+                    <a href="#" data-toggle="modal" data-target="#dangnhap">Đăng Nhập</a>
+                </li>
+                <button class="btnRecruiter">
+                    <b>Tuyển Dụng</b>
+                </button>
+
+            </ul>
+        </nav>
+    </div>
+    <!-- content -->
+    <div class="container centerCTCV">
+
+
+        <!--  -->
+        <div class=" row col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                <img src="img/school1.jpg" class="imgSchool">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                <img src="img/school1.jpg" class="imgSchool">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                <img src="img/school1.jpg" class="imgSchool">
+            </div>
+        </div>
+        <!--  -->
+        <div class="row col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 leftCtcv">
+                <img src="img/school1.jpg" class="imgSchool">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12 background">
+                    <h4>Trường Mầm Non Quốc Tế Việt Hàn</h4>
+                    <label>Trường mầm non tiêu chuẩn quốc tế. 1 trong top 5 trường tốt nhất Hà Nội</label>
+                    <p>
+                        <i class="fa fa-gear"></i> Giáo dục</p>
+                    <p>
+                        <i class="fa fa-users"> </i>10</p>
+                    <p>
+                        <i class="fa fa-calendar"></i>Thứ 2- Thứ 7</p>
+                    <p>
+                        <i class="fa fa-clock-o"></i>Lương làm thêm giờ</p>
+                    <a href="#">9 công việc cần tuyển</a>
+
+                </div>
+
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-12 rightCTCV">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <h2>
+                        Tuyển dụng 4 giáo viên mầm non
+                    </h2>
+                </div>
+
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <p>
+                        <i class="fa fa-map-marker"></i>Số 12, Ngõ 641, Đường Phạm Văn Đồng,Quận Bắc Từ Liêm</p>
+                    <p>
+                        <i class="fa fa-calendar"></i>10 ngày trước</p>
+                    <p>
+                        <i class="fa fa-money"></i>Lương từ 4tr - 8tr
+                    </p>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
+                    <button class="btnUngTuyen">
+                        <b>Ứng Tuyển</b>
+                    </button>
+                    <hr>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12 contentCTCV">
+                    <h3>3 Lý Do Để Tham Gia</h3>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
+                        <li>Môi trường trẻ trung, năng động</li>
+                        <li>Được du lịch hàng năm</li>
+                        <li>Mức lương cạnh tranh</li>
+                    </div>
+                    <h3>Mô Tả Công Việc</h3>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
+                        <li>Trông trẻ</li>
+                        <li>Chơi với trẻ</li>
+                        <li>Dạy trẻ học</li>
+                        <li>Cho trẻ ăn</li>
+                        <li>Don dẹp phòng học</li>
+                    </div>
+                    <h3>Yêu Cầu Công Việc</h3>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
+                        <li>Nhanh nhẹn</li>
+                        <li>Ưa nhìn</li>
+                        <li>Yêu quý trẻ con</li>
+                        <li>Tốt nghiệp Cao Đẳng</li>
+                        <li>Biết tiếng anh</li>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
+                    <button class="btnUngTuyen">
+                        <b>Ứng Tuyển</b>
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12 bottomCTCV">
+
+                <hr>
+
+                <h3>Việc Làm Phù Hợp Với Bạn</h3>
+
+                <!-- top truong -->
+                <div class="row col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 boder ">
+                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 ">
+                        <h4>
+                            <a href="#">Trường Mầm Non Song Ngữ Việt Mỹ - Xuân Thủy - Hàm Nghi</a>
+                        </h4>
+                        <label>Xuân Thủy, Cầu Giấy</label>
+                    </div>
+                    <div class="row col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 ">
+                        <div class="col-md-7 col-sm-7 col-lg-7 col-12 ">
+
+                            <li>Cần tuyển 5 giáo viên</li>
+                            <li>Trình độ tốt nghiệp đại học</li>
+                            <li>Mức lương: 4 triệu đến 8 triệu</li>
+                        </div>
+                        <div class="col-md-5 col-sm-5 col-lg-5 col-12 ">
+                            <img class="imgSchool" src="img/school1.jpg">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12   col-12 ">
+                            <p class="text"> Hiệu Trưởng cung cấp khả năng lãnh đạo và quản lý một địa điểm trường học, bao gồm việc thực
+                                hiện hiệu quả các sáng kiến ​​của học khu Hiệu Trưởng cung cấp khả năng lãnh đạo và quản
+                                lý một địa điểm trường học, bao gồm việc thực hiện hiệu quả các sáng kiến ​​của học khu ...
+                            </p>
+                        </div>
+                        <div class="row col-md-12 col-sm-12 col-lg-12  col-xl-12   col-12 ">
+                            <div class="col-md-6 col-sm-6 col-lg-6 col-12  ">
+                                <button class="btnChiTiet">Xem chi tiết</button>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-lg-6 col-12 ">
+                                <button class="btnLike">5
+                                    <i class="fa fa-heart-o"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- top truong -->
+                <div class="row col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 boder ">
+                    <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 ">
+                        <h4>
+                            <a href="#">Trường Mầm Non Song Ngữ Việt Mỹ - Xuân Thủy - Hàm Nghi</a>
+                        </h4>
+                        <label>Xuân Thủy, Cầu Giấy</label>
+                    </div>
+                    <div class="row col-md-12 col-sm-12 col-lg-12  col-xl-12  col-12 ">
+                        <div class="col-md-7 col-sm-7 col-lg-7 col-12 ">
+
+                            <li>Cần tuyển 5 giáo viên</li>
+                            <li>Trình độ tốt nghiệp đại học</li>
+                            <li>Mức lương: 4 triệu đến 8 triệu</li>
+                        </div>
+                        <div class="col-md-5 col-sm-5 col-lg-5 col-12 ">
+                            <img class="imgSchool" src="img/school1.jpg">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-lg-12  col-xl-12   col-12 ">
+                            <p class="text"> Hiệu Trưởng cung cấp khả năng lãnh đạo và quản lý một địa điểm trường học, bao gồm việc thực
+                                hiện hiệu quả các sáng kiến ​​của học khu Hiệu Trưởng cung cấp khả năng lãnh đạo và quản
+                                lý một địa điểm trường học, bao gồm việc thực hiện hiệu quả các sáng kiến ​​của học khu ...
+                            </p>
+                        </div>
+                        <div class="row col-md-12 col-sm-12 col-lg-12  col-xl-12   col-12 ">
+                            <div class="col-md-6 col-sm-6 col-lg-6 col-12  ">
+                                <button class="btnChiTiet">Xem chi tiết</button>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-lg-6 col-12 ">
+                                <button class="btnLike">5
+                                    <i class="fa fa-heart-o"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="row">
+        <footer class="footer">
+            <div class="footer_background"></div>
+            <div class="container">
+                <div class="row footer_row">
+                    <div class="col">
+                        <div class="footer_content">
+                            <div class="row">
+
+                                <div class="col-lg-4 col-md-4 col-sm-4  footer_col">
+
+                                    <!-- Footer About -->
+                                    <div class="footer_section footer_about">
+                                        <div class="footer_logo_container">
+                                            <a href="#">
+                                                <!-- <div class="footer_logo_text">Edu
+                                                        <span>School</span>
+                                                    </div> -->
+                                                <img src="img/logo2.png" style="width: 100%;">
+                                            </a>
+                                        </div>
+                                        <div class="footer_about_text">
+                                            <p>Tìm việc không khó</p>
+                                        </div>
+                                        <div class="footer_social">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-sm-4  footer_col">
+
+                                    <!-- Footer Contact -->
+                                    <div class="footer_section footer_contact">
+                                        <div class="footer_title">Liên Hệ</div>
+                                        <div class="footer_contact_info">
+                                            <ul>
+                                                <li>Email: tuyendunggiaoduc@gmail.com</li>
+                                                <li>Phone: 0987654321</li>
+                                                <li>Số 12, Ngõ 641, Đường Phạm Văn Đồng</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-sm-4  footer_col">
+
+                                    <!-- Footer links -->
+                                    <div class="footer_section footer_links">
+                                        <div class="footer_title">Thông Tin</div>
+                                        <div class="footer_links_container">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Giới thiệu</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Điều khoản sử dụng</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Chính sách</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ý tưởng tuyendunggiaoduc.com</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </footer>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery.autocomplete.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/TimelineMax.min.js"></script>
+<script src="js/ScrollMagic.min.js"></script>
+<script src="js/animation.gsap.min.js"></script>
+<script src="js/ScrollToPlugin.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/easing.js"></script>
+<script src="js/custom.js"></script>
+
+<script>
+
+    var scrollTop = $('.scrollTop');
+
+    $(window).scroll(function () {
+        // declare variable
+        var topPos = $(this).scrollTop();
+
+        // if user scrolls down - show scroll to top button
+        if (topPos > 400) {
+            $(scrollTop).css("opacity", "1");
+
+        } else {
+            $(scrollTop).css("opacity", "0");
+        }
+
+    }); // scroll END
+
+
+</script>
