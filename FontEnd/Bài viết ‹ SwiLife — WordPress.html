@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html xmlns="http://www.w3.org/1999/xhtml" class="ie8 wp-toolbar"  lang="vi">
+<![endif]-->
+<!--[if !(IE 8) ]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" class="wp-toolbar"  lang="vi">
+<!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Bài viết &lsaquo; SwiLife &#8212; WordPress</title>
+<script type="text/javascript">
+addLoadEvent = function(func){if(typeof jQuery!="undefined")jQuery(document).ready(func);else if(typeof wpOnload!='function'){wpOnload=func;}else{var oldonload=wpOnload;wpOnload=function(){oldonload();func();}}};
+var ajaxurl = '/wp-admin/admin-ajax.php',
+	pagenow = 'edit-post',
+	typenow = 'post',
+	adminpage = 'edit-php',
+	thousandsSeparator = '.',
+	decimalPoint = ',',
+	isRtl = 0;
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel='dns-prefetch' href='//s.w.org' />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' href='https://swilife.com/wp-admin/load-styles.php?c=1&amp;dir=ltr&amp;load%5B%5D=dashicons,admin-bar,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-pointer,widgets&amp;load%5B%5D=,site-icon,l10n,buttons,wp-auth-check&amp;ver=4.9.8' type='text/css' media='all' />
+<!--[if lte IE 7]>
+<link rel='stylesheet' id='ie-css'  href='https://swilife.com/wp-admin/css/ie.min.css?ver=4.9.8' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='polylang_admin-css'  href='https://swilife.com/wp-content/plugins/polylang/css/admin.min.css?ver=2.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='yoast-seo-adminbar-css'  href='https://swilife.com/wp-content/plugins/wordpress-seo/css/dist/adminbar-710.min.css?ver=7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='yoast-seo-admin-global-css'  href='https://swilife.com/wp-content/plugins/wordpress-seo/css/dist/admin-global-710.min.css?ver=7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='yoast-seo-dismissible-css'  href='https://swilife.com/wp-content/plugins/wordpress-seo/css/dist/wpseo-dismissible-710.min.css?ver=7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='yoast-seo-edit-page-css'  href='https://swilife.com/wp-content/plugins/wordpress-seo/css/dist/edit-page-710.min.css?ver=7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='https://swilife.com/wp-includes/js/thickbox/thickbox.css?ver=4.9.8' type='text/css' media='all' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/swilife.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		
+<script type='text/javascript'>
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"1","time":"1544524623","secure":"1"};/* ]]> */
+</script>
+<script type='text/javascript' src='https://swilife.com/wp-admin/load-scripts.php?c=1&amp;load%5B%5D=jquery-core,jquery-migrate,utils&amp;ver=4.9.8'></script>
+        <style type="text/css">#menu-posts-envira .wp-menu-image img { width: 16px; height: 16px; }</style>
+        	<link id="wp-admin-canonical" rel="canonical" href="https://swilife.com/wp-admin/edit.php" />
+	<script>
+		if ( window.history.replaceState ) {
+			window.history.replaceState( null, null, document.getElementById( 'wp-admin-canonical' ).href + window.location.hash );
+		}
+	</script>
+<script type="text/javascript">var _wpColorScheme = {"icons":{"base":"#82878c","focus":"#00a0d2","current":"#fff"}};</script>
+<link rel="icon" href="https://swilife.com/wp-content/uploads/2018/01/cropped-logo-tron-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://swilife.com/wp-content/uploads/2018/01/cropped-logo-tron-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://swilife.com/wp-content/uploads/2018/01/cropped-logo-tron-180x180.png" />
+<meta name="msapplication-TileImage" content="https://swilife.com/wp-content/uploads/2018/01/cropped-logo-tron-270x270.png" />
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+</head>
+<body class="wp-admin wp-core-ui no-js  pll-dir-ltr edit-php auto-fold admin-bar post-type-post branch-4-9 version-4-9-8 admin-color-fresh locale-vi no-customize-support no-svg">
+<script type="text/javascript">
+	document.body.className = document.body.className.replace('no-js','js');
+</script>
+
+	<!--[if lte IE 8]>
+		<script type="text/javascript">
+			document.body.className = document.body.className.replace( /(^|\s)(no-)?customize-support(?=\s|$)/, '' ) + ' no-customize-support';
+		</script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+		<script type="text/javascript">
+			(function() {
+				var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+						request = true;
+		
+				b[c] = b[c].replace( rcs, ' ' );
+				// The customizer requires postMessage and CORS (if the site is cross domain)
+				b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+			}());
+		</script>
+	<!--<![endif]-->
+	
+<div id="wpwrap">
+
+<div id="adminmenumain" role="navigation" aria-label="Menu chính">
+<a href="#wpbody-content" class="screen-reader-shortcut">Chuyển đến nội dung chính</a>
+<a href="#wp-toolbar" class="screen-reader-shortcut">Chuyển đến thanh công cụ</a>
+<div id="adminmenuback"></div>
+<div id="adminmenuwrap">
+<ul id="adminmenu">
+
+
+	<li class="wp-first-item wp-has-submenu wp-not-current-submenu menu-top menu-top-first menu-icon-dashboard menu-top-last" id="menu-dashboard">
+	<a href='index.php' class="wp-first-item wp-has-submenu wp-not-current-submenu menu-top menu-top-first menu-icon-dashboard menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-dashboard'><br /></div><div class='wp-menu-name'>Bảng tin</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Bảng tin</li><li class="wp-first-item"><a href='index.php' class="wp-first-item">Trang chủ</a></li><li><a href='update-core.php'>Cập nhật <span class='update-plugins count-30'><span class='update-count'>30</span></span></a></li><li><a href='index.php?page=simple_history_page'>Simple History</a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-icon-post open-if-no-js menu-top-first" id="menu-posts">
+	<a href='edit.php' class="wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-icon-post open-if-no-js menu-top-first" ><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-post'><br /></div><div class='wp-menu-name'>Bài viết</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Bài viết</li><li class="wp-first-item current"><a href='edit.php' class="wp-first-item current" aria-current="page">Tất cả bài viết</a></li><li><a href='post-new.php'>Viết bài mới</a></li><li><a href='edit-tags.php?taxonomy=category'>Chuyên mục</a></li><li><a href='edit-tags.php?taxonomy=post_tag'>Thẻ</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" id="menu-media">
+	<a href='upload.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-media'><br /></div><div class='wp-menu-name'>Thư viện</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Thư viện</li><li class="wp-first-item"><a href='upload.php' class="wp-first-item">Thư viện</a></li><li><a href='media-new.php'>Tải lên</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" id="menu-pages">
+	<a href='edit.php?post_type=page' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-page'><br /></div><div class='wp-menu-name'>Trang</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Trang</li><li class="wp-first-item"><a href='edit.php?post_type=page' class="wp-first-item">Tất cả các trang</a></li><li><a href='post-new.php?post_type=page'>Thêm trang mới</a></li></ul></li>
+	<li class="wp-not-current-submenu menu-top menu-icon-comments" id="menu-comments">
+	<a href='edit-comments.php' class="wp-not-current-submenu menu-top menu-icon-comments" ><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-comments'><br /></div><div class='wp-menu-name'>Phản hồi <span class="awaiting-mod count-31"><span class="pending-count">31</span></span></div></a></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_wpcf7 menu-top-last" id="toplevel_page_wpcf7"><a href='admin.php?page=wpcf7' class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_wpcf7 menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-email'><br /></div><div class='wp-menu-name'>Form liên hệ</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Form liên hệ</li><li class="wp-first-item"><a href='admin.php?page=wpcf7' class="wp-first-item">Danh sách Form</a></li><li><a href='admin.php?page=wpcf7-new'>Tạo form mới</a></li><li><a href='admin.php?page=wpcf7-integration'>Tích hợp</a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-appearance menu-top-first" id="menu-appearance">
+	<a href='themes.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-appearance menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-appearance'><br /></div><div class='wp-menu-name'>Giao diện</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Giao diện</li><li class="wp-first-item"><a href='themes.php' class="wp-first-item">Giao diện</a></li><li class="hide-if-no-customize"><a href='customize.php?return=%2Fwp-admin%2Fedit.php' class="hide-if-no-customize">Tùy biến</a></li><li><a href='widgets.php'>Widget</a></li><li><a href='nav-menus.php'>Menu</a></li><li class="hide-if-no-customize"><a href='customize.php?return=%2Fwp-admin%2Fedit.php&#038;autofocus%5Bcontrol%5D=header_image' class="hide-if-no-customize">Header</a></li><li class="hide-if-no-customize"><a href='customize.php?return=%2Fwp-admin%2Fedit.php&#038;autofocus%5Bcontrol%5D=background_image' class="hide-if-no-customize">Nền</a></li><li><a href='themes.php?page=tgmpa-install-plugins'>Install Plugins</a></li><li><a href='themes.php?page=custom-header'>Header</a></li><li><a href='themes.php?page=custom-background'>Nền</a></li><li><a href='theme-editor.php'>Sửa</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" id="menu-plugins">
+	<a href='plugins.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-plugins'><br /></div><div class='wp-menu-name'>Plugin <span class='update-plugins count-7'><span class='plugin-count'>7</span></span></div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Plugin <span class='update-plugins count-7'><span class='plugin-count'>7</span></span></li><li class="wp-first-item"><a href='plugins.php' class="wp-first-item">Plugin đã cài đặt</a></li><li><a href='plugin-install.php'>Cài mới</a></li><li><a href='plugin-editor.php'>Sửa</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" id="menu-users">
+	<a href='users.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-users'><br /></div><div class='wp-menu-name'>Thành viên</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Thành viên</li><li class="wp-first-item"><a href='users.php' class="wp-first-item">Tất cả người dùng</a></li><li><a href='user-new.php'>Thêm mới</a></li><li><a href='profile.php'>Hồ sơ của bạn</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" id="menu-tools">
+	<a href='tools.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-tools'><br /></div><div class='wp-menu-name'>Công cụ</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Công cụ</li><li class="wp-first-item"><a href='tools.php' class="wp-first-item">Các công cụ</a></li><li><a href='import.php'>Nhập vào</a></li><li><a href='export.php'>Xuất ra</a></li><li><a href='tools.php?page=export_personal_data'>Xuất dữ liệu cá nhân</a></li><li><a href='tools.php?page=remove_personal_data'>Xóa dữ liệu cá nhân</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" id="menu-settings">
+	<a href='options-general.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-settings'><br /></div><div class='wp-menu-name'>Cài đặt </div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Cài đặt </li><li class="wp-first-item"><a href='options-general.php' class="wp-first-item">Tổng quan</a></li><li><a href='options-writing.php'>Viết</a></li><li><a href='options-reading.php'>Đọc</a></li><li><a href='options-discussion.php'>Thảo luận</a></li><li><a href='options-media.php'>Thư viện</a></li><li><a href='options-permalink.php'>Đường dẫn tĩnh</a></li><li><a href='privacy.php'>Quyền riêng tư </a></li><li><a href='options-general.php?page=simple_history_settings_menu_slug'>Simple History</a></li><li><a href='options-general.php?page=wpsupercache'>WP Super Cache</a></li><li><a href='options-general.php?page=pagenavi'>PageNavi</a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_wpseo_dashboard menu-top-first" id="toplevel_page_wpseo_dashboard"><a href='admin.php?page=wpseo_dashboard' class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_wpseo_dashboard menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image svg' style="background-image:url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6IzgyODc4YyIgdmlld0JveD0iMCAwIDUxMiA1MTIiPjxnPjxnPjxnPjxnPjxwYXRoIGQ9Ik0yMDMuNiwzOTVjNi44LTE3LjQsNi44LTM2LjYsMC01NGwtNzkuNC0yMDRoNzAuOWw0Ny43LDE0OS40bDc0LjgtMjA3LjZIMTE2LjRjLTQxLjgsMC03NiwzNC4yLTc2LDc2VjM1N2MwLDQxLjgsMzQuMiw3Niw3Niw3NkgxNzNDMTg5LDQyNC4xLDE5Ny42LDQxMC4zLDIwMy42LDM5NXoiLz48L2c+PGc+PHBhdGggZD0iTTQ3MS42LDE1NC44YzAtNDEuOC0zNC4yLTc2LTc2LTc2aC0zTDI4NS43LDM2NWMtOS42LDI2LjctMTkuNCw0OS4zLTMwLjMsNjhoMjE2LjJWMTU0Ljh6Ii8+PC9nPjwvZz48cGF0aCBzdHJva2Utd2lkdGg9IjIuOTc0IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGQ9Ik0zMzgsMS4zbC05My4zLDI1OS4xbC00Mi4xLTEzMS45aC04OS4xbDgzLjgsMjE1LjJjNiwxNS41LDYsMzIuNSwwLDQ4Yy03LjQsMTktMTksMzcuMy01Myw0MS45bC03LjIsMXY3Nmg4LjNjODEuNywwLDExOC45LTU3LjIsMTQ5LjYtMTQyLjlMNDMxLjYsMS4zSDMzOHogTTI3OS40LDM2MmMtMzIuOSw5Mi02Ny42LDEyOC43LTEyNS43LDEzMS44di00NWMzNy41LTcuNSw1MS4zLTMxLDU5LjEtNTEuMWM3LjUtMTkuMyw3LjUtNDAuNywwLTYwbC03NS0xOTIuN2g1Mi44bDUzLjMsMTY2LjhsMTA1LjktMjk0aDU4LjFMMjc5LjQsMzYyeiIvPjwvZz48L2c+PC9zdmc+')"><br /></div><div class='wp-menu-name'>SEO <span class="update-plugins count-0"><span class="plugin-count" aria-hidden="true">0</span><span class="screen-reader-text">0 notifications</span></span></div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>SEO <span class="update-plugins count-0"><span class="plugin-count" aria-hidden="true">0</span><span class="screen-reader-text">0 notifications</span></span></li><li class="wp-first-item"><a href='admin.php?page=wpseo_dashboard' class="wp-first-item">General</a></li><li><a href='admin.php?page=wpseo_titles'>Search Appearance</a></li><li><a href='admin.php?page=wpseo_search_console'>Search Console</a></li><li><a href='admin.php?page=wpseo_social'>Social</a></li><li><a href='admin.php?page=wpseo_tools'>Tools</a></li><li><a href='admin.php?page=wpseo_licenses'>Premium</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-envira" id="menu-posts-envira">
+	<a href='edit.php?post_type=envira' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-envira" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before'><img src="https://swilife.com/wp-content/plugins/envira-gallery-lite/assets/css/images/menu-icon@2x.png" alt="" /></div><div class='wp-menu-name'>Envira Gallery</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Envira Gallery</li><li class="wp-first-item"><a href='edit.php?post_type=envira' class="wp-first-item">Envira Gallery</a></li><li><a href='post-new.php?post_type=envira'>Add New</a></li><li><a href='edit.php?post_type=envira&#038;page=envira-gallery-lite-addons'><span style="color:#7cc048"> Addons</span></a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_mlang menu-top-last" id="toplevel_page_mlang"><a href='admin.php?page=mlang' class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_mlang menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-translation'><br /></div><div class='wp-menu-name'>Languages</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Languages</li><li class="wp-first-item"><a href='admin.php?page=mlang' class="wp-first-item">Languages</a></li><li><a href='admin.php?page=mlang_strings'>Strings translations</a></li><li><a href='admin.php?page=mlang_settings'>Settings</a></li><li><a href='admin.php?page=mlang_lingotek'>Lingotek</a></li></ul></li><li id="collapse-menu" class="hide-if-no-js"><button type="button" id="collapse-button" aria-label="Thu nhỏ menu chính" aria-expanded="true"><span class="collapse-button-icon" aria-hidden="true"></span><span class="collapse-button-label">Thu gọn menu</span></button></li></ul>
+</div>
+</div>
+<div id="wpcontent">
+
+		<div id="wpadminbar" class="nojq nojs">
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Thanh công cụ" tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-menu-toggle"><a class="ab-item" href="#"><span class="ab-icon"></span><span class="screen-reader-text">Menu</span></a>		</li>
+		<li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://swilife.com/wp-admin/about.php"><span class="ab-icon"></span><span class="screen-reader-text">Giới thiệu về WordPress</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+		<li id="wp-admin-bar-about"><a class="ab-item" href="https://swilife.com/wp-admin/about.php">Giới thiệu về WordPress</a>		</li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-wporg"><a class="ab-item" href="https://wordpress.org/">WordPress.org</a>		</li>
+		<li id="wp-admin-bar-documentation"><a class="ab-item" href="https://codex.wordpress.org/">Tài liệu</a>		</li>
+		<li id="wp-admin-bar-support-forums"><a class="ab-item" href="https://wordpress.org/support/">Diễn đàn hỗ trợ</a>		</li>
+		<li id="wp-admin-bar-feedback"><a class="ab-item" href="https://wordpress.org/support/forum/requests-and-feedback">Thông tin phản hồi</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://swilife.com/">SwiLife</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-view-site"><a class="ab-item" href="https://swilife.com/">Xem trang</a>		</li>
+		<li id="wp-admin-bar-simple-history-view-history" class="ab-item--simplehistory"><a class="ab-item" href="https://swilife.com/wp-admin/index.php?page=simple_history_page">Simple History</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-updates"><a class="ab-item" href="https://swilife.com/wp-admin/update-core.php" title="1 Cập nhật WordPress, 7 cập nhật cho plugin, 22 cập nhật cho giao diện"><span class="ab-icon"></span><span class="ab-label">30</span><span class="screen-reader-text">1 Cập nhật WordPress, 7 cập nhật cho plugin, 22 cập nhật cho giao diện</span></a>		</li>
+		<li id="wp-admin-bar-comments"><a class="ab-item" href="https://swilife.com/wp-admin/edit-comments.php"><span class="ab-icon"></span><span class="ab-label awaiting-mod pending-count count-31" aria-hidden="true">31</span><span class="screen-reader-text">31 bình luận đang đợi xét duyệt</span></a>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://swilife.com/wp-admin/post-new.php"><span class="ab-icon"></span><span class="ab-label">Mới</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post"><a class="ab-item" href="https://swilife.com/wp-admin/post-new.php">Bài viết</a>		</li>
+		<li id="wp-admin-bar-new-media"><a class="ab-item" href="https://swilife.com/wp-admin/media-new.php">Tập tin</a>		</li>
+		<li id="wp-admin-bar-new-page"><a class="ab-item" href="https://swilife.com/wp-admin/post-new.php?post_type=page">Trang</a>		</li>
+		<li id="wp-admin-bar-new-envira"><a class="ab-item" href="https://swilife.com/wp-admin/post-new.php?post_type=envira">Envira Gallery</a>		</li>
+		<li id="wp-admin-bar-new-user"><a class="ab-item" href="https://swilife.com/wp-admin/user-new.php">Thành viên</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-archive"><a class="ab-item" href="https://swilife.com/it-test/">Hiển thị bài viết</a>		</li>
+		<li id="wp-admin-bar-wpseo-menu" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://swilife.com/wp-admin/admin.php?page=wpseo_dashboard"><div id="yoast-ab-icon" class="ab-item yoast-logo svg"><span class="screen-reader-text">SEO</span></div></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wpseo-menu-default" class="ab-submenu">
+		<li id="wp-admin-bar-wpseo-configuration-wizard"><a class="ab-item" href="https://swilife.com/wp-admin/admin.php?page=wpseo_configurator">Configuration Wizard</a>		</li>
+		<li id="wp-admin-bar-wpseo-kwresearch" class="menupop"><div class="ab-item ab-empty-item" tabindex="0" aria-haspopup="true">Keyword Research</div><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wpseo-kwresearch-default" class="ab-submenu">
+		<li id="wp-admin-bar-wpseo-adwordsexternal"><a class="ab-item" href="https://adwords.google.com/keywordplanner" target="_blank">AdWords External</a>		</li>
+		<li id="wp-admin-bar-wpseo-googleinsights"><a class="ab-item" href="https://www.google.com/trends/explore#q=" target="_blank">Google Trends</a>		</li>
+		<li id="wp-admin-bar-wpseo-wordtracker"><a class="ab-item" href="http://tools.seobook.com/keyword-tools/seobook/?keyword=" target="_blank">SEO Book</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-wpseo-settings" class="menupop"><div class="ab-item ab-empty-item" tabindex="0" aria-haspopup="true">SEO Settings</div><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wpseo-settings-default" class="ab-submenu">
+		<li id="wp-admin-bar-wpseo-general"><a class="ab-item" href="https://swilife.com/wp-admin/admin.php?page=wpseo_dashboard">Dashboard</a>		</li>
+		<li id="wp-admin-bar-wpseo-titles"><a class="ab-item" href="https://swilife.com/wp-admin/admin.php?page=wpseo_titles">Search Appearance</a>		</li>
+		<li id="wp-admin-bar-wpseo-search-console"><a class="ab-item" href="https://swilife.com/wp-admin/admin.php?page=wpseo_search_console">Search Console</a>		</li>
+		<li id="wp-admin-bar-wpseo-social"><a class="ab-item" href="https://swilife.com/wp-admin/admin.php?page=wpseo_social">Social</a>		</li>
+		<li id="wp-admin-bar-wpseo-tools"><a class="ab-item" href="https://swilife.com/wp-admin/admin.php?page=wpseo_tools">Tools</a>		</li>
+		<li id="wp-admin-bar-wpseo-licenses"><a class="ab-item" href="https://swilife.com/wp-admin/admin.php?page=wpseo_licenses">Premium</a>		</li></ul></div>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-languages" class="menupop"><a class="ab-item" aria-haspopup="true" href="/wp-admin/edit.php?lang=en" title="Filters content by language"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC" title="English" alt="English" /><span class="ab-label" lang="en-US"><span class="screen-reader-text">Filters content by language</span>English</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-languages-default" class="ab-submenu">
+		<li id="wp-admin-bar-all"><a class="ab-item" href="/wp-admin/edit.php?lang=all"><span class="ab-icon"></span>Show all languages</a>		</li>
+		<li id="wp-admin-bar-vi"><a class="ab-item" href="/wp-admin/edit.php?lang=vi" lang="vi"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFsSURBVHjaYvzPgAD/UNlYEUAAmuTYAAAQhAEYqF/zFbe50RZ1cMmS9TLi0pJLRjZohAMTGFUN9HdnHgEE1sDw//+Tp0ClINW/f4NI9d////3+f+b3/1+////+9f/XL6A4o6ws0AaAAGIBm/0fRTVQ2v3Pf97f/4/9Aqv+DdHA8Ps3UANAALEAMSNQNdDGP3+ALvnf8vv/t9//9X/////7f+uv/4K//iciNABNBwggsJP+/IW4kuH3n//1v/8v+wVSDURmv/57//7/CeokoKFA0wECiAnkpL9/wH4CO+DNr/+VQA1A9PN/w6//j36CVIMRxEkAAQR20m+QpSBXgU0CuSTj9/93v/8v//V/xW+48UBD/zAwAAQQSAMzOMiABoBUswCd8ev/M7A669//OX7///Lr/x+gBlCoAJ0DEEAgDUy//zBISoKNAfoepJNRFmQkyJecfxj4/kDCEIiAigECiPErakTiiWMIAAgwAB4ZUlqMMhQQAAAAAElFTkSuQmCC" title="Tiếng Việt" alt="Tiếng Việt" />Tiếng Việt</a>		</li></ul></div>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" aria-haspopup="true" href="https://swilife.com/wp-admin/profile.php">Chào, <span class="display-name">phuongdv</span><img alt='' src='https://secure.gravatar.com/avatar/3380f1b4ad19bcc93d82c9e9a66bbc4a?s=26&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/3380f1b4ad19bcc93d82c9e9a66bbc4a?s=52&#038;d=mm&#038;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' /></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
+		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="https://swilife.com/wp-admin/profile.php"><img alt='' src='https://secure.gravatar.com/avatar/3380f1b4ad19bcc93d82c9e9a66bbc4a?s=64&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/3380f1b4ad19bcc93d82c9e9a66bbc4a?s=128&#038;d=mm&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>phuongdv</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile"><a class="ab-item" href="https://swilife.com/wp-admin/profile.php">Chỉnh sửa hồ sơ của tôi</a>		</li>
+		<li id="wp-admin-bar-logout"><a class="ab-item" href="https://swilife.com/wp-login.php?action=logout&#038;_wpnonce=f5f71d20e2">Đăng xuất</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="https://swilife.com/wp-login.php?action=logout&#038;_wpnonce=f5f71d20e2">Đăng xuất</a>
+					</div>
+
+		
+<div id="wpbody" role="main">
+
+<div id="wpbody-content" aria-label="Nội dung chính" tabindex="0">
+		<div id="screen-meta" class="metabox-prefs">
+
+			<div id="contextual-help-wrap" class="hidden" tabindex="-1" aria-label="Khung Trợ Giúp Ngữ Cảnh">
+				<div id="contextual-help-back"></div>
+				<div id="contextual-help-columns">
+					<div class="contextual-help-tabs">
+						<ul>
+						
+							<li id="tab-link-overview" class="active">
+								<a href="#tab-panel-overview" aria-controls="tab-panel-overview">
+									Tổng quan								</a>
+							</li>
+						
+							<li id="tab-link-screen-content">
+								<a href="#tab-panel-screen-content" aria-controls="tab-panel-screen-content">
+									Nội Dung Màn Hình								</a>
+							</li>
+						
+							<li id="tab-link-action-links">
+								<a href="#tab-panel-action-links" aria-controls="tab-panel-action-links">
+									Thao Tác Có Thể Thực Hiện								</a>
+							</li>
+						
+							<li id="tab-link-bulk-actions">
+								<a href="#tab-panel-bulk-actions" aria-controls="tab-panel-bulk-actions">
+									Tác vụ								</a>
+							</li>
+						
+							<li id="tab-link-yst-columns">
+								<a href="#tab-panel-yst-columns" aria-controls="tab-panel-yst-columns">
+									Yoast Columns								</a>
+							</li>
+												</ul>
+					</div>
+
+										<div class="contextual-help-sidebar">
+						<p><strong>Để biết thêm thông tin:</strong></p><p><a href="https://codex.wordpress.org/Posts_Screen">Hướng dẫn quản lý Bài viết</a></p><p><a href="https://wordpress.org/support/">Diễn đàn hỗ trợ</a></p>					</div>
+					
+					<div class="contextual-help-tabs-wrap">
+						
+							<div id="tab-panel-overview" class="help-tab-content active">
+								<p>Màn hình cho phép truy cập tất cả bài viết của bạn. Bạn có thể tùy biến cách hiển thị của màn hình này để phù hợp với nhu cầu của bạn.</p>							</div>
+						
+							<div id="tab-panel-screen-content" class="help-tab-content">
+								<p>Bạn có thể tùy biến nội dung hiển thị tại màn hình này theo các cách sau:</p><ul><li>Bạn có thể ẩn/hiện các cột tùy theo nhu cầu của bạn và chỉ định số lượng bài viết được liệt kê trên mỗi màn hình với thẻ Tùy Chọn Màn Hình.</li><li>Bạn có thể lọc danh sách các bài viết dựa theo trạng thái bài viết sử dụng liên kết chữ ở trên danh sách bài viết chỉ để xem các bài viết cùng trạng thái. Mặc định sẽ hiển thị tất cả bài viết.</li><li>Bạn có thể xem các bài viết ở dạng danh sách đơn giản chỉ với tiêu đề hoặc mô tả ngắn bằng cách sử dụng phần Tùy chọn màn hình.</li><li>Bạn có thể lọc danh sách để chỉ hiển thị bài viết thuộc một nhóm phân loại nhất định hoặc trong một tháng nào đó với các thực đơn xổ xuống phía trên danh sách bài viết. Bấm vào nút Lọc sau khi bạn hoàn tất lựa chọn. Bạn cũng có thể lọc danh sách bằng cách bấm vào tác giả bài viết, nhóm phân loại hoặc thẻ đánh dấu trong danh sách bài viết.</li></ul>							</div>
+						
+							<div id="tab-panel-action-links" class="help-tab-content">
+								<p>Di chuột lên một dòng trong danh sách bài viết sẽ hiển thị các liên kết cho phép bạn quản lý bài viết của bạn. Bạn có thể thực hiện các thao tác sau:</p><ul><li><strong>Biên Tập</strong> đưa bạn tới màn hình soạn thảo cho bài viết. Bạn cũng có thể mở màn hình đó bằng cách bấm vào tiêu đề của bài viết.</li><li><strong>Chỉnh Sửa Nhanh</strong> cung cấp truy cập nhanh tới siêu dữ liệu bài viết của bạn, cho phép bạn cập nhật các thông tin liên quan của bài viết mà không cần rời khỏi màn hình này.</li><li><strong>Đưa Vào Thùng Rác</strong> loại bỏ bài viết của bạn khỏi danh sách và đưa vào thùng rác, tại đó bạn có thể xóa vĩnh viễn bài viết.</li><li><strong>Xem Trước</strong> cho bạn thấy bản nháp của bạn sẽ hiển thị như thế nào khi bạn đăng tải nó. Xem sẽ đưa bạn tới mặt trước trang mạng của bạn để xem bài viết. Liên kết nào được hiển thị phụ thuộc vào trạng thái bài viết của bạn.</li></ul>							</div>
+						
+							<div id="tab-panel-bulk-actions" class="help-tab-content">
+								<p>Bạn cũng có thể biên tập hoặc chuyển nhiều bài viết cùng lúc tới thùng rác. Chọn bài viết bằng cách đánh dấu các hộp kiểm, sau đó chọn hành động bạn muốn thực hiện từ thực đơn Thao Tác Nhóm và bấm vào nút Áp Dụng.</p><p>Khi dùng Biên Tập Nhóm, bạn có thể thay đổi siêu dữ liệu (như: nhóm phân loại, tác giả, v.v.) cho tất cả bài viết được chọn cùng lúc. Để loại bỏ một bài viết khỏi nhóm, bấm vào biểu tượng chữ x bên cạnh tên bài viết trong khung Biên Tập Nhóm.</p>							</div>
+						
+							<div id="tab-panel-yst-columns" class="help-tab-content">
+								<p>Yoast SEO adds several columns to this page. We've written an article about <a href="https://yoa.st/16p?utm_content=7.1">how to use the SEO score and Readability score</a>. The links columns show the number of articles on this site linking <em>to</em> this article and the number of URLs linked <em>from</em> this article. Learn more about <a href="https://yoa.st/16q?utm_content=7.1">how to use these features to improve your internal linking</a>, which greatly enhances your SEO.</p>							</div>
+											</div>
+				</div>
+			</div>
+		<div id="screen-options-wrap" class="hidden" tabindex="-1" aria-label="Khung Tùy Biến Màn Hình">
+<form id='adv-settings' method='post'>
+		<fieldset class="metabox-prefs">
+		<legend>Cột</legend>
+		<label><input class="hide-column-tog" name="author-hide" type="checkbox" id="author-hide" value="author" checked='checked' />Tác giả</label>
+<label><input class="hide-column-tog" name="categories-hide" type="checkbox" id="categories-hide" value="categories" checked='checked' />Chuyên mục</label>
+<label><input class="hide-column-tog" name="tags-hide" type="checkbox" id="tags-hide" value="tags" checked='checked' />Thẻ</label>
+<label><input class="hide-column-tog" name="language_vi-hide" type="checkbox" id="language_vi-hide" value="language_vi" checked='checked' />Tiếng Việt</label>
+<label><input class="hide-column-tog" name="comments-hide" type="checkbox" id="comments-hide" value="comments" checked='checked' />Bình luận</label>
+<label><input class="hide-column-tog" name="date-hide" type="checkbox" id="date-hide" value="date" checked='checked' />Thời gian</label>
+<label><input class="hide-column-tog" name="wpseo-links-hide" type="checkbox" id="wpseo-links-hide" value="wpseo-links" checked='checked' /># links in post</label>
+<label><input class="hide-column-tog" name="wpseo-linked-hide" type="checkbox" id="wpseo-linked-hide" value="wpseo-linked" checked='checked' /># internal links to</label>
+<label><input class="hide-column-tog" name="wpseo-score-hide" type="checkbox" id="wpseo-score-hide" value="wpseo-score" checked='checked' />SEO score</label>
+<label><input class="hide-column-tog" name="wpseo-score-readability-hide" type="checkbox" id="wpseo-score-readability-hide" value="wpseo-score-readability" checked='checked' />Readability score</label>
+<label><input class="hide-column-tog" name="wpseo-title-hide" type="checkbox" id="wpseo-title-hide" value="wpseo-title" />SEO Title</label>
+<label><input class="hide-column-tog" name="wpseo-metadesc-hide" type="checkbox" id="wpseo-metadesc-hide" value="wpseo-metadesc" />Meta Desc.</label>
+<label><input class="hide-column-tog" name="wpseo-focuskw-hide" type="checkbox" id="wpseo-focuskw-hide" value="wpseo-focuskw" />Focus KW</label>
+		</fieldset>
+				<fieldset class="screen-options">
+		<legend>Phân trang</legend>
+							<label for="edit_post_per_page">Số đối tượng trên một trang.</label>
+				<input type="number" step="1" min="1" max="999" class="screen-per-page" name="wp_screen_options[value]"
+					id="edit_post_per_page" maxlength="3"
+					value="20" />
+							<input type="hidden" name="wp_screen_options[option]" value="edit_post_per_page" />
+		</fieldset>
+				<fieldset class="metabox-prefs view-mode">
+		<legend>Chế độ xem</legend>
+				<label for="list-view-mode">
+					<input id="list-view-mode" type="radio" name="mode" value="list"  checked='checked' />
+					Xem dạng danh sách				</label>
+				<label for="excerpt-view-mode">
+					<input id="excerpt-view-mode" type="radio" name="mode" value="excerpt"  />
+					Xem tóm tắt				</label>
+		</fieldset>
+<p class="submit"><input type="submit" name="screen-options-apply" id="screen-options-apply" class="button button-primary" value="Áp dụng"  /></p>
+<input type="hidden" id="screenoptionnonce" name="screenoptionnonce" value="539ab1cea5" />
+</form>
+</div>		</div>
+				<div id="screen-meta-links">
+					<div id="contextual-help-link-wrap" class="hide-if-no-js screen-meta-toggle">
+			<button type="button" id="contextual-help-link" class="button show-settings" aria-controls="contextual-help-wrap" aria-expanded="false">Trợ giúp</button>
+			</div>
+					<div id="screen-options-link-wrap" class="hide-if-no-js screen-meta-toggle">
+			<button type="button" id="show-settings-link" class="button show-settings" aria-controls="screen-options-wrap" aria-expanded="false">Tùy chọn hiển thị</button>
+			</div>
+				</div>
+		<div class='update-nag'><a href="https://codex.wordpress.org/Version_5.0">WordPress 5.0</a> đang có sẵn! <a href="https://swilife.com/wp-admin/update-core.php" aria-label="Vui lòng cập nhật WordPress ngay">Vui lòng cập nhật ngay</a>.</div><div id='setting-error-tgmpa' class='notice-warning settings-error notice is-dismissible'> 
+<p><strong><span style="display: block; margin: 0.5em 0.5em 0 0; clear: both;">This theme recommends the following plugin: <em><a href="https://swilife.com/wp-admin/plugin-install.php?tab=plugin-information&#038;plugin=one-click-demo-import&#038;TB_iframe=true&#038;width=640&#038;height=500" class="thickbox">One Click Demo Import</a></em>.</span>
+<span style="display: block; margin: 0.5em 0.5em 0 0; clear: both;"><a href="https://swilife.com/wp-admin/themes.php?page=tgmpa-install-plugins&#038;plugin_status=install">Begin installing plugin</a> | <a href="/wp-admin/edit.php?tgmpa-dismiss=dismiss_admin_notices&#038;_wpnonce=39f9b86570" class="dismiss-notice" target="_parent">Dismiss this notice</a></span>
+</strong></p></div> 
+<div class="wrap">
+<h1 class="wp-heading-inline">Bài viết</h1>
+
+ <a href="https://swilife.com/wp-admin/post-new.php" class="page-title-action">Viết bài mới</a>
+<hr class="wp-header-end">
+
+
+<h2 class='screen-reader-text'>Lọc danh sách bài đăng</h2><ul class='subsubsub'>
+	<li class='all'><a href="edit.php?post_type=post" class="current" aria-current="page">Tất cả <span class="count">(78)</span></a> |</li>
+	<li class='publish'><a href="edit.php?post_status=publish&#038;post_type=post">Đã xuất bản <span class="count">(76)</span></a> |</li>
+	<li class='draft'><a href="edit.php?post_status=draft&#038;post_type=post">Bản nháp <span class="count">(2)</span></a> |</li>
+	<li class='trash'><a href="edit.php?post_status=trash&#038;post_type=post">Thùng rác <span class="count">(1)</span></a> |</li>
+	<li class='yoast_cornerstone'><a href="edit.php?yoast_filter=cornerstone&#038;post_type=post">Cornerstone content</a> (0)</li>
+</ul>
+<form id="posts-filter" method="get">
+
+<p class="search-box">
+	<label class="screen-reader-text" for="post-search-input">Tìm các bài viết:</label>
+	<input type="search" id="post-search-input" name="s" value="" />
+	<input type="submit" id="search-submit" class="button" value="Tìm các bài viết"  /></p>
+
+<input type="hidden" name="post_status" class="post_status_page" value="all" />
+<input type="hidden" name="post_type" class="post_type_page" value="post" />
+
+
+
+<input type="hidden" id="_wpnonce" name="_wpnonce" value="65472fc37b" /><input type="hidden" name="_wp_http_referer" value="/wp-admin/edit.php" />	<div class="tablenav top">
+
+				<div class="alignleft actions bulkactions">
+			<label for="bulk-action-selector-top" class="screen-reader-text">Lựa chọn thao tác hàng loạt</label><select name="action" id="bulk-action-selector-top">
+<option value="-1">Tác vụ</option>
+	<option value="edit" class="hide-if-no-js">Chỉnh sửa</option>
+	<option value="trash">Bỏ vào thùng rác</option>
+</select>
+<input type="submit" id="doaction" class="button action" value="Áp dụng"  />
+		</div>
+				<div class="alignleft actions">
+		<label for="filter-by-date" class="screen-reader-text">Lọc theo ngày</label>
+		<select name="m" id="filter-by-date">
+			<option selected='selected' value="0">Tất cả các ngày</option>
+<option  value='201812'>Tháng Mười Hai 2018</option>
+<option  value='201811'>Tháng Mười Một 2018</option>
+<option  value='201810'>Tháng Mười 2018</option>
+<option  value='201807'>Tháng Bảy 2018</option>
+<option  value='201806'>Tháng Sáu 2018</option>
+<option  value='201805'>Tháng Năm 2018</option>
+<option  value='201804'>Tháng Tư 2018</option>
+<option  value='201803'>Tháng Ba 2018</option>
+<option  value='201802'>Tháng Hai 2018</option>
+<option  value='201801'>Tháng Một 2018</option>
+<option  value='201712'>Tháng Mười Hai 2017</option>
+		</select>
+<label class="screen-reader-text" for="cat">Lọc theo danh mục</label><select  name='cat' id='cat' class='postform' >
+	<option value='0'>Tất cả chuyên mục</option>
+	<option class="level-0" value="83">FAQs</option>
+	<option class="level-0" value="19">Job orders</option>
+	<option class="level-1" value="73">&nbsp;&nbsp;&nbsp;Over $3000</option>
+	<option class="level-1" value="57">&nbsp;&nbsp;&nbsp;Up to $1000</option>
+	<option class="level-1" value="49">&nbsp;&nbsp;&nbsp;Up to $1500</option>
+	<option class="level-1" value="51">&nbsp;&nbsp;&nbsp;Up to $2000</option>
+	<option class="level-1" value="53">&nbsp;&nbsp;&nbsp;Up to $2500</option>
+	<option class="level-1" value="55">&nbsp;&nbsp;&nbsp;Up to $3000</option>
+	<option class="level-0" value="95">Services</option>
+	<option class="level-0" value="1">Tech News</option>
+</select>
+<label class="screen-reader-text" for="wpseo-filter">Filter by SEO Score</label><select name="seo_filter" id="wpseo-filter"><option  value="">All SEO Scores</option><option  value="bad">SEO: Needs improvement</option><option  value="ok">SEO: OK</option><option  value="good">SEO: Good</option><option  value="na">SEO: No Focus Keyword</option><option  value="noindex">SEO: Post Noindexed</option></select><label class="screen-reader-text" for="wpseo-readability-filter">Filter by Readability Score</label><select name="readability_filter" id="wpseo-readability-filter"><option  value="">All Readability Scores</option><option  value="bad">Readability: Needs improvement</option><option  value="ok">Readability: OK</option><option  value="good">Readability: Good</option></select><input type="submit" name="filter_action" id="post-query-submit" class="button" value="Lọc"  />		</div>
+<h2 class='screen-reader-text'>Điều hướng danh sách các bài viết</h2><div class='tablenav-pages'><span class="displaying-num">74 mục</span>
+<span class='pagination-links'><span class="tablenav-pages-navspan" aria-hidden="true">&laquo;</span>
+<span class="tablenav-pages-navspan" aria-hidden="true">&lsaquo;</span>
+<span class="paging-input"><label for="current-page-selector" class="screen-reader-text">Trang hiện tại</label><input class='current-page' id='current-page-selector' type='text' name='paged' value='1' size='1' aria-describedby='table-paging' /><span class='tablenav-paging-text'> trên <span class='total-pages'>4</span></span></span>
+<a class='next-page' href='https://swilife.com/wp-admin/edit.php?paged=2'><span class='screen-reader-text'>Trang sau</span><span aria-hidden='true'>&rsaquo;</span></a>
+<a class='last-page' href='https://swilife.com/wp-admin/edit.php?paged=4'><span class='screen-reader-text'>Trang cuối</span><span aria-hidden='true'>&raquo;</span></a></span></div>
+		<br class="clear" />
+	</div>
+<h2 class='screen-reader-text'>Danh sách bài viết</h2><table class="wp-list-table widefat fixed striped posts">
+	<thead>
+	<tr>
+		<td  id='cb' class='manage-column column-cb check-column'><label class="screen-reader-text" for="cb-select-all-1">Chọn toàn bộ</label><input id="cb-select-all-1" type="checkbox" /></td><th scope="col" id='title' class='manage-column column-title column-primary sortable desc'><a href="https://swilife.com/wp-admin/edit.php?orderby=title&#038;order=asc"><span>Tiêu đề</span><span class="sorting-indicator"></span></a></th><th scope="col" id='author' class='manage-column column-author'>Tác giả</th><th scope="col" id='categories' class='manage-column column-categories'>Chuyên mục</th><th scope="col" id='tags' class='manage-column column-tags'>Thẻ</th><th scope="col" id='language_vi' class='manage-column column-language_vi'><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFsSURBVHjaYvzPgAD/UNlYEUAAmuTYAAAQhAEYqF/zFbe50RZ1cMmS9TLi0pJLRjZohAMTGFUN9HdnHgEE1sDw//+Tp0ClINW/f4NI9d////3+f+b3/1+////+9f/XL6A4o6ws0AaAAGIBm/0fRTVQ2v3Pf97f/4/9Aqv+DdHA8Ps3UANAALEAMSNQNdDGP3+ALvnf8vv/t9//9X/////7f+uv/4K//iciNABNBwggsJP+/IW4kuH3n//1v/8v+wVSDURmv/57//7/CeokoKFA0wECiAnkpL9/wH4CO+DNr/+VQA1A9PN/w6//j36CVIMRxEkAAQR20m+QpSBXgU0CuSTj9/93v/8v//V/xW+48UBD/zAwAAQQSAMzOMiABoBUswCd8ev/M7A669//OX7///Lr/x+gBlCoAJ0DEEAgDUy//zBISoKNAfoepJNRFmQkyJecfxj4/kDCEIiAigECiPErakTiiWMIAAgwAB4ZUlqMMhQQAAAAAElFTkSuQmCC" title="Tiếng Việt" alt="Tiếng Việt" /><span class="screen-reader-text">Tiếng Việt</span></th><th scope="col" id='comments' class='manage-column column-comments num sortable desc'><a href="https://swilife.com/wp-admin/edit.php?orderby=comment_count&#038;order=asc"><span><span class="vers comment-grey-bubble" title="Bình luận"><span class="screen-reader-text">Bình luận</span></span></span><span class="sorting-indicator"></span></a></th><th scope="col" id='date' class='manage-column column-date sortable asc'><a href="https://swilife.com/wp-admin/edit.php?orderby=date&#038;order=desc"><span>Thời gian</span><span class="sorting-indicator"></span></a></th><th scope="col" id='wpseo-links' class='manage-column column-wpseo-links sortable desc'><a href="https://swilife.com/wp-admin/edit.php?orderby=wpseo-links&#038;order=asc"><span><span class="yoast-linked-to yoast-column-header-has-tooltip" data-label="Number of internal links in this post. See &quot;Yoast Columns&quot; text in the help tab for more info."><span class="screen-reader-text"># links in post</span></span></span><span class="sorting-indicator"></span></a></th><th scope="col" id='wpseo-linked' class='manage-column column-wpseo-linked sortable desc'><a href="https://swilife.com/wp-admin/edit.php?orderby=wpseo-linked&#038;order=asc"><span><span class="yoast-linked-from yoast-column-header-has-tooltip" data-label="Number of internal links linking to this post. See &quot;Yoast Columns&quot; text in the help tab for more info."><span class="screen-reader-text"># internal links to</span></span></span><span class="sorting-indicator"></span></a></th><th scope="col" id='wpseo-score' class='manage-column column-wpseo-score'><span class="yoast-tooltip yoast-tooltip-n yoast-tooltip-alt" data-label="SEO score"><span class="yoast-column-seo-score yoast-column-header-has-tooltip"><span class="screen-reader-text">SEO score</span></span></span></th><th scope="col" id='wpseo-score-readability' class='manage-column column-wpseo-score-readability'><span class="yoast-tooltip yoast-tooltip-n yoast-tooltip-alt" data-label="Readability score"><span class="yoast-column-readability yoast-column-header-has-tooltip"><span class="screen-reader-text">Readability score</span></span></span></th><th scope="col" id='wpseo-title' class='manage-column column-wpseo-title hidden'>SEO Title</th><th scope="col" id='wpseo-metadesc' class='manage-column column-wpseo-metadesc hidden sortable desc'><a href="https://swilife.com/wp-admin/edit.php?orderby=wpseo-metadesc&#038;order=asc"><span>Meta Desc.</span><span class="sorting-indicator"></span></a></th><th scope="col" id='wpseo-focuskw' class='manage-column column-wpseo-focuskw hidden sortable desc'><a href="https://swilife.com/wp-admin/edit.php?orderby=wpseo-focuskw&#038;order=asc"><span>Focus KW</span><span class="sorting-indicator"></span></a></th>	</tr>
+	</thead>
+
+	<tbody id="the-list">
+				<tr id="post-972" class="iedit author-other level-0 post-972 type-post status-publish format-standard has-post-thumbnail hentry category-faqs">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-972">Chọn Làm Thế Nào Để Chứng Thực Thông Tin Của Ứng Viên?</label>
+			<input id="cb-select-972" type="checkbox" name="post[]" value="972" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;Làm Thế Nào Để Chứng Thực Thông Tin Của Ứng Viên?&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=972&amp;action=edit" aria-label="&#8220;Làm Thế Nào Để Chứng Thực Thông Tin Của Ứng Viên?&#8221; (Chỉnh sửa)">Làm Thế Nào Để Chứng Thực Thông Tin Của Ứng Viên?</a></strong>
+
+<div class="hidden" id="inline_972">
+	<div class="post_title">Làm Thế Nào Để Chứng Thực Thông Tin Của Ứng Viên?</div><div class="post_name">lam-the-nao-de-chung-thuc-thong-tin-cua-ung-vien</div>
+	<div class="post_author">3</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">06</div>
+	<div class="mm">12</div>
+	<div class="aa">2018</div>
+	<div class="hh">09</div>
+	<div class="mn">17</div>
+	<div class="ss">33</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_972">83</div><div class="tags_input" id="post_tag_972"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=972&amp;action=edit" aria-label="Sửa &#8220;Làm Thế Nào Để Chứng Thực Thông Tin Của Ứng Viên?&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;Làm Thế Nào Để Chứng Thực Thông Tin Của Ứng Viên?&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=972&amp;action=trash&amp;_wpnonce=df56f97b43" class="submitdelete" aria-label="Bỏ &#8220;Làm Thế Nào Để Chứng Thực Thông Tin Của Ứng Viên?&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/lam-the-nao-de-chung-thuc-thong-tin-cua-ung-vien/" rel="bookmark" aria-label="Xem &#8220;Làm Thế Nào Để Chứng Thực Thông Tin Của Ứng Viên?&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=3">tran trang</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=faqs">FAQs</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_972">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=972&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/12/06 9:17:33 sáng">06/12/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">0</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="OK" class="wpseo-score-icon ok"></div><span class="screen-reader-text">OK</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">Làm Thế Nào Để Chứng Thực Thông Tin Của Ứng Viên? - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-968" class="iedit author-other level-0 post-968 type-post status-publish format-standard has-post-thumbnail hentry category-faqs">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-968">Chọn Bộ câu hỏi xác minh thông tin ứng viên</label>
+			<input id="cb-select-968" type="checkbox" name="post[]" value="968" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;Bộ câu hỏi xác minh thông tin ứng viên&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=968&amp;action=edit" aria-label="&#8220;Bộ câu hỏi xác minh thông tin ứng viên&#8221; (Chỉnh sửa)">Bộ câu hỏi xác minh thông tin ứng viên</a></strong>
+
+<div class="hidden" id="inline_968">
+	<div class="post_title">Bộ câu hỏi xác minh thông tin ứng viên</div><div class="post_name">bo-cau-hoi-xac-minh-thong-tin-ung-vien</div>
+	<div class="post_author">3</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">30</div>
+	<div class="mm">11</div>
+	<div class="aa">2018</div>
+	<div class="hh">08</div>
+	<div class="mn">15</div>
+	<div class="ss">19</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_968">83</div><div class="tags_input" id="post_tag_968"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=968&amp;action=edit" aria-label="Sửa &#8220;Bộ câu hỏi xác minh thông tin ứng viên&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;Bộ câu hỏi xác minh thông tin ứng viên&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=968&amp;action=trash&amp;_wpnonce=8730ab0408" class="submitdelete" aria-label="Bỏ &#8220;Bộ câu hỏi xác minh thông tin ứng viên&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/bo-cau-hoi-xac-minh-thong-tin-ung-vien/" rel="bookmark" aria-label="Xem &#8220;Bộ câu hỏi xác minh thông tin ứng viên&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=3">tran trang</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=faqs">FAQs</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_968">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=968&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/11/30 8:15:19 sáng">30/11/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">0</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="Needs improvement" class="wpseo-score-icon bad"></div><span class="screen-reader-text">Needs improvement</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">Bộ câu hỏi xác minh thông tin ứng viên - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-960" class="iedit author-other level-0 post-960 type-post status-publish format-standard hentry category-services-en">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-960">Chọn Background Check Service</label>
+			<input id="cb-select-960" type="checkbox" name="post[]" value="960" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;Background Check Service&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=960&amp;action=edit" aria-label="&#8220;Background Check Service&#8221; (Chỉnh sửa)">Background Check Service</a></strong>
+
+<div class="hidden" id="inline_960">
+	<div class="post_title">Background Check Service</div><div class="post_name">background-check-service</div>
+	<div class="post_author">6</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">22</div>
+	<div class="mm">11</div>
+	<div class="aa">2018</div>
+	<div class="hh">09</div>
+	<div class="mn">30</div>
+	<div class="ss">17</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_960">95</div><div class="tags_input" id="post_tag_960"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=960&amp;action=edit" aria-label="Sửa &#8220;Background Check Service&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;Background Check Service&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=960&amp;action=trash&amp;_wpnonce=5f93b89434" class="submitdelete" aria-label="Bỏ &#8220;Background Check Service&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/background-check-service/" rel="bookmark" aria-label="Xem &#8220;Background Check Service&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=6">Đỗ Thúy Hồng</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=services-en">Services</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_960">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=960&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/11/22 9:30:17 sáng">22/11/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">1</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">1</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="OK" class="wpseo-score-icon ok"></div><span class="screen-reader-text">OK</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">Background Check Service - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-955" class="iedit author-other level-0 post-955 type-post status-draft format-standard hentry category-tech-news">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-955">Chọn (không có tiêu đề)</label>
+			<input id="cb-select-955" type="checkbox" name="post[]" value="955" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;(không có tiêu đề)&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=955&amp;action=edit" aria-label="&#8220;(không có tiêu đề)&#8221; (Chỉnh sửa)">(không có tiêu đề)</a> &mdash; <span class='post-state'>Bản nháp</span></strong>
+
+<div class="hidden" id="inline_955">
+	<div class="post_title"></div><div class="post_name"></div>
+	<div class="post_author">3</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">draft</div>
+	<div class="jj">22</div>
+	<div class="mm">11</div>
+	<div class="aa">2018</div>
+	<div class="hh">07</div>
+	<div class="mn">40</div>
+	<div class="ss">49</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_955">1</div><div class="tags_input" id="post_tag_955"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=955&amp;action=edit" aria-label="Sửa &#8220;(không có tiêu đề)&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;(không có tiêu đề)&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=955&amp;action=trash&amp;_wpnonce=d02c738d51" class="submitdelete" aria-label="Bỏ &#8220;(không có tiêu đề)&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/?p=955&#038;preview=true" rel="bookmark" aria-label="Xem trước &#8220;(không có tiêu đề)&#8221;">Xem thử</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=3">tran trang</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=tech-news">Tech News</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_955">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=955&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Sửa đổi lần cuối<br /><abbr title="2018/11/22 7:40:49 sáng">22/11/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to"></td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="Needs improvement" class="wpseo-score-icon bad"></div><span class="screen-reader-text">Needs improvement</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">- SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-942" class="iedit author-other level-0 post-942 type-post status-publish format-standard has-post-thumbnail hentry category-faqs">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-942">Chọn Tham chiếu thông tin ứng viên</label>
+			<input id="cb-select-942" type="checkbox" name="post[]" value="942" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;Tham chiếu thông tin ứng viên&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=942&amp;action=edit" aria-label="&#8220;Tham chiếu thông tin ứng viên&#8221; (Chỉnh sửa)">Tham chiếu thông tin ứng viên</a></strong>
+
+<div class="hidden" id="inline_942">
+	<div class="post_title">Tham chiếu thông tin ứng viên</div><div class="post_name">tham-chieu-thong-tin-ung-vien</div>
+	<div class="post_author">3</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">16</div>
+	<div class="mm">11</div>
+	<div class="aa">2018</div>
+	<div class="hh">09</div>
+	<div class="mn">04</div>
+	<div class="ss">13</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_942">83</div><div class="tags_input" id="post_tag_942"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=942&amp;action=edit" aria-label="Sửa &#8220;Tham chiếu thông tin ứng viên&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;Tham chiếu thông tin ứng viên&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=942&amp;action=trash&amp;_wpnonce=4855fc2ca3" class="submitdelete" aria-label="Bỏ &#8220;Tham chiếu thông tin ứng viên&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/tham-chieu-thong-tin-ung-vien/" rel="bookmark" aria-label="Xem &#8220;Tham chiếu thông tin ứng viên&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=3">tran trang</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=faqs">FAQs</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_942">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=942&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/11/16 9:04:13 sáng">16/11/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">0</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="OK" class="wpseo-score-icon ok"></div><span class="screen-reader-text">OK</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">Tham chiếu thông tin ứng viên - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-921" class="iedit author-other level-0 post-921 type-post status-publish format-standard has-post-thumbnail hentry category-job-orders category-up-to-1000">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-921">Chọn Software Quality Assurance</label>
+			<input id="cb-select-921" type="checkbox" name="post[]" value="921" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;Software Quality Assurance&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=921&amp;action=edit" aria-label="&#8220;Software Quality Assurance&#8221; (Chỉnh sửa)">Software Quality Assurance</a></strong>
+
+<div class="hidden" id="inline_921">
+	<div class="post_title">Software Quality Assurance</div><div class="post_name">software-quality-assurance</div>
+	<div class="post_author">6</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">09</div>
+	<div class="mm">11</div>
+	<div class="aa">2018</div>
+	<div class="hh">10</div>
+	<div class="mn">08</div>
+	<div class="ss">31</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_921">19,57</div><div class="tags_input" id="post_tag_921"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=921&amp;action=edit" aria-label="Sửa &#8220;Software Quality Assurance&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;Software Quality Assurance&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=921&amp;action=trash&amp;_wpnonce=f80173c366" class="submitdelete" aria-label="Bỏ &#8220;Software Quality Assurance&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/software-quality-assurance/" rel="bookmark" aria-label="Xem &#8220;Software Quality Assurance&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=6">Đỗ Thúy Hồng</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=job-orders">Job orders</a>, <a href="edit.php?category_name=up-to-1000">Up to $1000</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_921">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=921&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/11/09 10:08:31 sáng">09/11/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">0</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="Good" class="wpseo-score-icon good"></div><span class="screen-reader-text">Good</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">Software Quality Assurance - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-918" class="iedit author-other level-0 post-918 type-post status-publish format-standard has-post-thumbnail hentry category-job-orders category-up-to-1000">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-918">Chọn Senior NOC Engineer (up to $1000)</label>
+			<input id="cb-select-918" type="checkbox" name="post[]" value="918" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;Senior NOC Engineer (up to $1000)&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=918&amp;action=edit" aria-label="&#8220;Senior NOC Engineer (up to $1000)&#8221; (Chỉnh sửa)">Senior NOC Engineer (up to $1000)</a></strong>
+
+<div class="hidden" id="inline_918">
+	<div class="post_title">Senior NOC Engineer (up to $1000)</div><div class="post_name">senior-noc-engineer-up-to-1000</div>
+	<div class="post_author">6</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">09</div>
+	<div class="mm">11</div>
+	<div class="aa">2018</div>
+	<div class="hh">09</div>
+	<div class="mn">30</div>
+	<div class="ss">36</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_918">19,57</div><div class="tags_input" id="post_tag_918"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=918&amp;action=edit" aria-label="Sửa &#8220;Senior NOC Engineer (up to $1000)&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;Senior NOC Engineer (up to $1000)&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=918&amp;action=trash&amp;_wpnonce=610da4401c" class="submitdelete" aria-label="Bỏ &#8220;Senior NOC Engineer (up to $1000)&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/senior-noc-engineer-up-to-1000/" rel="bookmark" aria-label="Xem &#8220;Senior NOC Engineer (up to $1000)&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=6">Đỗ Thúy Hồng</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=job-orders">Job orders</a>, <a href="edit.php?category_name=up-to-1000">Up to $1000</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_918">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=918&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/11/09 9:30:36 sáng">09/11/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">0</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="Good" class="wpseo-score-icon good"></div><span class="screen-reader-text">Good</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">Senior NOC Engineer (up to $1000) - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-915" class="iedit author-other level-0 post-915 type-post status-publish format-standard hentry category-up-to-1500">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-915">Chọn Senior Front-End Developer (React, AngularJS)</label>
+			<input id="cb-select-915" type="checkbox" name="post[]" value="915" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;Senior Front-End Developer (React, AngularJS)&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=915&amp;action=edit" aria-label="&#8220;Senior Front-End Developer (React, AngularJS)&#8221; (Chỉnh sửa)">Senior Front-End Developer (React, AngularJS)</a></strong>
+
+<div class="hidden" id="inline_915">
+	<div class="post_title">Senior Front-End Developer (React, AngularJS)</div><div class="post_name">senior-front-end-developer-react-angularjs</div>
+	<div class="post_author">3</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">09</div>
+	<div class="mm">11</div>
+	<div class="aa">2018</div>
+	<div class="hh">04</div>
+	<div class="mn">10</div>
+	<div class="ss">15</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_915">49</div><div class="tags_input" id="post_tag_915"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=915&amp;action=edit" aria-label="Sửa &#8220;Senior Front-End Developer (React, AngularJS)&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;Senior Front-End Developer (React, AngularJS)&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=915&amp;action=trash&amp;_wpnonce=5b00ef60d6" class="submitdelete" aria-label="Bỏ &#8220;Senior Front-End Developer (React, AngularJS)&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/senior-front-end-developer-react-angularjs/" rel="bookmark" aria-label="Xem &#8220;Senior Front-End Developer (React, AngularJS)&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=3">tran trang</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=up-to-1500">Up to $1500</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_915">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=915&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/11/09 4:10:15 sáng">09/11/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">0</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="OK" class="wpseo-score-icon ok"></div><span class="screen-reader-text">OK</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">Senior Front-End Developer (React, AngularJS) - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-904" class="iedit author-other level-0 post-904 type-post status-publish format-standard has-post-thumbnail hentry category-up-to-1000">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-904">Chọn PHP Developer ( Up to 1500$ )</label>
+			<input id="cb-select-904" type="checkbox" name="post[]" value="904" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;PHP Developer ( Up to 1500$ )&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=904&amp;action=edit" aria-label="&#8220;PHP Developer ( Up to 1500$ )&#8221; (Chỉnh sửa)">PHP Developer ( Up to 1500$ )</a></strong>
+
+<div class="hidden" id="inline_904">
+	<div class="post_title">PHP Developer ( Up to 1500$ )</div><div class="post_name">php-developer-up-to-1500</div>
+	<div class="post_author">6</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">08</div>
+	<div class="mm">11</div>
+	<div class="aa">2018</div>
+	<div class="hh">10</div>
+	<div class="mn">46</div>
+	<div class="ss">55</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_904">57</div><div class="tags_input" id="post_tag_904"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=904&amp;action=edit" aria-label="Sửa &#8220;PHP Developer ( Up to 1500$ )&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;PHP Developer ( Up to 1500$ )&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=904&amp;action=trash&amp;_wpnonce=2bf5d3241c" class="submitdelete" aria-label="Bỏ &#8220;PHP Developer ( Up to 1500$ )&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/php-developer-up-to-1500/" rel="bookmark" aria-label="Xem &#8220;PHP Developer ( Up to 1500$ )&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=6">Đỗ Thúy Hồng</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=up-to-1000">Up to $1000</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_904">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=904&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/11/08 10:46:55 sáng">08/11/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">0</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="Good" class="wpseo-score-icon good"></div><span class="screen-reader-text">Good</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">PHP Developer ( Up to 1500$ ) - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-897" class="iedit author-other level-0 post-897 type-post status-publish format-standard hentry category-job-orders category-up-to-2000">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-897">Chọn Senior Technical Agile Business Analyst</label>
+			<input id="cb-select-897" type="checkbox" name="post[]" value="897" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;Senior Technical Agile Business Analyst&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=897&amp;action=edit" aria-label="&#8220;Senior Technical Agile Business Analyst&#8221; (Chỉnh sửa)">Senior Technical Agile Business Analyst</a></strong>
+
+<div class="hidden" id="inline_897">
+	<div class="post_title">Senior Technical Agile Business Analyst</div><div class="post_name">senior-technical-agile-business-analyst</div>
+	<div class="post_author">3</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">08</div>
+	<div class="mm">11</div>
+	<div class="aa">2018</div>
+	<div class="hh">10</div>
+	<div class="mn">43</div>
+	<div class="ss">33</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_897">19,51</div><div class="tags_input" id="post_tag_897"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=897&amp;action=edit" aria-label="Sửa &#8220;Senior Technical Agile Business Analyst&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;Senior Technical Agile Business Analyst&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=897&amp;action=trash&amp;_wpnonce=5499e40e13" class="submitdelete" aria-label="Bỏ &#8220;Senior Technical Agile Business Analyst&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/senior-technical-agile-business-analyst/" rel="bookmark" aria-label="Xem &#8220;Senior Technical Agile Business Analyst&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=3">tran trang</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=job-orders">Job orders</a>, <a href="edit.php?category_name=up-to-2000">Up to $2000</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_897">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=897&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/11/08 10:43:33 sáng">08/11/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">0</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="Needs improvement" class="wpseo-score-icon bad"></div><span class="screen-reader-text">Needs improvement</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">Senior Technical Agile Business Analyst - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-911" class="iedit author-other level-0 post-911 type-post status-publish format-standard hentry category-job-orders category-up-to-1500">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-911">Chọn Project team leader</label>
+			<input id="cb-select-911" type="checkbox" name="post[]" value="911" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;Project team leader&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=911&amp;action=edit" aria-label="&#8220;Project team leader&#8221; (Chỉnh sửa)">Project team leader</a></strong>
+
+<div class="hidden" id="inline_911">
+	<div class="post_title">Project team leader</div><div class="post_name">project-team-leader</div>
+	<div class="post_author">3</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">29</div>
+	<div class="mm">10</div>
+	<div class="aa">2018</div>
+	<div class="hh">10</div>
+	<div class="mn">50</div>
+	<div class="ss">07</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_911">19,49</div><div class="tags_input" id="post_tag_911"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=911&amp;action=edit" aria-label="Sửa &#8220;Project team leader&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;Project team leader&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=911&amp;action=trash&amp;_wpnonce=17a31098de" class="submitdelete" aria-label="Bỏ &#8220;Project team leader&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/project-team-leader/" rel="bookmark" aria-label="Xem &#8220;Project team leader&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=3">tran trang</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=job-orders">Job orders</a>, <a href="edit.php?category_name=up-to-1500">Up to $1500</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_911">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=911&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/10/29 10:50:07 sáng">29/10/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">0</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="OK" class="wpseo-score-icon ok"></div><span class="screen-reader-text">OK</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">Project team leader - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-869" class="iedit author-other level-0 post-869 type-post status-publish format-standard hentry category-up-to-2000">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-869">Chọn SALES DIRECTOR (UPTO $1800)</label>
+			<input id="cb-select-869" type="checkbox" name="post[]" value="869" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;SALES DIRECTOR (UPTO $1800)&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=869&amp;action=edit" aria-label="&#8220;SALES DIRECTOR (UPTO $1800)&#8221; (Chỉnh sửa)">SALES DIRECTOR (UPTO $1800)</a></strong>
+
+<div class="hidden" id="inline_869">
+	<div class="post_title">SALES DIRECTOR (UPTO $1800)</div><div class="post_name">sales-director-upto-1800</div>
+	<div class="post_author">5</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">29</div>
+	<div class="mm">10</div>
+	<div class="aa">2018</div>
+	<div class="hh">02</div>
+	<div class="mn">40</div>
+	<div class="ss">34</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_869">51</div><div class="tags_input" id="post_tag_869"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=869&amp;action=edit" aria-label="Sửa &#8220;SALES DIRECTOR (UPTO $1800)&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;SALES DIRECTOR (UPTO $1800)&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=869&amp;action=trash&amp;_wpnonce=bf743a53e6" class="submitdelete" aria-label="Bỏ &#8220;SALES DIRECTOR (UPTO $1800)&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/sales-director-upto-1800/" rel="bookmark" aria-label="Xem &#8220;SALES DIRECTOR (UPTO $1800)&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=5">Nguyễn Hằng</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=up-to-2000">Up to $2000</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_869">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=869&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/10/29 2:40:34 sáng">29/10/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">0</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="Needs improvement" class="wpseo-score-icon bad"></div><span class="screen-reader-text">Needs improvement</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">SALES DIRECTOR (UPTO $1800) - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-866" class="iedit author-other level-0 post-866 type-post status-publish format-standard hentry category-job-orders category-up-to-2000">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-866">Chọn Senior accountant (up to $2000)</label>
+			<input id="cb-select-866" type="checkbox" name="post[]" value="866" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;Senior accountant (up to $2000)&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=866&amp;action=edit" aria-label="&#8220;Senior accountant (up to $2000)&#8221; (Chỉnh sửa)">Senior accountant (up to $2000)</a></strong>
+
+<div class="hidden" id="inline_866">
+	<div class="post_title">Senior accountant (up to $2000)</div><div class="post_name">senior-accountant-up-to-2000</div>
+	<div class="post_author">3</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">22</div>
+	<div class="mm">10</div>
+	<div class="aa">2018</div>
+	<div class="hh">08</div>
+	<div class="mn">51</div>
+	<div class="ss">41</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_866">19,51</div><div class="tags_input" id="post_tag_866"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=866&amp;action=edit" aria-label="Sửa &#8220;Senior accountant (up to $2000)&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;Senior accountant (up to $2000)&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=866&amp;action=trash&amp;_wpnonce=3e3f82bda7" class="submitdelete" aria-label="Bỏ &#8220;Senior accountant (up to $2000)&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/senior-accountant-up-to-2000/" rel="bookmark" aria-label="Xem &#8220;Senior accountant (up to $2000)&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=3">tran trang</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=job-orders">Job orders</a>, <a href="edit.php?category_name=up-to-2000">Up to $2000</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_866">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=866&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/10/22 8:51:41 sáng">22/10/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">0</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="OK" class="wpseo-score-icon ok"></div><span class="screen-reader-text">OK</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">Senior accountant (up to $2000) - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-860" class="iedit author-other level-0 post-860 type-post status-publish format-standard hentry category-job-orders category-up-to-3000">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-860">Chọn Solution Architect (up to $3000)</label>
+			<input id="cb-select-860" type="checkbox" name="post[]" value="860" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;Solution Architect (up to $3000)&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=860&amp;action=edit" aria-label="&#8220;Solution Architect (up to $3000)&#8221; (Chỉnh sửa)">Solution Architect (up to $3000)</a></strong>
+
+<div class="hidden" id="inline_860">
+	<div class="post_title">Solution Architect (up to $3000)</div><div class="post_name">solution-architect-up-to-3000</div>
+	<div class="post_author">3</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">10</div>
+	<div class="mm">10</div>
+	<div class="aa">2018</div>
+	<div class="hh">07</div>
+	<div class="mn">40</div>
+	<div class="ss">45</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_860">19,55</div><div class="tags_input" id="post_tag_860"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=860&amp;action=edit" aria-label="Sửa &#8220;Solution Architect (up to $3000)&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;Solution Architect (up to $3000)&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=860&amp;action=trash&amp;_wpnonce=128ffbca50" class="submitdelete" aria-label="Bỏ &#8220;Solution Architect (up to $3000)&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/solution-architect-up-to-3000/" rel="bookmark" aria-label="Xem &#8220;Solution Architect (up to $3000)&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=3">tran trang</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=job-orders">Job orders</a>, <a href="edit.php?category_name=up-to-3000">Up to $3000</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_860">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=860&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span class="post-com-count post-com-count-no-comments"><span class="comment-count comment-count-no-comments" aria-hidden="true">0</span><span class="screen-reader-text">Không có bình luận được chấp thuận</span></span><a href="https://swilife.com/wp-admin/edit-comments.php?p=860&#038;comment_status=moderated" class="post-com-count post-com-count-pending"><span class="comment-count-pending" aria-hidden="true">1</span><span class="screen-reader-text">1 bình luận đang chờ duyệt</span></a>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/10/10 7:40:45 sáng">10/10/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">0</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="Needs improvement" class="wpseo-score-icon bad"></div><span class="screen-reader-text">Needs improvement</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">Solution Architect (up to $3000) - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-857" class="iedit author-other level-0 post-857 type-post status-publish format-standard hentry category-up-to-1500">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-857">Chọn Oracle Database Dev. (SQL, PL/SQL, C++)</label>
+			<input id="cb-select-857" type="checkbox" name="post[]" value="857" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;Oracle Database Dev. (SQL, PL/SQL, C++)&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=857&amp;action=edit" aria-label="&#8220;Oracle Database Dev. (SQL, PL/SQL, C++)&#8221; (Chỉnh sửa)">Oracle Database Dev. (SQL, PL/SQL, C++)</a></strong>
+
+<div class="hidden" id="inline_857">
+	<div class="post_title">Oracle Database Dev. (SQL, PL/SQL, C++)</div><div class="post_name">database-administrator</div>
+	<div class="post_author">5</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">10</div>
+	<div class="mm">10</div>
+	<div class="aa">2018</div>
+	<div class="hh">07</div>
+	<div class="mn">00</div>
+	<div class="ss">06</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_857">49</div><div class="tags_input" id="post_tag_857"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=857&amp;action=edit" aria-label="Sửa &#8220;Oracle Database Dev. (SQL, PL/SQL, C++)&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;Oracle Database Dev. (SQL, PL/SQL, C++)&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=857&amp;action=trash&amp;_wpnonce=e22bc77de4" class="submitdelete" aria-label="Bỏ &#8220;Oracle Database Dev. (SQL, PL/SQL, C++)&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/database-administrator/" rel="bookmark" aria-label="Xem &#8220;Oracle Database Dev. (SQL, PL/SQL, C++)&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=5">Nguyễn Hằng</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=up-to-1500">Up to $1500</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_857">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=857&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/10/10 7:00:06 sáng">10/10/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">0</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="Good" class="wpseo-score-icon good"></div><span class="screen-reader-text">Good</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">Oracle Database Dev. (SQL, PL/SQL, C++) - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-905" class="iedit author-other level-0 post-905 type-post status-publish format-standard has-post-thumbnail hentry category-job-orders category-up-to-1000">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-905">Chọn Web Application Engineer</label>
+			<input id="cb-select-905" type="checkbox" name="post[]" value="905" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;Web Application Engineer&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=905&amp;action=edit" aria-label="&#8220;Web Application Engineer&#8221; (Chỉnh sửa)">Web Application Engineer</a></strong>
+
+<div class="hidden" id="inline_905">
+	<div class="post_title">Web Application Engineer</div><div class="post_name">web-application-engineer</div>
+	<div class="post_author">3</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">08</div>
+	<div class="mm">10</div>
+	<div class="aa">2018</div>
+	<div class="hh">10</div>
+	<div class="mn">47</div>
+	<div class="ss">51</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_905">19,57</div><div class="tags_input" id="post_tag_905"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=905&amp;action=edit" aria-label="Sửa &#8220;Web Application Engineer&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;Web Application Engineer&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=905&amp;action=trash&amp;_wpnonce=3226c8b70e" class="submitdelete" aria-label="Bỏ &#8220;Web Application Engineer&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/web-application-engineer/" rel="bookmark" aria-label="Xem &#8220;Web Application Engineer&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=3">tran trang</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=job-orders">Job orders</a>, <a href="edit.php?category_name=up-to-1000">Up to $1000</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_905">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=905&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/10/08 10:47:51 sáng">08/10/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">0</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="OK" class="wpseo-score-icon ok"></div><span class="screen-reader-text">OK</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">Web Application Engineer - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-832" class="iedit author-other level-0 post-832 type-post status-publish format-standard hentry category-job-orders category-up-to-2000">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-832">Chọn SAP Business Analyst</label>
+			<input id="cb-select-832" type="checkbox" name="post[]" value="832" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;SAP Business Analyst&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=832&amp;action=edit" aria-label="&#8220;SAP Business Analyst&#8221; (Chỉnh sửa)">SAP Business Analyst</a></strong>
+
+<div class="hidden" id="inline_832">
+	<div class="post_title">SAP Business Analyst</div><div class="post_name">business-analyst-up-to-2000</div>
+	<div class="post_author">3</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">19</div>
+	<div class="mm">07</div>
+	<div class="aa">2018</div>
+	<div class="hh">02</div>
+	<div class="mn">09</div>
+	<div class="ss">36</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_832">19,51</div><div class="tags_input" id="post_tag_832"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=832&amp;action=edit" aria-label="Sửa &#8220;SAP Business Analyst&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;SAP Business Analyst&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=832&amp;action=trash&amp;_wpnonce=5cb5420027" class="submitdelete" aria-label="Bỏ &#8220;SAP Business Analyst&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/business-analyst-up-to-2000/" rel="bookmark" aria-label="Xem &#8220;SAP Business Analyst&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=3">tran trang</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=job-orders">Job orders</a>, <a href="edit.php?category_name=up-to-2000">Up to $2000</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_832">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=832&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/07/19 2:09:36 sáng">19/07/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">0</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="Good" class="wpseo-score-icon good"></div><span class="screen-reader-text">Good</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">SAP Business Analyst - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-830" class="iedit author-other level-0 post-830 type-post status-draft format-standard hentry category-tech-news">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-830">Chọn Nhân viên người tuyển dụng thầm lăng của bạn</label>
+			<input id="cb-select-830" type="checkbox" name="post[]" value="830" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;Nhân viên người tuyển dụng thầm lăng của bạn&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=830&amp;action=edit" aria-label="&#8220;Nhân viên người tuyển dụng thầm lăng của bạn&#8221; (Chỉnh sửa)">Nhân viên người tuyển dụng thầm lăng của bạn</a> &mdash; <span class='post-state'>Bản nháp</span></strong>
+
+<div class="hidden" id="inline_830">
+	<div class="post_title">Nhân viên người tuyển dụng thầm lăng của bạn</div><div class="post_name"></div>
+	<div class="post_author">3</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">draft</div>
+	<div class="jj">14</div>
+	<div class="mm">07</div>
+	<div class="aa">2018</div>
+	<div class="hh">02</div>
+	<div class="mn">53</div>
+	<div class="ss">09</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_830">1</div><div class="tags_input" id="post_tag_830"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=830&amp;action=edit" aria-label="Sửa &#8220;Nhân viên người tuyển dụng thầm lăng của bạn&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;Nhân viên người tuyển dụng thầm lăng của bạn&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=830&amp;action=trash&amp;_wpnonce=e0dd066971" class="submitdelete" aria-label="Bỏ &#8220;Nhân viên người tuyển dụng thầm lăng của bạn&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/?p=830&#038;preview=true" rel="bookmark" aria-label="Xem trước &#8220;Nhân viên người tuyển dụng thầm lăng của bạn&#8221;">Xem thử</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=3">tran trang</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=tech-news">Tech News</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_830">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=830&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Sửa đổi lần cuối<br /><abbr title="2018/07/14 2:53:09 sáng">14/07/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to"></td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="Not available" class="wpseo-score-icon na"></div><span class="screen-reader-text">Not available</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">Nhân viên người tuyển dụng thầm lăng của bạn - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-827" class="iedit author-other level-0 post-827 type-post status-publish format-standard hentry category-up-to-2000">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-827">Chọn Senior .Net Developer</label>
+			<input id="cb-select-827" type="checkbox" name="post[]" value="827" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;Senior .Net Developer&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=827&amp;action=edit" aria-label="&#8220;Senior .Net Developer&#8221; (Chỉnh sửa)">Senior .Net Developer</a></strong>
+
+<div class="hidden" id="inline_827">
+	<div class="post_title">Senior .Net Developer</div><div class="post_name">senior-net-developer</div>
+	<div class="post_author">5</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">11</div>
+	<div class="mm">07</div>
+	<div class="aa">2018</div>
+	<div class="hh">09</div>
+	<div class="mn">06</div>
+	<div class="ss">10</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_827">51</div><div class="tags_input" id="post_tag_827"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=827&amp;action=edit" aria-label="Sửa &#8220;Senior .Net Developer&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;Senior .Net Developer&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=827&amp;action=trash&amp;_wpnonce=aa715cd47b" class="submitdelete" aria-label="Bỏ &#8220;Senior .Net Developer&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/senior-net-developer/" rel="bookmark" aria-label="Xem &#8220;Senior .Net Developer&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=5">Nguyễn Hằng</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=up-to-2000">Up to $2000</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_827">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=827&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span class="post-com-count post-com-count-no-comments"><span class="comment-count comment-count-no-comments" aria-hidden="true">0</span><span class="screen-reader-text">Không có bình luận được chấp thuận</span></span><a href="https://swilife.com/wp-admin/edit-comments.php?p=827&#038;comment_status=moderated" class="post-com-count post-com-count-pending"><span class="comment-count-pending" aria-hidden="true">1</span><span class="screen-reader-text">1 bình luận đang chờ duyệt</span></a>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/07/11 9:06:10 sáng">11/07/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">0</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="Good" class="wpseo-score-icon good"></div><span class="screen-reader-text">Good</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">Senior .Net Developer - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+			<tr id="post-821" class="iedit author-other level-0 post-821 type-post status-publish format-standard hentry category-up-to-1500">
+			<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-821">Chọn Trưởng nhóm ERP</label>
+			<input id="cb-select-821" type="checkbox" name="post[]" value="821" />
+			<div class="locked-indicator">
+				<span class="locked-indicator-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">&#8220;Trưởng nhóm ERP&#8221; đã bị khóa</span>
+			</div>
+		</th><td class="title column-title has-row-actions column-primary page-title" data-colname="Tiêu đề"><div class="locked-info"><span class="locked-avatar"></span> <span class="locked-text"></span></div>
+<strong><a class="row-title" href="https://swilife.com/wp-admin/post.php?post=821&amp;action=edit" aria-label="&#8220;Trưởng nhóm ERP&#8221; (Chỉnh sửa)">Trưởng nhóm ERP</a></strong>
+
+<div class="hidden" id="inline_821">
+	<div class="post_title">Trưởng nhóm ERP</div><div class="post_name">erp-support-specialist</div>
+	<div class="post_author">3</div>
+	<div class="comment_status">open</div>
+	<div class="ping_status">open</div>
+	<div class="_status">publish</div>
+	<div class="jj">14</div>
+	<div class="mm">06</div>
+	<div class="aa">2018</div>
+	<div class="hh">02</div>
+	<div class="mn">06</div>
+	<div class="ss">03</div>
+	<div class="post_password"></div><div class="page_template">default</div><div class="post_category" id="category_821">49</div><div class="tags_input" id="post_tag_821"></div><div class="sticky"></div><div class="post_format"></div></div><div class="row-actions"><span class='edit'><a href="https://swilife.com/wp-admin/post.php?post=821&amp;action=edit" aria-label="Sửa &#8220;Trưởng nhóm ERP&#8221;">Chỉnh sửa</a> | </span><span class='inline hide-if-no-js'><a href="#" class="editinline" aria-label="Chỉnh sửa nhanh &#8220;Trưởng nhóm ERP&#8221;">Sửa nhanh</a> | </span><span class='trash'><a href="https://swilife.com/wp-admin/post.php?post=821&amp;action=trash&amp;_wpnonce=5feac1102a" class="submitdelete" aria-label="Bỏ &#8220;Trưởng nhóm ERP&#8221; vào thùng rác">Xóa tạm</a> | </span><span class='view'><a href="https://swilife.com/erp-support-specialist/" rel="bookmark" aria-label="Xem &#8220;Trưởng nhóm ERP&#8221;">Xem</a></span></div><button type="button" class="toggle-row"><span class="screen-reader-text">Hiển thị chi tiết</span></button></td><td class='author column-author' data-colname="Tác giả"><a href="edit.php?post_type=post&#038;author=3">tran trang</a></td><td class='categories column-categories' data-colname="Chuyên mục"><a href="edit.php?category_name=up-to-1500">Up to $1500</a></td><td class='tags column-tags' data-colname="Thẻ"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có thẻ nào</span></td><td class='language_vi column-language_vi' data-colname="Tiếng Việt"><div class="hidden" id="lang_821">en</div><a href="https://swilife.com/wp-admin/post-new.php?post_type=post&#038;from_post=821&#038;new_lang=vi" class="pll_icon_add"><span class="screen-reader-text">Add a translation in Tiếng Việt</span></a></td><td class='comments column-comments' data-colname="Bình luận">		<div class="post-com-count-wrapper">
+		<span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Không có phản hồi</span><span class="post-com-count post-com-count-pending post-com-count-no-pending"><span class="comment-count comment-count-no-pending" aria-hidden="true">0</span><span class="screen-reader-text">Không có phản hồi</span></span>		</div>
+		</td><td class='date column-date' data-colname="Thời gian">Đã xuất bản<br /><abbr title="2018/06/14 2:06:03 sáng">14/06/2018</abbr></td><td class='wpseo-links column-wpseo-links' data-colname="# links in post">0</td><td class='wpseo-linked column-wpseo-linked' data-colname="# internal links to">0</td><td class='wpseo-score column-wpseo-score' data-colname="SEO score"><div aria-hidden="true" title="Focus keyword not set." class="wpseo-score-icon na"></div><span class="screen-reader-text">Focus keyword not set.</span></td><td class='wpseo-score-readability column-wpseo-score-readability' data-colname="Readability score"><div aria-hidden="true" title="Good" class="wpseo-score-icon good"></div><span class="screen-reader-text">Good</span></td><td class='wpseo-title column-wpseo-title hidden' data-colname="SEO Title">Trưởng nhóm ERP - SwiLife</td><td class='wpseo-metadesc column-wpseo-metadesc hidden' data-colname="Meta Desc."><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Meta description not set.</span></td><td class='wpseo-focuskw column-wpseo-focuskw hidden' data-colname="Focus KW"><span aria-hidden="true">&#8212;</span><span class="screen-reader-text">Focus keyword not set.</span></td>		</tr>
+		</tbody>
+
+	<tfoot>
+	<tr>
+		<td   class='manage-column column-cb check-column'><label class="screen-reader-text" for="cb-select-all-2">Chọn toàn bộ</label><input id="cb-select-all-2" type="checkbox" /></td><th scope="col"  class='manage-column column-title column-primary sortable desc'><a href="https://swilife.com/wp-admin/edit.php?orderby=title&#038;order=asc"><span>Tiêu đề</span><span class="sorting-indicator"></span></a></th><th scope="col"  class='manage-column column-author'>Tác giả</th><th scope="col"  class='manage-column column-categories'>Chuyên mục</th><th scope="col"  class='manage-column column-tags'>Thẻ</th><th scope="col"  class='manage-column column-language_vi'><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFsSURBVHjaYvzPgAD/UNlYEUAAmuTYAAAQhAEYqF/zFbe50RZ1cMmS9TLi0pJLRjZohAMTGFUN9HdnHgEE1sDw//+Tp0ClINW/f4NI9d////3+f+b3/1+////+9f/XL6A4o6ws0AaAAGIBm/0fRTVQ2v3Pf97f/4/9Aqv+DdHA8Ps3UANAALEAMSNQNdDGP3+ALvnf8vv/t9//9X/////7f+uv/4K//iciNABNBwggsJP+/IW4kuH3n//1v/8v+wVSDURmv/57//7/CeokoKFA0wECiAnkpL9/wH4CO+DNr/+VQA1A9PN/w6//j36CVIMRxEkAAQR20m+QpSBXgU0CuSTj9/93v/8v//V/xW+48UBD/zAwAAQQSAMzOMiABoBUswCd8ev/M7A669//OX7///Lr/x+gBlCoAJ0DEEAgDUy//zBISoKNAfoepJNRFmQkyJecfxj4/kDCEIiAigECiPErakTiiWMIAAgwAB4ZUlqMMhQQAAAAAElFTkSuQmCC" title="Tiếng Việt" alt="Tiếng Việt" /><span class="screen-reader-text">Tiếng Việt</span></th><th scope="col"  class='manage-column column-comments num sortable desc'><a href="https://swilife.com/wp-admin/edit.php?orderby=comment_count&#038;order=asc"><span><span class="vers comment-grey-bubble" title="Bình luận"><span class="screen-reader-text">Bình luận</span></span></span><span class="sorting-indicator"></span></a></th><th scope="col"  class='manage-column column-date sortable asc'><a href="https://swilife.com/wp-admin/edit.php?orderby=date&#038;order=desc"><span>Thời gian</span><span class="sorting-indicator"></span></a></th><th scope="col"  class='manage-column column-wpseo-links sortable desc'><a href="https://swilife.com/wp-admin/edit.php?orderby=wpseo-links&#038;order=asc"><span><span class="yoast-linked-to yoast-column-header-has-tooltip" data-label="Number of internal links in this post. See &quot;Yoast Columns&quot; text in the help tab for more info."><span class="screen-reader-text"># links in post</span></span></span><span class="sorting-indicator"></span></a></th><th scope="col"  class='manage-column column-wpseo-linked sortable desc'><a href="https://swilife.com/wp-admin/edit.php?orderby=wpseo-linked&#038;order=asc"><span><span class="yoast-linked-from yoast-column-header-has-tooltip" data-label="Number of internal links linking to this post. See &quot;Yoast Columns&quot; text in the help tab for more info."><span class="screen-reader-text"># internal links to</span></span></span><span class="sorting-indicator"></span></a></th><th scope="col"  class='manage-column column-wpseo-score'><span class="yoast-tooltip yoast-tooltip-n yoast-tooltip-alt" data-label="SEO score"><span class="yoast-column-seo-score yoast-column-header-has-tooltip"><span class="screen-reader-text">SEO score</span></span></span></th><th scope="col"  class='manage-column column-wpseo-score-readability'><span class="yoast-tooltip yoast-tooltip-n yoast-tooltip-alt" data-label="Readability score"><span class="yoast-column-readability yoast-column-header-has-tooltip"><span class="screen-reader-text">Readability score</span></span></span></th><th scope="col"  class='manage-column column-wpseo-title hidden'>SEO Title</th><th scope="col"  class='manage-column column-wpseo-metadesc hidden sortable desc'><a href="https://swilife.com/wp-admin/edit.php?orderby=wpseo-metadesc&#038;order=asc"><span>Meta Desc.</span><span class="sorting-indicator"></span></a></th><th scope="col"  class='manage-column column-wpseo-focuskw hidden sortable desc'><a href="https://swilife.com/wp-admin/edit.php?orderby=wpseo-focuskw&#038;order=asc"><span>Focus KW</span><span class="sorting-indicator"></span></a></th>	</tr>
+	</tfoot>
+
+</table>
+	<div class="tablenav bottom">
+
+				<div class="alignleft actions bulkactions">
+			<label for="bulk-action-selector-bottom" class="screen-reader-text">Lựa chọn thao tác hàng loạt</label><select name="action2" id="bulk-action-selector-bottom">
+<option value="-1">Tác vụ</option>
+	<option value="edit" class="hide-if-no-js">Chỉnh sửa</option>
+	<option value="trash">Bỏ vào thùng rác</option>
+</select>
+<input type="submit" id="doaction2" class="button action" value="Áp dụng"  />
+		</div>
+				<div class="alignleft actions">
+		</div>
+<div class='tablenav-pages'><span class="displaying-num">74 mục</span>
+<span class='pagination-links'><span class="tablenav-pages-navspan" aria-hidden="true">&laquo;</span>
+<span class="tablenav-pages-navspan" aria-hidden="true">&lsaquo;</span>
+<span class="screen-reader-text">Trang hiện tại</span><span id="table-paging" class="paging-input"><span class="tablenav-paging-text">1 trên <span class='total-pages'>4</span></span></span>
+<a class='next-page' href='https://swilife.com/wp-admin/edit.php?paged=2'><span class='screen-reader-text'>Trang sau</span><span aria-hidden='true'>&rsaquo;</span></a>
+<a class='last-page' href='https://swilife.com/wp-admin/edit.php?paged=4'><span class='screen-reader-text'>Trang cuối</span><span aria-hidden='true'>&raquo;</span></a></span></div>
+		<br class="clear" />
+	</div>
+
+</form>
+
+
+	<form method="get"><table style="display: none"><tbody id="inlineedit">
+		
+		<tr id="inline-edit" class="inline-edit-row inline-edit-row-post quick-edit-row quick-edit-row-post inline-edit-post" style="display: none"><td colspan="12" class="colspanchange">
+
+		<fieldset class="inline-edit-col-left">
+			<legend class="inline-edit-legend">Sửa nhanh</legend>
+			<div class="inline-edit-col">
+	
+			<label>
+				<span class="title">Tiêu đề</span>
+				<span class="input-text-wrap"><input type="text" name="post_title" class="ptitle" value="" /></span>
+			</label>
+
+			<label>
+				<span class="title">Chuỗi cho đường dẫn tĩnh</span>
+				<span class="input-text-wrap"><input type="text" name="post_name" value="" /></span>
+			</label>
+
+	
+				<fieldset class="inline-edit-date">
+			<legend><span class="title">Thời gian</span></legend>
+				<div class="timestamp-wrap"><label><span class="screen-reader-text">Ban ngày</span><input type="text" name="jj" value="06" size="2" maxlength="2" autocomplete="off" /></label> <label><span class="screen-reader-text">Tháng</span><select name="mm">
+			<option value="01" data-text="Th1" >01-Th1</option>
+			<option value="02" data-text="Th2" >02-Th2</option>
+			<option value="03" data-text="Th3" >03-Th3</option>
+			<option value="04" data-text="Th4" >04-Th4</option>
+			<option value="05" data-text="Th5" >05-Th5</option>
+			<option value="06" data-text="Th6" >06-Th6</option>
+			<option value="07" data-text="Th7" >07-Th7</option>
+			<option value="08" data-text="Th8" >08-Th8</option>
+			<option value="09" data-text="Th9" >09-Th9</option>
+			<option value="10" data-text="Th10" >10-Th10</option>
+			<option value="11" data-text="Th11" >11-Th11</option>
+			<option value="12" data-text="Th12"  selected='selected'>12-Th12</option>
+</select></label> <label><span class="screen-reader-text">Năm</span><input type="text" name="aa" value="2018" size="4" maxlength="4" autocomplete="off" /></label> @ <label><span class="screen-reader-text">Giờ</span><input type="text" name="hh" value="09" size="2" maxlength="2" autocomplete="off" /></label> : <label><span class="screen-reader-text">Phút</span><input type="text" name="mn" value="17" size="2" maxlength="2" autocomplete="off" /></label></div><input type="hidden" id="ss" name="ss" value="33" />			</fieldset>
+			<br class="clear" />
+	
+	<label class="inline-edit-author"><span class="title">Tác giả</span><select name='post_author' class='authors'>
+	<option value='6'>Đỗ Thúy Hồng (Do Thuy Hong)</option>
+	<option value='5'>Nguyễn Hằng (hangnguyen)</option>
+	<option value='4'>Pham Linh (linhpham)</option>
+	<option value='1'>phuongdv (phuongdv)</option>
+	<option value='2'>Swilife (tranh)</option>
+	<option value='3'>tran trang (tran trang)</option>
+</select></label>
+			<div class="inline-edit-group wp-clearfix">
+				<label class="alignleft">
+					<span class="title">Mật khẩu</span>
+					<span class="input-text-wrap"><input type="text" name="post_password" class="inline-edit-password-input" value="" /></span>
+				</label>
+
+				<em class="alignleft inline-edit-or">
+					&ndash; HOẶC &ndash;				</em>
+				<label class="alignleft inline-edit-private">
+					<input type="checkbox" name="keep_private" value="private" />
+					<span class="checkbox-title">Riêng tư</span>
+				</label>
+			</div>
+
+	
+		</div></fieldset>
+
+	
+		<fieldset class="inline-edit-col-center inline-edit-categories"><div class="inline-edit-col">
+
+	
+			<span class="title inline-edit-categories-label">Chuyên mục</span>
+			<input type="hidden" name="post_category[]" value="0" />
+			<ul class="cat-checklist category-checklist">
+				
+<li id='category-83' class="popular-category"><label class="selectit"><input value="83" type="checkbox" name="post_category[]" id="in-category-83" /> FAQs</label></li>
+
+<li id='category-19' class="popular-category"><label class="selectit"><input value="19" type="checkbox" name="post_category[]" id="in-category-19" /> Job orders</label><ul class='children'>
+
+<li id='category-73'><label class="selectit"><input value="73" type="checkbox" name="post_category[]" id="in-category-73" /> Over $3000</label></li>
+
+<li id='category-57' class="popular-category"><label class="selectit"><input value="57" type="checkbox" name="post_category[]" id="in-category-57" /> Up to $1000</label></li>
+
+<li id='category-49' class="popular-category"><label class="selectit"><input value="49" type="checkbox" name="post_category[]" id="in-category-49" /> Up to $1500</label></li>
+
+<li id='category-51' class="popular-category"><label class="selectit"><input value="51" type="checkbox" name="post_category[]" id="in-category-51" /> Up to $2000</label></li>
+
+<li id='category-53' class="popular-category"><label class="selectit"><input value="53" type="checkbox" name="post_category[]" id="in-category-53" /> Up to $2500</label></li>
+
+<li id='category-55' class="popular-category"><label class="selectit"><input value="55" type="checkbox" name="post_category[]" id="in-category-55" /> Up to $3000</label></li>
+</ul>
+</li>
+
+<li id='category-95' class="popular-category"><label class="selectit"><input value="95" type="checkbox" name="post_category[]" id="in-category-95" /> Services</label></li>
+
+<li id='category-1' class="popular-category"><label class="selectit"><input value="1" type="checkbox" name="post_category[]" id="in-category-1" /> Tech News</label></li>
+			</ul>
+
+	
+		</div></fieldset>
+
+	
+		<fieldset class="inline-edit-col-right"><div class="inline-edit-col">
+
+	
+	
+	
+						<label class="inline-edit-tags">
+				<span class="title">Thẻ</span>
+				<textarea data-wp-taxonomy="post_tag" cols="22" rows="1" name="tax_input[post_tag]" class="tax_input_post_tag"></textarea>
+			</label>
+		
+	
+	
+	
+			<div class="inline-edit-group wp-clearfix">
+							<label class="alignleft">
+					<input type="checkbox" name="comment_status" value="open" />
+					<span class="checkbox-title">Cho phép gửi phản hồi</span>
+				</label>
+							<label class="alignleft">
+					<input type="checkbox" name="ping_status" value="open" />
+					<span class="checkbox-title">Cho phép Ping</span>
+				</label>
+						</div>
+
+	
+			<div class="inline-edit-group wp-clearfix">
+				<label class="inline-edit-status alignleft">
+					<span class="title">Trạng thái</span>
+					<select name="_status">
+												<option value="publish">Đã xuất bản</option>
+						<option value="future">Đã lên lịch</option>
+												<option value="pending">Chờ duyệt</option>
+						<option value="draft">Bản nháp</option>
+					</select>
+				</label>
+
+	
+	
+				<label class="alignleft">
+					<input type="checkbox" name="sticky" value="sticky" />
+					<span class="checkbox-title">Dán bài này lên đầu</span>
+				</label>
+
+	
+	
+			</div>
+
+	
+		</div></fieldset>
+
+	<fieldset class="inline-edit-col-left">
+					<div class="inline-edit-col">
+						<label class="alignleft">
+							<span class="title">Language</span>
+							<select name="inline_lang_choice">
+	<option value="en" lang="en-US">English</option>
+	<option value="vi" lang="vi">Tiếng Việt</option>
+
+</select>
+
+						</label>
+					</div>
+				</fieldset>		<div class="submit inline-edit-save">
+			<button type="button" class="button cancel alignleft">Hủy</button>
+			<input type="hidden" id="_inline_edit" name="_inline_edit" value="ed4f556c4f" />				<button type="button" class="button button-primary save alignright">Cập nhật</button>
+				<span class="spinner"></span>
+						<input type="hidden" name="post_view" value="list" />
+			<input type="hidden" name="screen" value="edit-post" />
+						<br class="clear" />
+			<div class="notice notice-error notice-alt inline hidden">
+				<p class="error"></p>
+			</div>
+		</div>
+		</td></tr>
+	
+		<tr id="bulk-edit" class="inline-edit-row inline-edit-row-post bulk-edit-row bulk-edit-row-post bulk-edit-post" style="display: none"><td colspan="12" class="colspanchange">
+
+		<fieldset class="inline-edit-col-left">
+			<legend class="inline-edit-legend">Chỉnh sửa hàng loạt</legend>
+			<div class="inline-edit-col">
+				<div id="bulk-title-div">
+				<div id="bulk-titles"></div>
+			</div>
+
+	
+	
+	
+		</div></fieldset>
+
+	
+		<fieldset class="inline-edit-col-right"><div class="inline-edit-col">
+
+	<label class="inline-edit-author"><span class="title">Tác giả</span><select name='post_author' class='authors'>
+	<option value='-1'>&mdash; Không đổi &mdash;</option>
+	<option value='6'>Đỗ Thúy Hồng (Do Thuy Hong)</option>
+	<option value='5'>Nguyễn Hằng (hangnguyen)</option>
+	<option value='4'>Pham Linh (linhpham)</option>
+	<option value='1'>phuongdv (phuongdv)</option>
+	<option value='2'>Swilife (tranh)</option>
+	<option value='3'>tran trang (tran trang)</option>
+</select></label>
+	
+	
+	
+			<div class="inline-edit-group wp-clearfix">
+					<label class="alignleft">
+				<span class="title">Bình luận</span>
+				<select name="comment_status">
+					<option value="">&mdash; Không đổi &mdash;</option>
+					<option value="open">Cho phép</option>
+					<option value="closed">Không cho phép</option>
+				</select>
+			</label>
+					<label class="alignright">
+				<span class="title">Ping</span>
+				<select name="ping_status">
+					<option value="">&mdash; Không đổi &mdash;</option>
+					<option value="open">Cho phép</option>
+					<option value="closed">Không cho phép</option>
+				</select>
+			</label>
+					</div>
+
+	
+			<div class="inline-edit-group wp-clearfix">
+				<label class="inline-edit-status alignleft">
+					<span class="title">Trạng thái</span>
+					<select name="_status">
+							<option value="-1">&mdash; Không đổi &mdash;</option>
+												<option value="publish">Đã xuất bản</option>
+						<option value="future">Đã lên lịch</option>
+							<option value="private">Riêng tư</option>
+												<option value="pending">Chờ duyệt</option>
+						<option value="draft">Bản nháp</option>
+					</select>
+				</label>
+
+	
+	
+				<label class="alignright">
+					<span class="title">Đính</span>
+					<select name="sticky">
+						<option value="-1">&mdash; Không đổi &mdash;</option>
+						<option value="sticky">Đính</option>
+						<option value="unsticky">Không dán</option>
+					</select>
+				</label>
+
+	
+	
+			</div>
+
+	
+		</div></fieldset>
+
+	<fieldset class="inline-edit-col-left">
+					<div class="inline-edit-col">
+						<label class="alignleft">
+							<span class="title">Language</span>
+							<select name="inline_lang_choice">
+	<option value="-1">&mdash; Không đổi &mdash;</option>
+	<option value="en" lang="en-US">English</option>
+	<option value="vi" lang="vi">Tiếng Việt</option>
+
+</select>
+
+						</label>
+					</div>
+				</fieldset>		<div class="submit inline-edit-save">
+			<button type="button" class="button cancel alignleft">Hủy</button>
+			<input type="submit" name="bulk_edit" id="bulk_edit" class="button button-primary alignright" value="Cập nhật"  />			<input type="hidden" name="post_view" value="list" />
+			<input type="hidden" name="screen" value="edit-post" />
+						<br class="clear" />
+			<div class="notice notice-error notice-alt inline hidden">
+				<p class="error"></p>
+			</div>
+		</div>
+		</td></tr>
+			</tbody></table></form>
+
+<div id="ajax-response"></div>
+<br class="clear" />
+</div>
+
+
+<div class="clear"></div></div><!-- wpbody-content -->
+<div class="clear"></div></div><!-- wpbody -->
+<div class="clear"></div></div><!-- wpcontent -->
+
+<div id="wpfooter" role="contentinfo">
+		<p id="footer-left" class="alignleft">
+		<span id="footer-thankyou">Cảm ơn bạn đã khởi tạo với <a href="https://wordpress.org/">WordPress</a>.</span>	</p>
+	<p id="footer-upgrade" class="alignright">
+		<strong><a href="https://swilife.com/wp-admin/update-core.php">Nhận phiên bản 5.0</a></strong>	</p>
+	<div class="clear"></div>
+</div>
+
+<script type="text/html" id="tmpl-primary-term-input">
+	<input type="hidden" class="yoast-wpseo-primary-term"
+		id="yoast-wpseo-primary-{{data.taxonomy.name}}"
+		name="yoast_wpseo_primary_{{data.taxonomy.name}}_term"
+		value="{{data.taxonomy.primary}}">
+
+	<input type="hidden" id="yoast_wpseo_primary_{{data.taxonomy.name}}_nonce" name="yoast_wpseo_primary_{{data.taxonomy.name}}_nonce" value="7f53d9841f" /><input type="hidden" name="_wp_http_referer" value="/wp-admin/edit.php" /></script>
+
+<script type="text/html" id="tmpl-primary-term-ui">
+	<button type="button" class="wpseo-make-primary-term" aria-label="Make {{data.term}} primary {{data.taxonomy.title}}">Make primary</button>
+	<span class="wpseo-is-primary-term" aria-hidden="true">Primary</span>
+</script>
+
+<script type="text/html" id="tmpl-primary-term-screen-reader">
+	<span class="screen-reader-text wpseo-primary-category-label">(Primary {{data.taxonomy.title}})</span>
+</script>
+<script type="text/javascript">
+	if (typeof jQuery != 'undefined') {
+		(function($){
+			$.ajaxPrefilter(function (options, originalOptions, jqXHR) {
+				if ( -1 != options.url.indexOf( ajaxurl ) || -1 != ajaxurl.indexOf( options.url ) ) {
+					if ( 'undefined' === typeof options.data ) {
+						options.data = ( 'get' === options.type.toLowerCase() ) ? 'pll_ajax_backend=1' : {"pll_ajax_backend":1};
+					} else {
+						if ( 'string' === typeof options.data ) {
+							if ( '' === options.data && 'get' === options.type.toLowerCase() ) {
+								options.url = options.url+'&pll_ajax_backend=1';
+							} else {
+								try {
+									o = $.parseJSON(options.data);
+									o = $.extend(o, {"pll_ajax_backend":1});
+									options.data = JSON.stringify(o);
+								}
+								catch(e) {
+									options.data = 'pll_ajax_backend=1&'+options.data;
+								}
+							}
+						} else {
+							options.data = $.extend(options.data, {"pll_ajax_backend":1});
+						}
+					}
+				}
+			});
+		})(jQuery)
+	}
+</script>
+	<div id="wp-auth-check-wrap" class="hidden">
+	<div id="wp-auth-check-bg"></div>
+	<div id="wp-auth-check">
+	<button type="button" class="wp-auth-check-close button-link"><span class="screen-reader-text">Đóng hộp thoại</span></button>
+			<div id="wp-auth-check-form" class="loading" data-src="https://swilife.com/wp-login.php?interim-login=1&#038;wp_lang=vi"></div>
+			<div class="wp-auth-fallback">
+		<p><b class="wp-auth-fallback-expired" tabindex="0">Phiên làm việc đã hết hạn</b></p>
+		<p><a href="https://swilife.com/wp-login.php" target="_blank">Hãy đăng nhập lại.</a>
+		Trang đăng nhập sẽ được mở trong một cửa sổ mới. Sau khi đăng nhập, bạn có thể đóng cửa sổ và quay lại trang hiện tại.</p>
+	</div>
+	</div>
+	</div>
+	<script type='text/javascript'>
+/* <![CDATA[ */
+var pll_term_languages = {"en":{"category":[83,19,73,95,1,57,49,51,53,55]}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpseoAdminGlobalL10n = {"dismiss_about_url":"\/wp-admin\/edit.php?wpseo-dismiss-about=1&nonce=ef1e312aa4","dismiss_tagline_url":"\/wp-admin\/edit.php?wpseo-dismiss-tagline-notice=1&nonce=93f95b03a3","help_video_iframe_title":"Yoast SEO video tutorial","scrollable_table_hint":"Scroll to see the table content."};
+/* ]]> */
+</script>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var commonL10n = {"warnDelete":"B\u1ea1n s\u1eafp x\u00f3a v\u0129nh vi\u1ec5n nh\u1eefng m\u1ee5c n\u00e0y kh\u1ecfi trang web c\u1ee7a b\u1ea1n.\nH\u00e0nh \u0111\u1ed9ng n\u00e0y kh\u00f4ng th\u1ec3 ho\u00e0n t\u00e1c.\n 'H\u1ee7y' \u0111\u1ec3 d\u1eebng, 'OK' \u0111\u1ec3 x\u00f3a.","dismiss":"B\u1ecf qua th\u00f4ng b\u00e1o n\u00e0y ","collapseMenu":"Thu nh\u1ecf menu ch\u00ednh","expandMenu":"M\u1edf r\u1ed9ng menu ch\u00ednh"};var uiAutocompleteL10n = {"noResults":"Kh\u00f4ng t\u00ecm th\u1ea5y k\u1ebft qu\u1ea3.","oneResult":"\u0110\u00e3 t\u00ecm th\u1ea5y 1 k\u1ebft qu\u1ea3. H\u00e3y d\u00f9ng ph\u00edm l\u00ean v\u00e0 xu\u1ed1ng \u0111\u1ec3 di chuy\u1ec3n.","manyResults":"%d k\u1ebft qu\u1ea3 \u0111\u01b0\u1ee3c t\u00ecm th\u1ea5y. S\u1eed d\u1ee5ng ph\u00edm l\u00ean \/ xu\u1ed1ng \u0111\u1ec3 xem.","itemSelected":"M\u1ee5c \u0111\u01b0\u1ee3c ch\u1ecdn."};var tagsSuggestL10n = {"tagDelimiter":",","removeTerm":"X\u00f3a term:","termSelected":"Term \u0111\u01b0\u1ee3c ch\u1ecdn.","termAdded":"Term \u0111\u00e3 \u0111\u01b0\u1ee3c th\u00eam.","termRemoved":"Term \u0111\u00e3 b\u1ecb x\u00f3a."};var inlineEditL10n = {"error":"L\u1ed7i khi l\u01b0u c\u00e1c thay \u0111\u1ed5i.","ntdeltitle":"X\u00f3a kh\u1ecfi danh s\u00e1ch Ch\u1ec9nh s\u1eeda h\u00e0ng lo\u1ea1t","notitle":"(kh\u00f4ng c\u00f3 ti\u00eau \u0111\u1ec1)","comma":",","saved":"Thay \u0111\u1ed5i \u0111\u00e3 \u0111\u01b0\u1ee3c l\u01b0u l\u1ea1i."};var heartbeatSettings = {"nonce":"42273ef4a8"};var authcheckL10n = {"beforeunload":"Phi\u00ean l\u00e0m vi\u1ec7c c\u1ee7a b\u1ea1n \u0111\u00e3 h\u1ebft h\u1ea1n. H\u00e3y \u0111\u0103ng nh\u1eadp l\u1ea1i t\u1ea1i \u0111\u00e2y ho\u1eb7c t\u1ea1i trang \u0111\u0103ng nh\u1eadp.","interval":"180"};var wpAjax = {"noPerm":"Xin l\u1ed7i, b\u1ea1n kh\u00f4ng \u0111\u01b0\u1ee3c ph\u00e9p l\u00e0m \u0111i\u1ec1u \u0111\u00f3.","broken":"C\u00f3 l\u1ed7i g\u00ec \u0111\u00f3 \u0111\u00e3 x\u1ea3y ra."};var postBoxL10n = {"postBoxEmptyString":"K\u00e9o c\u00e1c h\u1ed9p v\u00e0o \u0111\u00e2y"};var wordCountL10n = {"type":"words","shortcodes":["wp_caption","caption","gallery","playlist","audio","video","embed","contact-form-7","contact-form","wpseo_breadcrumb","envira-gallery"]};var postL10n = {"ok":"Ok","cancel":"H\u1ee7y","publishOn":"B\u00e0i vi\u1ebft \u0111\u01b0\u1ee3c \u0111\u0103ng:","publishOnFuture":"\u0110\u00e3 l\u00ean k\u1ebf ho\u1ea1ch:","publishOnPast":"\u0110\u01b0\u1ee3c \u0111\u0103ng:","dateFormat":"%2$s %1$s %3$s @ %4$s : %5$s","showcomm":"Hi\u1ec7n th\u00eam ph\u1ea3n h\u1ed3i","endcomm":"Kh\u00f4ng t\u00ecm th\u1ea5y ph\u1ea3n h\u1ed3i n\u00e0o n\u1eefa.","publish":"\u0110\u0103ng","schedule":"L\u00ean l\u1ecbch","update":"C\u1eadp nh\u1eadt","savePending":"L\u01b0u v\u00e0o danh s\u00e1ch ch\u1edd duy\u1ec7t","saveDraft":"L\u01b0u nh\u00e1p","private":"Ri\u00eang t\u01b0","public":"C\u00f4ng khai","publicSticky":"\u0110\u0103ng, d\u00e1n","password":"\u0110\u01b0\u1ee3c b\u1ea3o v\u1ec7 b\u1eb1ng m\u1eadt kh\u1ea9u","privatelyPublished":"\u0110\u01b0\u1ee3c \u0111\u0103ng \u1edf ch\u1ebf \u0111\u1ed9 ri\u00eang t\u01b0","published":"\u0110\u00e3 xu\u1ea5t b\u1ea3n","saveAlert":"C\u00e1c thay \u0111\u1ed5i b\u1ea1n v\u1eeba th\u1ef1c hi\u1ec7n s\u1ebd b\u1ecb m\u1ea5t n\u1ebfu b\u1ea1n \u0111i kh\u1ecfi trang n\u00e0y khi ch\u01b0a l\u01b0u b\u00e0i.","savingText":"L\u01b0u b\u1ea3n nh\u00e1p\u2026","permalinkSaved":"\u0110\u00e3 l\u01b0u \u0110\u01b0\u1eddng d\u1eabn t\u0129nh"};var thickboxL10n = {"next":"Trang sau >","prev":"< Trang tr\u01b0\u1edbc","image":"\u1ea2nh","of":"c\u1ee7a","close":"\u0110\u00f3ng","noiframes":"T\u00ednh n\u0103ng n\u00e0y y\u00eau c\u1ea7u b\u1eadt frame. B\u1ea1n c\u00f3 th\u1ec3 \u0111\u00e3 t\u1eaft t\u00ednh n\u0103ng n\u00e0y ho\u1eb7c tr\u00ecnh duy\u1ec7t kh\u00f4ng h\u1ed7 tr\u1ee3.","loadingAnimation":"https:\/\/swilife.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};/* ]]> */
+</script>
+<script type='text/javascript' src='https://swilife.com/wp-admin/load-scripts.php?c=1&amp;load%5B%5D=hoverIntent,common,admin-bar,jquery-ui-core,jquery-ui-widget,jquery-ui-position,jquery-ui-menu,wp-a11y,jquery-ui-autocomplete,ta&amp;load%5B%5D=gs-suggest,inline-edit-post,heartbeat,svg-painter,wp-auth-check,wp-ajax-response,suggest,jquery-color,wp-lists,jquery-ui-mouse,j&amp;load%5B%5D=query-ui-sortable,postbox,tags-box,underscore,word-count,post,thickbox&amp;ver=4.9.8'></script>
+<script type='text/javascript' src='https://swilife.com/wp-content/plugins/polylang/js/post.min.js?ver=2.3.3'></script>
+<script type='text/javascript' src='https://swilife.com/wp-content/plugins/wordpress-seo/js/dist/wp-seo-babel-polyfill-710.min.js?ver=7.1'></script>
+<script type='text/javascript' src='https://swilife.com/wp-content/plugins/wordpress-seo/js/dist/wp-seo-admin-global-710.min.js?ver=7.1'></script>
+<script type='text/javascript' src='https://swilife.com/wp-content/plugins/wordpress-seo/js/dist/wp-seo-quick-edit-handler-710.min.js?ver=7.1'></script>
+<script type='text/javascript' src='https://swilife.com/wp-content/plugins/wordpress-seo/js/dist/wp-seo-edit-page-710.min.js?ver=7.1'></script>
+
+<div class="clear"></div></div><!-- wpwrap -->
+<script type="text/javascript">if(typeof wpOnload=='function')wpOnload();</script>
+</body>
+</html>

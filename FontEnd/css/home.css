@@ -231,8 +231,106 @@ background: #f4f4f4;
 .logo_container{
     width: 200px;
 }
+/*alert  */
+.notifications-container {
+    width: 300px;
+    height: 100%;
+}
 
+.notification {
+    width: 300px;
+    padding: 20px;
+    background: #f7c66b;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    opacity: 0;
+    position: fixed;
+     right: 10px; 
+    /* top: 10px; */
+    bottom: 0px;
+    z-index: 100;
+}
 
+.icon {
+    background: orange;
+    color: #FFF;
+    position: absolute;
+    left: 0;
+    width: 60px;
+    bottom: 0;
+    top: 0;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification .content {
+    margin-left: 70px;
+    color: #384158;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.notification.success {
+    background: #04c504;
+
+    animation: opacity 10s;
+}
+.animation{
+    animation: opacity 10s; 
+}
+.success .icon {
+    background: green;
+}
+
+.notification.warning {
+    animation: opacity 5s 5s;
+}
+
+.notification.error {
+    background: #f16767;
+    animation: opacity 5s 10s;
+}
+
+.notification.error .icon {
+    background: red;
+}
+
+.notification.info {
+    background: #6fc0f7;
+    animation: opacity 5s 15s;
+}
+
+.notification.info .icon {
+    background: #0099FF;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+        bottom: 0px;
+    }
+    20% {
+        opacity: 1;
+        bottom: 10px;
+    }
+    50% {
+        opacity: 1;
+        bottom: 10px;
+    }
+    80% {
+        opacity: 1;
+        bottom: 10px;
+    }
+    100% {
+        opacity: 1;
+        
+        bottom: 10px;
+    }
+}
 
 
 
