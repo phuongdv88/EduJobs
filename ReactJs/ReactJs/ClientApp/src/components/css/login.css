@@ -1,0 +1,86 @@
+.textTop{
+    border: 1px #eee solid;
+    border-radius: 5px;
+    padding: 1em;
+    
+    
+}
+.textTop p{
+    color: #384158 !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.login{
+    /* margin-top: 2em; */
+    margin: auto;
+
+}
+.login h6{
+     color: #4d4c4d;
+    
+}
+.login .formLogin{
+    margin-top: 1em;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    padding: 1em ;
+    background: #eee;
+}
+.login input[type=text],[type=password]
+{
+width: 100%;
+height: 3em;
+border-radius: 3px;
+padding-left: 1em !important;
+border: 1px #ddd solid !important;
+margin-bottom: 1em;
+}
+.login .formLogin label{
+    color: #4d4c4d !important;
+
+}
+.btnDangNhap{
+    height: 3em;
+    border: 0px;
+    border-radius: 5px;
+    background: #14bdee;
+    padding: 0 1em 0 1em;
+    font-size: 14px;
+    color: white;
+    /* margin: auto; */
+    float: right;
+    min-width: 140px;
+    /* right: 0px;
+    position: absolute; */
+}
+.login .formLogin .btn{
+    margin-top: 1em;
+    padding: 0;
+}
+/* .createAccount{
+    margin-top: 2em;
+}
+.createAccount .formCreateAccount{
+    margin-top: 1em;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    padding: 1em ;
+    background: #eee;
+    height: 500px;
+} */
+.clearPaddingRight{
+    padding-right: 0px;
+}
+.clearPaddingLeft{
+    padding-left: 0px;
+}
+.formLogin a{
+    color: #4d4c4d;
+}
+.login .formLogin .gender input{
+    margin-left: 1em;
+   
+}
+.login .formLogin .gender{
+    color: #384158;
+}

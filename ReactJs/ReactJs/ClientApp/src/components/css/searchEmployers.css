@@ -1,0 +1,65 @@
+a{
+    color: #384158;
+}
+a:hover{
+    color: #14bdee;
+}
+.searchEmployer{
+    margin-top: 2em;
+  }
+  .searchEmployer h4{
+      margin-bottom: 1em;
+  }
+  .searchEmployer .left{
+    background: #eee;
+    padding: 1em 1em 1em 1em;
+    border-radius: 3px;
+    margin-bottom: 2em;
+  }
+  .searchEmployer .left select{
+      height: 3em !important;
+      width: 100%;
+      margin-top: 1em;
+  }
+.searchEmployer .left input{
+    width: 100%;
+      margin-top: 1em;
+      padding-left: 1em !important;
+}
+.searchEmployer .left .btnSearch{
+   
+        height: 3em;
+        width: 100%;
+        text-align: center;
+        background: #14bdee;
+        border: none;
+        color: white;
+        border-radius: 3px;
+        margin-top: 1em;
+  
+}
+.searchEmployer .school{
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    margin-bottom: 1em;
+    
+}
+.searchEmployer .school h4{
+    margin-top: 1em;
+}
+.searchEmployer .school .textSchool{
+   
+    padding-right: 1em;
+}
+.searchEmployer .school .textJob{
+    margin-top: 1em;
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 2px #aaa solid;
+}
+.searchEmployer .school .infJob{
+    padding-bottom: 1em;
+}
+.searchEmployer .school .infJob img{
+   width: 100%;
+}
