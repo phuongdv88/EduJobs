@@ -1,0 +1,697 @@
+.clearPadding {
+  padding: 0; }
+
+.dropdown .dropdown-toggle {
+  border: 0px;
+  font-size: 18px;
+  color: #384158;
+  font-weight: 500;
+  background: white; }
+  .dropdown .dropdown-toggle i {
+    color: #384158; }
+.dropdown .dropdown-menu .dropdown-item {
+  font-size: 14px;
+  color: #384158; }
+
+.contentCV h4 {
+  margin-top: 1em; }
+.contentCV .leftCV {
+  margin-top: 1em; }
+  .contentCV .leftCV .listJob {
+    min-height: 3em;
+    margin-top: 2em;
+    background: #eee;
+    color: #384158;
+    font-size: 18px; }
+    .contentCV .leftCV .listJob i {
+      margin-top: 1em;
+      font-size: 18px;
+      color: #384158; }
+    .contentCV .leftCV .listJob p {
+      float: right; }
+  .contentCV .leftCV .listAdvan {
+    display: none; }
+    .contentCV .leftCV .listAdvan .background {
+      background: #fafafa;
+      min-height: 3em;
+      border-bottom: 2px white solid; }
+      .contentCV .leftCV .listAdvan .background p {
+        color: #384158;
+        font-weight: bolder;
+        margin-top: 0.8em;
+        font-size: 16px; }
+    .contentCV .leftCV .listAdvan .list {
+      font-size: 16px;
+      min-height: 3em;
+      background: #fafafa;
+      border-bottom: 2px white solid; }
+      .contentCV .leftCV .listAdvan .list .btnUngTuyen {
+        height: 2.5em;
+        min-width: 120px;
+        background: #14bdee;
+        text-align: center;
+        border: 0px;
+        border-radius: 5px;
+        margin: 0.5em;
+        float: right;
+        font-size: 16px; }
+        .contentCV .leftCV .listAdvan .list .btnUngTuyen p {
+          color: white;
+          font-size: 16px;
+          font-weight: normal; }
+      .contentCV .leftCV .listAdvan .list i {
+        color: #384158;
+        font-style: normal; }
+      .contentCV .leftCV .listAdvan .list label {
+        min-width: 100px;
+        float: right;
+        text-align: center;
+        margin-top: 1em; }
+        .contentCV .leftCV .listAdvan .list label a {
+          color: #384158; }
+        .contentCV .leftCV .listAdvan .list label a:hover {
+          color: #14bdee; }
+    .contentCV .leftCV .listAdvan .btn {
+      background: #fafafa; }
+      .contentCV .leftCV .listAdvan .btn button {
+        height: 2.5em;
+        min-width: 120px;
+        background: #14bdee;
+        text-align: center;
+        border: 0px;
+        border-radius: 5px;
+        margin: 0.5em;
+        float: right;
+        font-size: 16px;
+        text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin: auto;
+        float: none;
+        color: white; }
+  .contentCV .leftCV .notificationJob {
+    min-height: 3em;
+    margin-top: 2em;
+    background: #eee;
+    color: #384158;
+    font-size: 18px; }
+    .contentCV .leftCV .notificationJob i {
+      margin-top: 1em;
+      font-size: 18px;
+      color: #384158; }
+    .contentCV .leftCV .notificationJob p {
+      float: right; }
+  .contentCV .leftCV .listNotification {
+    display: none; }
+    .contentCV .leftCV .listNotification .background {
+      background: #fafafa;
+      min-height: 3em;
+      border-bottom: 2px white solid; }
+      .contentCV .leftCV .listNotification .background p {
+        color: #384158;
+        font-weight: bolder;
+        margin-top: 0.8em;
+        font-size: 16px; }
+    .contentCV .leftCV .listNotification .list {
+      font-size: 16px;
+      min-height: 3em;
+      background: #fafafa;
+      border-bottom: 2px white solid; }
+      .contentCV .leftCV .listNotification .list i {
+        color: #384158;
+        font-weight: bold; }
+      .contentCV .leftCV .listNotification .list .fa-clock-o {
+        margin-top: 1em; }
+      .contentCV .leftCV .listNotification .list p {
+        color: #384158;
+        margin-bottom: 3px; }
+      .contentCV .leftCV .listNotification .list .link a {
+        float: right;
+        color: #384158;
+        margin-top: 1em;
+        padding: 0 1em 0 1em;
+        border-right: 1px #384158 solid; }
+      .contentCV .leftCV .listNotification .list .link a:hover {
+        color: #14bdee; }
+    .contentCV .leftCV .listNotification .btn {
+      background: #fafafa; }
+      .contentCV .leftCV .listNotification .btn p {
+        margin: auto;
+        text-align: center; }
+      .contentCV .leftCV .listNotification .btn button {
+        height: 2.5em;
+        min-width: 120px;
+        background: #14bdee;
+        text-align: center;
+        border: 0px;
+        border-radius: 5px;
+        margin: 0.5em;
+        float: right;
+        font-size: 16px;
+        text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin: auto;
+        float: none;
+        color: white; }
+  .contentCV .leftCV .application {
+    min-height: 3em;
+    margin-top: 2em;
+    background: #eee;
+    color: #384158;
+    font-size: 18px; }
+    .contentCV .leftCV .application i {
+      margin-top: 1em;
+      font-size: 18px;
+      color: #384158; }
+    .contentCV .leftCV .application p {
+      float: right; }
+  .contentCV .leftCV .listApplication {
+    display: none;
+    margin-bottom: 3em; }
+    .contentCV .leftCV .listApplication .background {
+      background: #fafafa;
+      min-height: 3em;
+      border-bottom: 2px white solid; }
+      .contentCV .leftCV .listApplication .background p {
+        color: #384158;
+        font-weight: bolder;
+        margin-top: 0.8em;
+        font-size: 16px; }
+      .contentCV .leftCV .listApplication .background p {
+        text-align: center; }
+
+.profile {
+  margin: 2em 0 3em 0; }
+  .profile .yourProfile {
+    margin-bottom: 1em; }
+    .profile .yourProfile h4 {
+      margin-bottom: 2em; }
+    .profile .yourProfile label {
+      color: #384158; }
+      .profile .yourProfile label a {
+        padding-left: 1em;
+        font-size: 16px;
+        color: #384158; }
+      .profile .yourProfile label a:hover {
+        color: #14bdee; }
+    .profile .yourProfile button {
+      height: 2.5em;
+      min-width: 120px;
+      background: #14bdee;
+      text-align: center;
+      border: 0px;
+      border-radius: 5px;
+      margin: 0.5em;
+      float: right;
+      font-size: 16px;
+      color: white; }
+  .profile .personalDetails .top {
+    min-height: 3em;
+    margin-top: 2em;
+    background: #eee;
+    color: #384158;
+    font-size: 18px; }
+    .profile .personalDetails .top i {
+      margin-top: 1em;
+      font-size: 18px;
+      color: #384158; }
+    .profile .personalDetails .top p {
+      float: right; }
+  .profile .personalDetails .list {
+    display: none;
+    background: #fafafa;
+    padding-bottom: 1em;
+    padding-top: 1em; }
+    .profile .personalDetails .list label {
+      color: #384158;
+      font-size: 16px; }
+    .profile .personalDetails .list input {
+      border-radius: 3px;
+      border: 1px #d2d6de solid; }
+    .profile .personalDetails .list i {
+      font-size: 16px; }
+  .profile .yourCurrent .top {
+    min-height: 3em;
+    margin-top: 2em;
+    background: #eee;
+    color: #384158;
+    font-size: 18px; }
+    .profile .yourCurrent .top i {
+      margin-top: 1em;
+      font-size: 18px;
+      color: #384158; }
+    .profile .yourCurrent .top p {
+      float: right; }
+  .profile .yourCurrent .list {
+    display: none;
+    background: #fafafa;
+    padding-bottom: 1em;
+    padding-top: 1em; }
+    .profile .yourCurrent .list label {
+      color: #384158;
+      font-size: 16px; }
+    .profile .yourCurrent .list input {
+      border-radius: 3px;
+      border: 1px #d2d6de solid; }
+    .profile .yourCurrent .list i {
+      font-size: 16px; }
+    .profile .yourCurrent .list li {
+      color: #384158; }
+  .profile .yourNewRole .top {
+    min-height: 3em;
+    margin-top: 2em;
+    background: #eee;
+    color: #384158;
+    font-size: 18px; }
+    .profile .yourNewRole .top i {
+      margin-top: 1em;
+      font-size: 18px;
+      color: #384158; }
+    .profile .yourNewRole .top p {
+      float: right; }
+  .profile .yourNewRole .list {
+    display: none;
+    background: #fafafa;
+    padding-bottom: 1em;
+    padding-top: 1em; }
+    .profile .yourNewRole .list label {
+      color: #384158;
+      font-size: 16px; }
+    .profile .yourNewRole .list input {
+      border-radius: 3px;
+      border: 1px #d2d6de solid; }
+    .profile .yourNewRole .list i {
+      font-size: 16px; }
+    .profile .yourNewRole .list select {
+      height: 3em;
+      width: 50%;
+      border-radius: 3px;
+      border: 1px #d2d6de solid; }
+    .profile .yourNewRole .list li {
+      color: #384158; }
+  .profile .viewYourProfile .top {
+    min-height: 3em;
+    margin-top: 2em;
+    background: #eee;
+    color: #384158;
+    font-size: 18px; }
+    .profile .viewYourProfile .top i {
+      margin-top: 1em;
+      font-size: 18px;
+      color: #384158; }
+    .profile .viewYourProfile .top p {
+      float: right; }
+  .profile .viewYourProfile .list {
+    display: none;
+    background: #fafafa;
+    padding-bottom: 1em;
+    padding-top: 1em; }
+    .profile .viewYourProfile .list label {
+      color: #384158;
+      font-size: 16px; }
+    .profile .viewYourProfile .list input {
+      border-radius: 3px;
+      border: 1px #d2d6de solid; }
+    .profile .viewYourProfile .list i {
+      font-size: 16px; }
+    .profile .viewYourProfile .list input[type=radio] {
+      margin-right: 3em; }
+  .profile .saveChange {
+    min-height: 3.5em;
+    margin-top: 2em; }
+    .profile .saveChange a {
+      color: #384158;
+      font-size: 16px; }
+    .profile .saveChange a:hover {
+      color: #14bdee; }
+    .profile .saveChange button {
+      height: 2.5em;
+      min-width: 120px;
+      background: #14bdee;
+      text-align: center;
+      border: 0px;
+      border-radius: 5px;
+      margin: 0.5em;
+      float: right;
+      font-size: 16px;
+      color: white; }
+
+.yourAccount .personalDetails {
+  margin-bottom: 1em; }
+  .yourAccount .personalDetails .top {
+    background: #eee;
+    min-height: 3em;
+    margin-top: 2em;
+    background: #eee;
+    color: #384158;
+    font-size: 18px; }
+    .yourAccount .personalDetails .top i {
+      margin-top: 1em;
+      font-size: 18px;
+      color: #384158; }
+    .yourAccount .personalDetails .top p {
+      float: right; }
+  .yourAccount .personalDetails .list {
+    display: none;
+    background: #fafafa;
+    padding-bottom: 1em;
+    padding-top: 1em; }
+    .yourAccount .personalDetails .list label {
+      color: #384158;
+      font-size: 16px; }
+    .yourAccount .personalDetails .list input {
+      border-radius: 3px;
+      border: 1px #d2d6de solid; }
+    .yourAccount .personalDetails .list i {
+      font-size: 16px; }
+  .yourAccount .personalDetails .btn button {
+    height: 2.5em;
+    min-width: 120px;
+    background: #14bdee;
+    text-align: center;
+    border: 0px;
+    border-radius: 5px;
+    margin: 0.5em;
+    float: right;
+    font-size: 16px;
+    color: white; }
+.yourAccount .emailAddress .top {
+  min-height: 3em;
+  margin-top: 2em;
+  background: #eee;
+  color: #384158;
+  font-size: 18px;
+  background: #eee; }
+  .yourAccount .emailAddress .top i {
+    margin-top: 1em;
+    font-size: 18px;
+    color: #384158; }
+  .yourAccount .emailAddress .top p {
+    float: right; }
+.yourAccount .emailAddress .list {
+  display: none;
+  background: #fafafa;
+  padding-bottom: 1em;
+  padding-top: 1em; }
+  .yourAccount .emailAddress .list label {
+    color: #384158;
+    font-size: 16px; }
+  .yourAccount .emailAddress .list input {
+    border-radius: 3px;
+    border: 1px #d2d6de solid; }
+  .yourAccount .emailAddress .list i {
+    font-size: 16px; }
+  .yourAccount .emailAddress .list input[type=email], .yourAccount .emailAddress .list [type=password] {
+    width: 100%;
+    height: 3em;
+    padding-left: 1em; }
+  .yourAccount .emailAddress .list label a {
+    color: #384158;
+    font-weight: bold; }
+  .yourAccount .emailAddress .list .btn button {
+    height: 2.5em;
+    min-width: 120px;
+    background: #14bdee;
+    text-align: center;
+    border: 0px;
+    border-radius: 5px;
+    margin: 0.5em;
+    float: right;
+    font-size: 16px;
+    color: white; }
+.yourAccount .passWord .top {
+  min-height: 3em;
+  margin-top: 2em;
+  background: #eee;
+  color: #384158;
+  font-size: 18px; }
+  .yourAccount .passWord .top i {
+    margin-top: 1em;
+    font-size: 18px;
+    color: #384158; }
+  .yourAccount .passWord .top p {
+    float: right; }
+.yourAccount .passWord .list {
+  display: none;
+  background: #fafafa;
+  padding-bottom: 1em;
+  padding-top: 1em; }
+  .yourAccount .passWord .list label {
+    color: #384158;
+    font-size: 16px; }
+  .yourAccount .passWord .list input {
+    border-radius: 3px;
+    border: 1px #d2d6de solid; }
+  .yourAccount .passWord .list i {
+    font-size: 16px; }
+  .yourAccount .passWord .list input[type=password] {
+    width: 100%;
+    height: 3em;
+    padding-left: 1em; }
+.yourAccount .passWord .btn button {
+  height: 2.5em;
+  min-width: 120px;
+  background: #14bdee;
+  text-align: center;
+  border: 0px;
+  border-radius: 5px;
+  margin: 0.5em;
+  float: right;
+  font-size: 16px;
+  color: white;
+  padding-left: 1em;
+  padding-right: 1em; }
+.yourAccount .privacy .top {
+  min-height: 3em;
+  margin-top: 2em;
+  background: #eee;
+  color: #384158;
+  font-size: 18px; }
+  .yourAccount .privacy .top i {
+    margin-top: 1em;
+    font-size: 18px;
+    color: #384158; }
+  .yourAccount .privacy .top p {
+    float: right; }
+.yourAccount .privacy .list {
+  display: none;
+  background: #fafafa;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  display: block; }
+  .yourAccount .privacy .list label {
+    color: #384158;
+    font-size: 16px; }
+  .yourAccount .privacy .list input {
+    border-radius: 3px;
+    border: 1px #d2d6de solid; }
+  .yourAccount .privacy .list i {
+    font-size: 16px; }
+.yourAccount .privacy .btn button {
+  height: 2.5em;
+  min-width: 120px;
+  background: #14bdee;
+  text-align: center;
+  border: 0px;
+  border-radius: 5px;
+  margin: 0.5em;
+  float: right;
+  font-size: 16px;
+  color: white; }
+
+.companyDetail .top h3 {
+  margin-bottom: 1em; }
+.companyDetail .top img {
+  width: 100%; }
+.companyDetail .top p {
+  color: #384158;
+  margin-bottom: 0px; }
+  .companyDetail .top p i {
+    padding-right: 1em; }
+.companyDetail .top .btn {
+  padding-top: 3em; }
+  .companyDetail .top .btn .btnReviews {
+    height: 2.5em;
+    min-width: 120px;
+    background: #14bdee;
+    text-align: center;
+    border: 0px;
+    border-radius: 5px;
+    margin: 0.5em;
+    float: right;
+    font-size: 16px;
+    color: white;
+    float: right; }
+  .companyDetail .top .btn .btnReviews:hover {
+    background: #0fabd7; }
+  .companyDetail .top .btn .btnFollow {
+    height: 2.5em;
+    min-width: 120px;
+    background: #14bdee;
+    text-align: center;
+    border: 0px;
+    border-radius: 5px;
+    margin: 0.5em;
+    float: right;
+    font-size: 16px;
+    color: white;
+    float: right; }
+  .companyDetail .top .btn .btnFollow:hover {
+    background: #0fabd7; }
+.companyDetail .center {
+  margin-top: 1em; }
+  .companyDetail .center li a {
+    color: #384158;
+    font-size: 16px; }
+  .companyDetail .center .overView {
+    padding: 0;
+    margin-bottom: 1em; }
+    .companyDetail .center .overView .content {
+      border: 1px #d2d6de solid;
+      border-top: 0px;
+      margin-top: 0px;
+      padding: 1em;
+      border-radius: 5px 5px 5px 5px;
+      box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1); }
+    .companyDetail .center .overView p {
+      color: #384158; }
+    .companyDetail .center .overView b {
+      color: #384158; }
+    .companyDetail .center .overView a {
+      font-size: 16px;
+      text-decoration: none !important;
+      font-weight: bolder;
+      border-bottom: 0px; }
+    .companyDetail .center .overView a:hover {
+      color: #14bdee;
+      background: none; }
+    .companyDetail .center .overView .recruitment {
+      border: 1px #d2d6de solid;
+      margin-top: 1em;
+      border-radius: 5px 5px 5px 5px; }
+      .companyDetail .center .overView .recruitment h3 {
+        margin-top: 1em; }
+      .companyDetail .center .overView .recruitment .boder {
+        border: 1px #aaa solid;
+        padding: 1em 0 1em 0;
+        border-radius: 5px;
+        margin-bottom: 1em;
+        margin-top: 1em; }
+        .companyDetail .center .overView .recruitment .boder .btnChiTiet {
+          border: 1px #aaa solid;
+          border-radius: 5px;
+          height: 2.5em;
+          padding: 0 1em 0 1em;
+          margin-top: 1em; }
+        .companyDetail .center .overView .recruitment .boder .btnLike {
+          border: 0px;
+          background: white;
+          text-align: center;
+          position: absolute;
+          right: 3em;
+          bottom: 8px; }
+        .companyDetail .center .overView .recruitment .boder .btnLike i {
+          color: red;
+          font-size: 18px; }
+        .companyDetail .center .overView .recruitment .boder .imgSchool {
+          width: 100%;
+          height: 200px; }
+    .companyDetail .center .overView .address {
+      color: #384158;
+      border: 1px #d2d6de solid;
+      margin-top: 1em;
+      border-radius: 5px 5px 5px 5px; }
+      .companyDetail .center .overView .address h3 {
+        margin-top: 1em; }
+  .companyDetail .center .reviews {
+    margin-bottom: 1em;
+    padding: 0px; }
+    .companyDetail .center .reviews span, .companyDetail .center .reviews td {
+      color: #384158; }
+    .companyDetail .center .reviews .rate {
+      border: 1px #d2d6de solid;
+      border-top: 0px;
+      margin-top: 0px;
+      padding: 1em;
+      border-radius: 5px 5px 5px 5px;
+      box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1); }
+      .companyDetail .center .reviews .rate .fa-star {
+        font-size: 30px; }
+      .companyDetail .center .reviews .rate .checked {
+        color: orange; }
+      .companyDetail .center .reviews .rate b {
+        font-size: 18px; }
+      .companyDetail .center .reviews .rate .rateDetail {
+        margin-top: 1em; }
+        .companyDetail .center .reviews .rate .rateDetail .checked {
+          color: orange; }
+        .companyDetail .center .reviews .rate .rateDetail .fa-star {
+          font-size: 25px; }
+        .companyDetail .center .reviews .rate .rateDetail table tr td {
+          padding-right: 1em;
+          padding-bottom: 0.5em; }
+    .companyDetail .center .reviews .posts {
+      border: 1px #d2d6de solid;
+      border-top: 0px;
+      margin-top: 0px;
+      padding: 1em;
+      border-radius: 5px 5px 5px 5px;
+      box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+      margin-top: 1em;
+      border-top: 1px #d2d6de solid; }
+      .companyDetail .center .reviews .posts table {
+        margin-bottom: 2em; }
+        .companyDetail .center .reviews .posts table td {
+          padding-right: 2em; }
+          .companyDetail .center .reviews .posts table td .fa-thumbs-o-up {
+            color: red; }
+        .companyDetail .center .reviews .posts table .date {
+          font-size: 13px; }
+      .companyDetail .center .reviews .posts .fa-star {
+        font-size: 20px; }
+      .companyDetail .center .reviews .posts .checked {
+        color: orange; }
+      .companyDetail .center .reviews .posts li {
+        color: #384158; }
+  .companyDetail .center .right .addReview {
+    border: 1px #d2d6de solid;
+    border-top: 0px;
+    margin-top: 0px;
+    padding: 1em;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-top: 1px #d2d6de solid; }
+    .companyDetail .center .right .addReview p {
+      text-align: center; }
+    .companyDetail .center .right .addReview .btn {
+      display: flex;
+      margin-top: 1em; }
+      .companyDetail .center .right .addReview .btn .btnAddReview {
+        height: 2.5em;
+        min-width: 120px;
+        background: #14bdee;
+        text-align: center;
+        border: 0px;
+        border-radius: 5px;
+        margin: 0.5em;
+        float: right;
+        font-size: 16px;
+        float: none;
+        margin: auto;
+        width: 100%;
+        color: white; }
+      .companyDetail .center .right .addReview .btn .btnAddReview:hover {
+        background: #0fabd7; }
+  .companyDetail .center .right .recruitment {
+    border: 1px #d2d6de solid;
+    border-top: 0px;
+    margin-top: 0px;
+    padding: 1em;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    margin-top: 1em; }
+    .companyDetail .center .right .recruitment h4 {
+      text-align: center; }
+
+/*# sourceMappingURL=yourjob.css.map */

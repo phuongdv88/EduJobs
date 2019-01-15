@@ -29,9 +29,10 @@ $maubtnUngTuyen:red;
 }
 @mixin btnUngTuyen{
     margin-top: 1em;
+    float: right;
     height: 3em;
-    width: 100%;
-    background: $maubtnUngTuyen;
+    min-width: 200px;
+    background: $maubutton;
     text-align: center;
     border: 0px;
     border-radius: 5px;
@@ -265,4 +266,13 @@ table{
         }
     }
 }
-
+.slide{
+    .carousel-inner{
+       .carousel-item{
+           img{
+               width: 100%;
+               height: 400px;
+           }
+       } 
+    }
+}

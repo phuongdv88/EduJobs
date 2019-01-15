@@ -106,9 +106,10 @@ table .iconExried {
         padding-right: 2em; }
     .centerCTCV .rightCTCV .btnUngTuyen {
       margin-top: 1em;
+      float: right;
       height: 3em;
-      width: 100%;
-      background: red;
+      min-width: 200px;
+      background: #14bdee;
       text-align: center;
       border: 0px;
       border-radius: 5px; }
@@ -173,9 +174,10 @@ table .iconExried {
       margin-left: 1em; }
     .scrollTop .container .btnUngTuyen {
       margin-top: 1em;
+      float: right;
       height: 3em;
-      width: 100%;
-      background: red;
+      min-width: 200px;
+      background: #14bdee;
       text-align: center;
       border: 0px;
       border-radius: 5px;
@@ -184,5 +186,9 @@ table .iconExried {
       .scrollTop .container .btnUngTuyen b {
         color: white;
         font-size: 18px; }
+
+.slide .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 400px; }
 
 /*# sourceMappingURL=style.css.map */

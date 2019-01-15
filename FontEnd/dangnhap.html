@@ -19,7 +19,7 @@
 <div>
     <!-- Header Content -->
     <div class="header_container">
-        <div >
+        <div>
             <div class="row">
                 <div class="col">
                     <div class="header_content d-flex flex-row align-items-center justify-content-start">
@@ -36,7 +36,7 @@
                                 <li>
                                     <a href="index.html">Trang Chủ</a>
                                 </li>
-                                <li >
+                                <li>
                                     <a href="timkiemnangcao.html">Tìm Việc</a>
                                 </li>
                                 <li>
@@ -46,7 +46,7 @@
                                     <a href="timnhatuyendung.html">Nhà Tuyển Dụng</a>
                                 </li>
                                 <li>
-                                    <a href="#">Blog</a>
+                                    <a href="blog.html">Blog</a>
                                 </li>
                                 <li class="active">
                                     <a href="dangnhap.html">Đăng Nhập</a>
@@ -94,7 +94,7 @@
                     <a href="timnhatuyendung.html">Nhà Tuyển Dụng</a>
                 </li>
                 <li class="menu_mm">
-                    <a href="#">Blog</a>
+                    <a href="blog.html">Blog</a>
                 </li>
                 <li class="menu_mm">
                     <a href="dangnhap.html">Đăng Nhập</a>
@@ -112,53 +112,32 @@
             <!-- top -->
             <div class=" col-lg-12 col-md-12 col-sm-12 col-12">
                 <div class=" col-lg-12 col-md-12 col-sm-12 col-12 textTop">
-                    <p>Để nhận thông báo việc làm của bạn, vui lòng đăng nhập hoặc tạo một tài khoản bên dưới.</p>
+                    <p>Để nhận thông báo việc làm của bạn, vui lòng tạo một tài khoản bên dưới.</p>
 
                 </div>
             </div>
             <!-- center -->
-            <div class="row col-lg-12 col-md-12 col-sm-12 col-12">
-                <div class=" col-lg-6 col-md-6 col-sm-6 col-12 login">
-                    <h6>Đăng Nhập</h6>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 formLogin">
+            <div class="row col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex">
+
+                <div class=" col-lg-6 col-md-6 col-sm-12 col-12 login">
+
+                    <div class=" row col-lg-12 col-md-12 col-sm-12 col-12 clearPadding formLogin">
+
+                        <div class=" col-lg-6 col-md-6 col-sm-6 col-12 clearPaddingLeft">
+                            <label>Họ & Đệm:</label>
+                            <input type="text" placeholder="Họ đệm..">
+                        </div>
+                        <div class=" col-lg-6 col-md-6 col-sm-6 col-12 clearPadding">
+                            <label>Tên:</label>
+                            <input type="text" placeholder="Tên..">
+                        </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
-                            <label>Email:</label>
-                            <input type="text" placeholder="Email..">
-                            <label>Mật khẩu:</label>
-                            <input type="password" placeholder="Mật khẩu..">
-                            <label>
-                                <input type="checkbox"> Lưu mật khẩu
-                            </label>
-                        </div>
-                        <div class="row col-lg-12 col-md-12 col-sm-12 col-12 clearPadding" style="height: 4em;">
-                            <div class=" col-lg-6 col-md-6 col-sm-6 col-12 ">
-                                <a href="#"> Quên mật khẩu? </a>
-                            </div>
-                            <div style="position: absolute;right: 0;bottom: 0">
-                                <!-- <input type="submit" class="btnDangNhap" value="Đăng nhập"> -->
-                                <button class="btnDangNhap">Đăng nhập</button>
-                            </div>
+                            <form class="gender">
+                                <label>Giới tính:</label>
+                                <input type="radio" name="gender" value="male"> Nam
+                                <input type="radio" name="gender" value="female"> Nữ
+                             </form>
 
-                        </div>
-
-                    </div>
-                </div>
-                <div class=" col-lg-6 col-md-6 col-sm-6 col-12 login">
-                    <h6>Đăng Ký</h6>
-                    <div class=" row col-lg-12 col-md-12 col-sm-12 col-12 formLogin">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-12 clearPaddingRight" style="padding-left: 0px">
-                                <label>Chức vụ:</label>
-                                <input type="text" placeholder="Chức vụ..">
-                            </div>
-                            <div class=" col-lg-4 col-md-4 col-sm-4 col-12 clearPaddingRight">
-                                <label>Họ & Đệm:</label>
-                                <input type="text" placeholder="Họ đệm..">
-                            </div>
-                            <div class=" col-lg-4 col-md-4 col-sm-4 col-12 clearPaddingRight">
-                                <label>Tên:</label>
-                                <input type="text" placeholder="Tên..">
-                            </div>
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
                             <label>Email:</label>
@@ -212,7 +191,7 @@
                                                 <!-- <div class="footer_logo_text">Edu
                                                     <span>School</span>
                                                 </div> -->
-                                                <img src="img/logo2.png" style="width: 100%;"> 
+                                                <img src="img/logo2.png" style="width: 100%;">
                                             </a>
                                         </div>
                                         <div class="footer_about_text">

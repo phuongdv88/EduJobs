@@ -12,6 +12,7 @@
 }
 .login{
     /* margin-top: 2em; */
+    margin: auto;
 
 }
 .login h6{
@@ -42,14 +43,19 @@ margin-bottom: 1em;
     height: 3em;
     border: 0px;
     border-radius: 5px;
-    background: red;
+    background: #14bdee;
     padding: 0 1em 0 1em;
     font-size: 14px;
     color: white;
-    margin: auto;
+    /* margin: auto; */
+    float: right;
     min-width: 140px;
     /* right: 0px;
     position: absolute; */
+}
+.login .formLogin .btn{
+    margin-top: 1em;
+    padding: 0;
 }
 /* .createAccount{
     margin-top: 2em;
@@ -65,6 +71,16 @@ margin-bottom: 1em;
 .clearPaddingRight{
     padding-right: 0px;
 }
+.clearPaddingLeft{
+    padding-left: 0px;
+}
 .formLogin a{
     color: #4d4c4d;
+}
+.login .formLogin .gender input{
+    margin-left: 1em;
+   
+}
+.login .formLogin .gender{
+    color: #384158;
 }

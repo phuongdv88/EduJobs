@@ -1,3 +1,9 @@
+a{
+    color: #384158;
+}
+a:hover{
+    color: #14bdee;
+}
 .searchEmployer{
     margin-top: 2em;
   }

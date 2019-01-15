@@ -38,13 +38,20 @@
                                 </label>
                             </div>
                             <div class="row col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
-                                <div class=" col-lg-12 col-md-12 col-sm-12 col-12 ">
-                                    <a href="#"> Quên mật khẩu? </a>
+                                <div class="row col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                        <a href="#"> Quên mật khẩu? </a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                        <a href="dangnhap.html"> Đăng ký tài khoản </a>
+                                    </div>
+
+
                                 </div>
-                                <div class=" col-lg-12 col-md-12 col-sm-12 col-12 " style="display: flex;margin-top:1em">
+
+                                <div class=" col-lg-12 col-md-12 col-sm-12 col-12 btn ">
                                     <!-- <input type="submit" class="btnDangNhap" value="Đăng nhập"> -->
                                     <button class="btnDangNhap">Đăng nhập</button>
-                                    <button class="btnDangNhap" data-toggle="modal" data-target="#dangky">Đăng ký</button>
                                 </div>
 
                             </div>
@@ -58,72 +65,7 @@
             </div>
         </div>
     </div>
-    <!-- modal dang ky -->
-    <div class="modal fade" id="dangky">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Đăng Ký</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-
-                <!-- Modal body -->
-                <div class="modal-body clearPadding">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 login clearPadding">
-
-                        <div class=" row col-lg-12 col-md-12 col-sm-12 col-12 formLogin clearPadding">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-12 clearPaddingRight" style="padding-left: 0px">
-                                    <label>Chức vụ:</label>
-                                    <input type="text" placeholder="Chức vụ..">
-                                </div>
-                                <div class=" col-lg-4 col-md-4 col-sm-4 col-12 clearPaddingRight">
-                                    <label>Họ & Đệm:</label>
-                                    <input type="text" placeholder="Họ đệm..">
-                                </div>
-                                <div class=" col-lg-4 col-md-4 col-sm-4 col-12 clearPaddingRight">
-                                    <label>Tên:</label>
-                                    <input type="text" placeholder="Tên..">
-                                </div>
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-12 clearPadding">
-                                <label>Email:</label>
-                                <input type="text" placeholder="Email..">
-                                <label>Mật khẩu:</label>
-                                <input type="password" placeholder="Mật khẩu..">
-                                <label>Nhập lại mật khẩu:</label>
-                                <input type="password" placeholder="Mật khẩu..">
-                                <label>
-                                    <input type="checkbox"> Lưu đăng nhập
-                                </label>
-                                <br>
-                                <label>
-                                    <input type="checkbox"> Nhận email về các công việc của tuyendunggiaoduc.com
-                                </label>
-                                <label>
-                                    <input type="checkbox"> Đồng ý với các Điều Khoản & Chính Sách Bảo Mật
-                                </label>
-                            </div>
-                            <div class="row col-lg-12 col-md-12 col-sm-12 col-12 clearPadding" style="height: 4em;">
-
-                                <div style="position: absolute;right: 0;bottom: 0">
-                                    <!-- <input type="submit" class="btnDangNhap" value="Đăng nhập"> -->
-                                    <button class="btnDangNhap">Đăng Ký</button>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-
-
-            </div>
-        </div>
-    </div>
     <!--form alert  -->
     <div>
         <div class="notification success">
@@ -198,7 +140,7 @@
                                     <a href="timnhatuyendung.html">Nhà Tuyển Dụng</a>
                                 </li>
                                 <li>
-                                    <a href="#">Blog</a>
+                                    <a href="blog.html">Blog</a>
                                 </li>
                                 <li>
                                     <a href="#" data-toggle="modal" data-target="#dangnhap">Đăng Nhập</a>
@@ -253,7 +195,7 @@
                     <a href="timnhatuyendung.html">Nhà Tuyển Dụng</a>
                 </li>
                 <li class="menu_mm">
-                    <a href="#">Blog</a>
+                    <a href="blog.html">Blog</a>
                 </li>
                 <li class="menu_mm">
                     <a href="#" data-toggle="modal" data-target="#dangnhap">Đăng Nhập</a>
@@ -309,41 +251,6 @@
     <!-- content -->
     <div class="row">
 
-        <!-- <div class=" col-md-12 col-sm-12 col-lg-12 clearPadding" style="background:#14bdee ">
-            <div class=" container">
-                <div class="row col-md-12 col-sm-12 col-lg-12 ">
-                    <div class="col-md-4 col-sm-4 col-lg-4 clearPadding dropdown">
-                        Quản Lý
-                        <div class=" dropdown-content">
-                            <a href="#">Trợ Lý Hiệu Trưởng</a>
-                            <a href="#">Hiệu Phó</a>
-                            <a href="#">CNTT</a>
-                            <a href="#">Nhân Sự</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-lg-4 clearPadding dropdown">
-                        Giáo Viên
-                        <div class="dropdown-content">
-                            <a href="#">Trợ Lý Hiệu Trưởng</a>
-                            <a href="#">Hiệu Phó</a>
-                            <a href="#">CNTT</a>
-                            <a href="#">Nhân Sự</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-lg-4 clearPadding dropdown">
-                        Trợ Lý
-                        <div class="dropdown-content">
-                            <a href="#">Trợ Lý Hiệu Trưởng</a>
-                            <a href="#">Hiệu Phó</a>
-                            <a href="#">CNTT</a>
-                            <a href="#">Nhân Sự</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div> -->
         <div class="container content">
             <div class="row">
 
